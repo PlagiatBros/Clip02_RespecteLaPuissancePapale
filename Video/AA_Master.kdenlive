@@ -1700,6 +1700,28 @@
   <property name="kdenlive:file_hash">ae2c3eaa425eb6a2f382f42b68c08f60</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="33" in="0" out="20554">
+  <property name="length">00:06:51:05</property>
+  <property name="eof">pause</property>
+  <property name="resource">02_Ballade.kdenlive</property>
+  <property name="mlt_service">xml</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">333207</property>
+  <property name="kdenlive:file_hash">1fe2f0aff98e69bdcf93e9761e5ace30</property>
+ </producer>
+ <producer id="34" in="0" out="849">
+  <property name="length">850</property>
+  <property name="eof">pause</property>
+  <property name="resource">0x000000ff</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">color</property>
+  <property name="kdenlive:clipname">Clip couleur</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:duration">250</property>
+  <property name="kdenlive:file_hash">9196813120dc5c505072516b15baf414</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -1710,7 +1732,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">2495</property>
+  <property name="kdenlive:docproperties.position">18540</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1724,7 +1746,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">10670</property>
-  <property name="kdenlive:docproperties.zoom">10</property>
+  <property name="kdenlive:docproperties.zoom">11</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -1790,9 +1812,11 @@
   <entry producer="30" in="0" out="249"/>
   <entry producer="31" in="0" out="58"/>
   <entry producer="32" in="0" out="38"/>
+  <entry producer="33" in="0" out="20554"/>
+  <entry producer="34" in="0" out="249"/>
  </playlist>
- <producer id="black" in="0" out="115406">
-  <property name="length">115407</property>
+ <producer id="black" in="0" out="155574">
+  <property name="length">155575</property>
   <property name="eof">pause</property>
   <property name="resource">black</property>
   <property name="aspect_ratio">0</property>
@@ -1800,7 +1824,7 @@
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry producer="black" in="0" out="10670"/>
+  <entry producer="black" in="0" out="24353"/>
  </playlist>
  <playlist id="playlist1">
   <property name="kdenlive:audio_track">1</property>
@@ -1892,6 +1916,17 @@
   <property name="kdenlive:file_size">286174</property>
   <property name="kdenlive:file_hash">0c76646757af9f65571b8e091e4fb017</property>
  </producer>
+ <producer title="Anonymous Submission" id="33_playlist3" in="0" out="20554">
+  <property name="length">00:06:51:05</property>
+  <property name="eof">pause</property>
+  <property name="resource">02_Ballade.kdenlive</property>
+  <property name="mlt_service">xml</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">333207</property>
+  <property name="kdenlive:file_hash">1fe2f0aff98e69bdcf93e9761e5ace30</property>
+ </producer>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Vidéo 1</property>
   <entry producer="28_playlist3" in="0" out="2298"/>
@@ -1973,6 +2008,19 @@
     <property name="kdenlive_info"/>
    </filter>
   </entry>
+  <blank length="7619"/>
+  <entry producer="33_playlist3" in="0" out="14001">
+   <filter id="fadein" out="15">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+   </filter>
+  </entry>
  </playlist>
  <producer title="Anonymous Submission" id="29_playlist4" in="0" out="49055">
   <property name="length">00:16:21:06</property>
@@ -1996,12 +2044,14 @@
     <property name="kdenlive_ix">1</property>
    </filter>
   </entry>
-  <entry producer="29_playlist4" in="1" out="7937"/>
+  <blank length="12"/>
+  <entry producer="29_playlist4" in="1" out="7606"/>
+  <entry producer="34" in="0" out="848"/>
  </playlist>
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Vidéo 3</property>
  </playlist>
- <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="10670">
+ <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="24353">
   <track producer="black_track"/>
   <track hide="video" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
@@ -2047,6 +2097,24 @@
    <property name="always_active">1</property>
    <property name="sum">1</property>
    <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition5" in="10679" out="11199">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="factory">loader</property>
+   <property name="mlt_service">luma</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition id="transition6" in="10322" out="10350">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="factory">loader</property>
+   <property name="mlt_service">luma</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">1</property>
+   <property name="reverse">1</property>
   </transition>
  </tractor>
 </mlt>

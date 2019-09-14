@@ -1717,7 +1717,7 @@
  <producer title="Anonymous Submission" id="31" in="0" out="9374">
   <property name="length">00:03:07:25</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Bureau/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
+  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -1737,12 +1737,12 @@
   <property name="kdenlive:file_hash">36d235cf32170d398007c5f515b1017f</property>
   <property name="global_feed">1</property>
   <property name="kdenlive:zone_in">187</property>
-  <property name="kdenlive:zone_out">9375</property>
+  <property name="kdenlive:zone_out">4168</property>
  </producer>
  <producer id="32" in="0" out="9374">
   <property name="length">00:03:07:25</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/1AD9-28C9/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
+  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -1761,6 +1761,52 @@
   <property name="kdenlive:file_size">2248940</property>
   <property name="kdenlive:file_hash">36d235cf32170d398007c5f515b1017f</property>
  </producer>
+ <producer title="Anonymous Submission" id="33" in="0" out="9374">
+  <property name="length">00:03:07:25</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">vorbis</property>
+  <property name="meta.media.0.codec.long_name">Vorbis</property>
+  <property name="meta.media.0.codec.bit_rate">128000</property>
+  <property name="meta.attr.0.stream.disc.markup">0</property>
+  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">2248940</property>
+  <property name="kdenlive:file_hash">36d235cf32170d398007c5f515b1017f</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer title="Anonymous Submission" id="34" in="0" out="7733">
+  <property name="length">00:02:34:34</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1_OLD.ogg</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">vorbis</property>
+  <property name="meta.media.0.codec.long_name">Vorbis</property>
+  <property name="meta.media.0.codec.bit_rate">128000</property>
+  <property name="meta.attr.0.stream.disc.markup">0</property>
+  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">2263496</property>
+  <property name="kdenlive:file_hash">1137434253767f92924bc94a8dcad7c3</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -1771,7 +1817,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">4434</property>
+  <property name="kdenlive:docproperties.position">7610</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -1785,7 +1831,7 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">7607</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.zoom">6</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -1887,6 +1933,8 @@
   <entry producer="30" in="0" out="249"/>
   <entry producer="31" in="0" out="9374"/>
   <entry producer="32" in="0" out="9374"/>
+  <entry producer="33" in="0" out="9374"/>
+  <entry producer="34" in="0" out="7733"/>
  </playlist>
  <producer id="black" in="0" out="82643">
   <property name="length">82644</property>
@@ -1899,55 +1947,14 @@
  <playlist id="black_track">
   <entry producer="black" in="0" out="49055"/>
  </playlist>
- <producer title="Anonymous Submission" id="27_playlist1" in="0" out="7640">
-  <property name="length">00:02:32:41</property>
-  <property name="eof">pause</property>
-  <property name="resource">/home/bordun/scp/2018-12-06_RespecteLaPuissancePapale_Clip_part1.wav</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">29340044</property>
-  <property name="kdenlive:file_hash">7d93ed9df433504c583e8f008ae3ee69</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s16</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">pcm_s16le</property>
-  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.0.codec.bit_rate">1536000</property>
- </producer>
  <playlist id="playlist1">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 2</property>
-  <entry producer="27_playlist1" in="0" out="7640"/>
  </playlist>
- <producer title="Anonymous Submission" id="producer0" in="0" out="7733">
+ <producer title="Anonymous Submission" id="34_playlist2" in="0" out="7733">
   <property name="length">00:02:34:34</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">2263496</property>
-  <property name="kdenlive:file_hash">1137434253767f92924bc94a8dcad7c3</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:zone_in">0</property>
-  <property name="kdenlive:zone_out">7734</property>
-  <property name="xml">was here</property>
-  <property name="kdenlive:binid">28</property>
-  <property name="kdenlive:clipstate">0</property>
- </producer>
- <producer title="Anonymous Submission" id="28_playlist2" in="0" out="7733">
-  <property name="length">00:02:34:34</property>
-  <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
+  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1_OLD.ogg</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -1968,35 +1975,16 @@
   <property name="meta.attr.0.stream.disc.markup">0</property>
   <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
  </producer>
- <producer title="Anonymous Submission" id="producer1" in="0" out="7733">
-  <property name="length">00:02:34:34</property>
-  <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">2263496</property>
-  <property name="kdenlive:file_hash">1137434253767f92924bc94a8dcad7c3</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:zone_in">0</property>
-  <property name="kdenlive:zone_out">7734</property>
-  <property name="xml">was here</property>
-  <property name="kdenlive:binid">28</property>
-  <property name="kdenlive:clipstate">0</property>
- </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 1</property>
-  <entry producer="producer0" in="0" out="3980"/>
-  <entry producer="28_playlist2" in="3981" out="4016"/>
-  <entry producer="producer1" in="4017" out="7733"/>
+  <blank length="3980"/>
+  <entry producer="34_playlist2" in="3980" out="4017"/>
  </playlist>
- <producer title="Anonymous Submission" id="31_playlist14" in="0" out="9374">
+ <producer title="Anonymous Submission" id="31_playlist11" in="0" out="9374">
   <property name="length">00:03:07:25</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Bureau/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
+  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -2005,6 +1993,8 @@
   <property name="kdenlive:file_size">2248940</property>
   <property name="kdenlive:file_hash">36d235cf32170d398007c5f515b1017f</property>
   <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">187</property>
+  <property name="kdenlive:zone_out">4168</property>
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
@@ -2017,11 +2007,23 @@
   <property name="meta.attr.0.stream.disc.markup">0</property>
   <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
  </producer>
- <playlist id="playlist14">
-  <property name="kdenlive:track_name">Vidéo 12</property>
-  <entry producer="31_playlist14" in="187" out="4167"/>
+ <playlist id="playlist11">
+  <property name="kdenlive:track_name">Audio 0</property>
+  <entry producer="31_playlist11" in="187" out="4167"/>
   <blank length="36"/>
-  <entry producer="31_playlist14" in="4251" out="9374"/>
+  <entry producer="31_playlist11" in="4251" out="7820">
+   <filter id="fadeout" in="7726" out="7821">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadeout</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">1</property>
+    <property name="end">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
  </playlist>
  <producer title="Anonymous Submission" id="5_playlist3" in="0" out="19246">
   <property name="length">00:06:24:47</property>
@@ -4848,18 +4850,7 @@
   <entry producer="slowmotion:4:3:1:0" in="3456" out="3568"/>
   <entry producer="4" in="10707" out="10754"/>
   <blank length="43"/>
-  <entry producer="slowmotion:4:0,6:1:0" in="17947" out="18085">
-   <filter id="fade_to_black" in="18027" out="18086">
-    <property name="start">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="tag">brightness</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="end">0</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-   </filter>
-  </entry>
+  <entry producer="slowmotion:4:0,6:1:0" in="17947" out="18085"/>
  </playlist>
  <producer id="slowmotion:7:0,8:1:0" in="0" out="10665">
   <property name="length">10666</property>
@@ -9710,7 +9701,7 @@
   <track producer="black_track"/>
   <track hide="both" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
-  <track producer="playlist14"/>
+  <track producer="playlist11"/>
   <track hide="audio" producer="playlist3"/>
   <track producer="playlist12"/>
   <track hide="audio" producer="playlist4"/>
@@ -9770,118 +9761,6 @@
    <property name="valign">middle</property>
    <property name="automatic">0</property>
    <property name="luma"/>
-  </transition>
-  <transition id="transition0">
-   <property name="a_track">0</property>
-   <property name="b_track">1</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition1">
-   <property name="a_track">0</property>
-   <property name="b_track">2</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition2">
-   <property name="a_track">0</property>
-   <property name="b_track">3</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition3">
-   <property name="a_track">0</property>
-   <property name="b_track">4</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition4">
-   <property name="a_track">0</property>
-   <property name="b_track">5</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition5">
-   <property name="a_track">0</property>
-   <property name="b_track">6</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition6">
-   <property name="a_track">0</property>
-   <property name="b_track">7</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition7">
-   <property name="a_track">0</property>
-   <property name="b_track">8</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition8">
-   <property name="a_track">0</property>
-   <property name="b_track">9</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition9">
-   <property name="a_track">0</property>
-   <property name="b_track">10</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition10">
-   <property name="a_track">0</property>
-   <property name="b_track">11</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition11">
-   <property name="a_track">0</property>
-   <property name="b_track">12</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition12">
-   <property name="a_track">0</property>
-   <property name="b_track">13</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition13">
-   <property name="a_track">0</property>
-   <property name="b_track">14</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
   </transition>
   <transition id="transition17" in="4217" out="4221">
    <property name="a_track">13</property>
@@ -10007,6 +9886,118 @@
    <property name="operator">over</property>
    <property name="softness">0</property>
    <property name="valign">middle</property>
+  </transition>
+  <transition id="transition0">
+   <property name="a_track">0</property>
+   <property name="b_track">1</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition4">
+   <property name="a_track">0</property>
+   <property name="b_track">5</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition5">
+   <property name="a_track">0</property>
+   <property name="b_track">6</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition6">
+   <property name="a_track">0</property>
+   <property name="b_track">7</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition7">
+   <property name="a_track">0</property>
+   <property name="b_track">8</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition8">
+   <property name="a_track">0</property>
+   <property name="b_track">9</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition9">
+   <property name="a_track">0</property>
+   <property name="b_track">10</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition10">
+   <property name="a_track">0</property>
+   <property name="b_track">11</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition11">
+   <property name="a_track">0</property>
+   <property name="b_track">12</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition12">
+   <property name="a_track">0</property>
+   <property name="b_track">13</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition13">
+   <property name="a_track">0</property>
+   <property name="b_track">14</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
   </transition>
  </tractor>
 </mlt>

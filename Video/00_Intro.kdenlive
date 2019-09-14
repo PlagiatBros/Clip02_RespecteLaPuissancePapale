@@ -2222,7 +2222,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">2325</property>
+  <property name="kdenlive:docproperties.position">2418</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -2236,7 +2236,7 @@
   <property name="kdenlive:docproperties.videotargettrack">5</property>
   <property name="kdenlive:docproperties.zonein">2102</property>
   <property name="kdenlive:docproperties.zoneout">2730</property>
-  <property name="kdenlive:docproperties.zoom">3</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -5473,6 +5473,20 @@
  </playlist>
  <playlist id="playlist19">
   <property name="kdenlive:track_name">Vidéo 16</property>
+  <blank length="2281"/>
+  <entry producer="47" in="0" out="448">
+   <filter id="frei0r.IIRblur">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.IIRblur</property>
+    <property name="kdenlive_id">frei0r.IIRblur</property>
+    <property name="tag">frei0r.IIRblur</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="Amount">0=0,25</property>
+    <property name="Type">0.5</property>
+    <property name="Edge">1</property>
+   </filter>
+  </entry>
  </playlist>
  <playlist id="playlist14">
   <property name="kdenlive:track_name">Vidéo 12</property>
@@ -5766,9 +5780,16 @@
   </transition>
   <transition id="transition29" in="2281" out="2729">
    <property name="a_track">9</property>
+   <property name="b_track">16</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition30" in="2281" out="2729">
+   <property name="a_track">9</property>
    <property name="b_track">17</property>
    <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="mlt_service">frei0r.addition</property>
    <property name="force_track">1</property>
   </transition>
   <transition id="transition43" in="187" out="2190">
@@ -5815,7 +5836,7 @@
    <property name="automatic">0</property>
    <property name="luma"/>
   </transition>
-  <transition id="transition30" in="187" out="2298">
+  <transition id="transition31" in="187" out="2298">
    <property name="a_track">8</property>
    <property name="b_track">13</property>
    <property name="start">0/0:100%x100%</property>
