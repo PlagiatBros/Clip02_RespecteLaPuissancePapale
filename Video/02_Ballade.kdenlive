@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt title="Anonymous Submission" LC_NUMERIC="fr_FR.UTF-8" producer="main bin" version="6.12.0" root="/home/bordun/Clip02_RespecteLaPuissancePapale/Video">
+<mlt title="Anonymous Submission" LC_NUMERIC="fr_FR.UTF-8" producer="main bin" version="6.13.0" root="/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Video">
  <profile frame_rate_num="50" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 50 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
  <producer title="Anonymous Submission" id="1" in="0" out="14561">
   <property name="length">00:04:51:12</property>
@@ -1616,7 +1616,7 @@
  <producer title="Anonymous Submission" id="27" in="0" out="30874">
   <property name="length">00:10:17:25</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part2.ogg</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part2.ogg</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -1752,7 +1752,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">3845</property>
+  <property name="kdenlive:docproperties.position">22007</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1851,7 +1851,7 @@
  <producer title="Anonymous Submission" id="27_playlist2" in="0" out="30874">
   <property name="length">00:10:17:25</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part2.ogg</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part2.ogg</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -1956,6 +1956,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2016,6 +2017,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2076,6 +2078,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2136,6 +2139,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2196,6 +2200,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2256,6 +2261,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2316,6 +2322,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2376,6 +2383,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2436,6 +2444,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2589,6 +2598,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2649,6 +2659,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2709,6 +2720,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2769,6 +2781,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2829,6 +2842,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2889,6 +2903,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -2949,6 +2964,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3009,6 +3025,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3069,6 +3086,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3129,6 +3147,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3189,6 +3208,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3249,6 +3269,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3309,6 +3330,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3369,6 +3391,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3429,6 +3452,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957439</property>
@@ -3978,6 +4002,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957401</property>
@@ -4878,6 +4903,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366955249</property>
@@ -5001,6 +5027,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366955249</property>
@@ -5061,6 +5088,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366955249</property>
@@ -5151,6 +5179,7 @@
   <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
   <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes (iCodec Pro)</property>
   <property name="meta.media.1.codec.bit_rate">366957401</property>
