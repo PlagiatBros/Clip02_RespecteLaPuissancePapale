@@ -2653,7 +2653,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">14715</property>
+  <property name="kdenlive:docproperties.position">17968</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2665,9 +2665,9 @@
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">17679</property>
-  <property name="kdenlive:docproperties.zoneout">19914</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.zonein">14750</property>
+  <property name="kdenlive:docproperties.zoneout">21939</property>
+  <property name="kdenlive:docproperties.zoom">3</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -2686,6 +2686,26 @@
   <property name="kdenlive:guide.394,98">i is the one</property>
   <property name="kdenlive:folder.15.16">Dossier</property>
   <property name="kdenlive:folder.-1.17">Lavaré</property>
+  <property name="kdenlive:docproperties.renderaudioquality">256</property>
+  <property name="kdenlive:docproperties.rendercategory">Personnalisé</property>
+  <property name="kdenlive:docproperties.renderendguide">0</property>
+  <property name="kdenlive:docproperties.renderexportaudio">0</property>
+  <property name="kdenlive:docproperties.renderguide">0</property>
+  <property name="kdenlive:docproperties.renderplay">0</property>
+  <property name="kdenlive:docproperties.renderprofile">MP4HD</property>
+  <property name="kdenlive:docproperties.renderquality">19</property>
+  <property name="kdenlive:docproperties.renderratio">1</property>
+  <property name="kdenlive:docproperties.renderrescale">1</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">720</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">1280</property>
+  <property name="kdenlive:docproperties.renderscanning">0</property>
+  <property name="kdenlive:docproperties.renderspeed">2</property>
+  <property name="kdenlive:docproperties.renderstartguide">0</property>
+  <property name="kdenlive:docproperties.rendertcoverlay">0</property>
+  <property name="kdenlive:docproperties.rendertctype">0</property>
+  <property name="kdenlive:docproperties.rendertwopass">0</property>
+  <property name="kdenlive:docproperties.renderurl">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Rendus/2019-09-25-RLPP-Part3.mp4</property>
+  <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="xml_retain">1</property>
   <entry producer="1" in="0" out="14561"/>
   <entry producer="5" in="0" out="19246"/>
@@ -2773,7 +2793,18 @@
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 1</property>
-  <entry producer="27_playlist2" in="0" out="21620"/>
+  <entry producer="27_playlist2" in="0" out="21938">
+   <filter id="fadeout" in="21551" out="21938">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadeout</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">1</property>
+    <property name="end">0</property>
+   </filter>
+  </entry>
  </playlist>
  <producer title="Anonymous Submission" id="8_playlist3" in="0" out="21621">
   <property name="length">00:07:12:22</property>
@@ -3034,8 +3065,8 @@
   <blank length="53"/>
   <entry producer="8_playlist4" in="3681" out="3732"/>
   <blank length="202"/>
-  <entry producer="8_playlist4" in="3935" out="3977"/>
-  <blank length="2148"/>
+  <entry producer="8_playlist4" in="3935" out="3954"/>
+  <blank length="2171"/>
   <entry producer="producer0" in="19439" out="19541">
    <filter id="filter3" in="19439" out="19541">
     <property name="background">colour:0x00000000</property>
@@ -3187,8 +3218,8 @@
   <blank length="62"/>
   <entry producer="25_playlist5" in="1064" out="1364"/>
   <blank length="87"/>
-  <entry producer="25_playlist5" in="1505" out="1556"/>
-  <blank length="124"/>
+  <entry producer="25_playlist5" in="1505" out="1557"/>
+  <blank length="123"/>
   <entry producer="25_playlist5" in="1628" out="1650"/>
   <blank length="22"/>
   <entry producer="25_playlist5" in="1673" out="1735"/>
@@ -3296,6 +3327,14 @@
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
+   </filter>
+   <filter id="fade_to_black" in="4061" out="4317">
+    <property name="start">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="end">0</property>
    </filter>
   </entry>
  </playlist>
@@ -3816,10 +3855,24 @@
   <blank length="558"/>
   <entry producer="producer4" in="27367" out="27393"/>
   <blank length="115"/>
-  <entry producer="producer5" in="27509" out="29020"/>
+  <entry producer="producer5" in="27509" out="28975"/>
+  <blank length="20"/>
+  <entry producer="28_playlist7" in="28996" out="29020">
+   <filter id="filter20" in="28996" out="29020">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.geometry">0/0:2496x1404:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
   <blank length="145"/>
   <entry producer="producer6" in="29166" out="29180">
-   <filter id="filter20" in="29166" out="29180">
+   <filter id="filter21" in="29166" out="29180">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3833,7 +3886,7 @@
   </entry>
   <blank length="40"/>
   <entry producer="28_playlist7" in="29221" out="29242">
-   <filter id="filter21" in="29197" out="29242">
+   <filter id="filter22" in="29197" out="29242">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3851,7 +3904,7 @@
   <entry producer="producer8" in="30060" out="30358"/>
   <blank length="23"/>
   <entry producer="28_playlist7" in="30382" out="30418">
-   <filter id="filter22" in="30382" out="30418">
+   <filter id="filter23" in="30382" out="30418">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3873,7 +3926,7 @@
   <blank length="41"/>
   <entry producer="28_playlist7" in="30948" out="31018"/>
   <entry producer="28_playlist7" in="31019" out="31032">
-   <filter id="filter23" in="31019" out="31032">
+   <filter id="filter24" in="31019" out="31032">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4181,7 +4234,7 @@
   <blank length="14750"/>
   <entry producer="slowmotion:41:0,6:1:0" in="41468" out="41715"/>
   <entry producer="slowmotion:41:0,6:1:0" in="41716" out="41732">
-   <filter id="filter24" in="41716" out="41732">
+   <filter id="filter25" in="41716" out="41732">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4194,7 +4247,7 @@
    </filter>
   </entry>
   <entry producer="slowmotion:41:0,6:1:0" in="41733" out="41737">
-   <filter id="filter25" in="41733" out="41737">
+   <filter id="filter26" in="41733" out="41737">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4208,7 +4261,7 @@
    </filter>
   </entry>
   <entry producer="slowmotion:41:0,6:1:0" in="41738" out="41763">
-   <filter id="filter26" in="41738" out="41763">
+   <filter id="filter27" in="41738" out="41763">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4221,16 +4274,18 @@
    </filter>
   </entry>
   <entry producer="37_playlist8" in="13264" out="13672"/>
-  <blank length="65"/>
-  <entry producer="37_playlist8" in="13738" out="14201"/>
+  <blank length="180"/>
+  <entry producer="37_playlist8" in="13853" out="13957"/>
+  <blank length="101"/>
+  <entry producer="37_playlist8" in="14059" out="14201"/>
   <blank length="179"/>
   <entry producer="41_playlist8" in="26042" out="26066"/>
   <blank length="322"/>
   <entry producer="41_playlist8" in="26293" out="26323"/>
   <blank length="81"/>
   <entry producer="producer12" in="26440" out="26516"/>
-  <blank length="743"/>
-  <entry producer="41_playlist8" in="27477" out="27524"/>
+  <blank length="751"/>
+  <entry producer="41_playlist8" in="27485" out="27524"/>
   <blank length="259"/>
   <entry producer="41_playlist8" in="27784" out="27901"/>
   <blank length="190"/>
@@ -4239,7 +4294,7 @@
   <entry producer="41_playlist8" in="28562" out="28601"/>
   <blank length="805"/>
   <entry producer="slowmotion:41:0,89:1:0" in="35501" out="35540">
-   <filter id="filter27" in="35517" out="35540">
+   <filter id="filter28" in="35517" out="35540">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4251,7 +4306,7 @@
     <property name="kdenlive_info"/>
     <property name="disable"/>
    </filter>
-   <filter id="filter28">
+   <filter id="filter29">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4265,7 +4320,7 @@
   </entry>
   <blank length="525"/>
   <entry producer="41_playlist8" in="31259" out="31324">
-   <filter id="filter29" in="31259" out="31324">
+   <filter id="filter30" in="31259" out="31324">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4279,9 +4334,9 @@
   </entry>
   <blank length="270"/>
   <entry producer="producer13" in="30092" out="30134"/>
-  <blank length="185"/>
-  <entry producer="41_playlist8" in="30320" out="30351"/>
-  <blank length="308"/>
+  <blank length="184"/>
+  <entry producer="41_playlist8" in="30313" out="30351"/>
+  <blank length="302"/>
   <entry producer="41_playlist8" in="30660" out="30701"/>
  </playlist>
  <producer title="Anonymous Submission" id="37_playlist9" in="0" out="19885">
@@ -4365,6 +4420,7 @@
   <property name="kdenlive:zone_in">17814</property>
   <property name="kdenlive:zone_out">19886</property>
   <property name="xml">was here</property>
+  <property name="kdenlive:binid">37</property>
   <property name="kdenlive:clipstate">0</property>
  </producer>
  <producer title="Anonymous Submission" id="producer15" in="0" out="19885">
@@ -4392,7 +4448,7 @@
   <blank length="15065"/>
   <entry producer="37_playlist9" in="12423" out="12463"/>
   <entry producer="37_playlist9" in="12472" out="12505">
-   <filter id="filter30" in="12472" out="12505">
+   <filter id="filter31" in="12472" out="12505">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4406,10 +4462,10 @@
   </entry>
   <blank length="83"/>
   <entry producer="37_playlist9" in="12511" out="12532"/>
-  <blank length="101"/>
-  <entry producer="37_playlist9" in="12634" out="12701"/>
-  <blank length="82"/>
-  <entry producer="37_playlist9" in="13005" out="13150"/>
+  <blank length="109"/>
+  <entry producer="37_playlist9" in="12642" out="12701"/>
+  <blank length="84"/>
+  <entry producer="37_playlist9" in="13007" out="13150"/>
   <blank length="95"/>
   <entry producer="37_playlist9" in="13119" out="13237"/>
   <entry producer="37_playlist9" in="14566" out="14687"/>
