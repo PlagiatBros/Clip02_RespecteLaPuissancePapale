@@ -2653,7 +2653,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">19680</property>
+  <property name="kdenlive:docproperties.position">14715</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2667,7 +2667,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">17679</property>
   <property name="kdenlive:docproperties.zoneout">19914</property>
-  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:docproperties.zoom">9</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -2740,7 +2740,7 @@
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry producer="black" in="0" out="36177"/>
+  <entry producer="black" in="0" out="21939"/>
  </playlist>
  <playlist id="playlist1">
   <property name="kdenlive:audio_track">1</property>
@@ -3436,7 +3436,6 @@
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
-    <property name="disable"/>
    </filter>
   </entry>
   <blank length="22"/>
@@ -3813,8 +3812,8 @@
   <property name="kdenlive:track_name">Video -2</property>
   <blank length="14839"/>
   <entry producer="28_playlist7" in="26295" out="26910"/>
-  <entry producer="28_playlist7" in="26911" out="26943"/>
-  <blank length="580"/>
+  <entry producer="28_playlist7" in="26882" out="26936"/>
+  <blank length="558"/>
   <entry producer="producer4" in="27367" out="27393"/>
   <blank length="115"/>
   <entry producer="producer5" in="27509" out="29020"/>
@@ -3871,8 +3870,8 @@
   <blank length="12"/>
   <entry producer="producer11" in="30678" out="30824"/>
   <entry producer="28_playlist7" in="30825" out="30906"/>
-  <blank length="45"/>
-  <entry producer="28_playlist7" in="30952" out="31018"/>
+  <blank length="41"/>
+  <entry producer="28_playlist7" in="30948" out="31018"/>
   <entry producer="28_playlist7" in="31019" out="31032">
    <filter id="filter23" in="31019" out="31032">
     <property name="background">colour:0x00000000</property>
@@ -4222,12 +4221,12 @@
    </filter>
   </entry>
   <entry producer="37_playlist8" in="13264" out="13672"/>
-  <blank length="33"/>
-  <entry producer="37_playlist8" in="13706" out="14201"/>
+  <blank length="65"/>
+  <entry producer="37_playlist8" in="13738" out="14201"/>
   <blank length="179"/>
   <entry producer="41_playlist8" in="26042" out="26066"/>
-  <blank length="316"/>
-  <entry producer="41_playlist8" in="26287" out="26323"/>
+  <blank length="322"/>
+  <entry producer="41_playlist8" in="26293" out="26323"/>
   <blank length="81"/>
   <entry producer="producer12" in="26440" out="26516"/>
   <blank length="743"/>
@@ -4265,20 +4264,20 @@
    </filter>
   </entry>
   <blank length="525"/>
-  <entry producer="41_playlist8" in="31259" out="31306">
-   <filter id="filter29" in="31259" out="31306">
+  <entry producer="41_playlist8" in="31259" out="31324">
+   <filter id="filter29" in="31259" out="31324">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">-192/-108:2304x1296:100</property>
+    <property name="transition.geometry">0=-192/-108:2304x1296:100;49=-192/-108:2304x1296:100;55=0/0:1920x1080:100</property>
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <blank length="288"/>
+  <blank length="270"/>
   <entry producer="producer13" in="30092" out="30134"/>
   <blank length="185"/>
   <entry producer="41_playlist8" in="30320" out="30351"/>
@@ -4366,7 +4365,6 @@
   <property name="kdenlive:zone_in">17814</property>
   <property name="kdenlive:zone_out">19886</property>
   <property name="xml">was here</property>
-  <property name="kdenlive:binid">37</property>
   <property name="kdenlive:clipstate">0</property>
  </producer>
  <producer title="Anonymous Submission" id="producer15" in="0" out="19885">
@@ -4391,11 +4389,7 @@
  </producer>
  <playlist id="playlist9">
   <property name="kdenlive:track_name">Video -4</property>
-  <blank length="11825"/>
-  <entry producer="37_playlist9" in="12836" out="14624"/>
-  <blank length="63"/>
-  <entry producer="37_playlist9" in="14688" out="14770"/>
-  <blank length="1305"/>
+  <blank length="15065"/>
   <entry producer="37_playlist9" in="12423" out="12463"/>
   <entry producer="37_playlist9" in="12472" out="12505">
    <filter id="filter30" in="12472" out="12505">
@@ -4414,9 +4408,9 @@
   <entry producer="37_playlist9" in="12511" out="12532"/>
   <blank length="101"/>
   <entry producer="37_playlist9" in="12634" out="12701"/>
-  <blank length="106"/>
-  <entry producer="37_playlist9" in="13029" out="13155"/>
-  <blank length="90"/>
+  <blank length="82"/>
+  <entry producer="37_playlist9" in="13005" out="13150"/>
+  <blank length="95"/>
   <entry producer="37_playlist9" in="13119" out="13237"/>
   <entry producer="37_playlist9" in="14566" out="14687"/>
   <blank length="1552"/>
@@ -4426,33 +4420,20 @@
   <blank length="99"/>
   <entry producer="producer14" in="15298" out="16660"/>
   <entry producer="producer15" in="16661" out="16880"/>
-  <blank length="247"/>
-  <entry producer="37_playlist9" in="16881" out="16918"/>
+  <blank length="243"/>
+  <entry producer="37_playlist9" in="16877" out="16918"/>
   <blank length="121"/>
   <entry producer="37_playlist9" in="5023" out="5059"/>
-  <blank length="490"/>
+  <blank length="100"/>
+  <entry producer="37_playlist9" in="17065" out="17088"/>
+  <blank length="366"/>
   <entry producer="37_playlist9" in="17814" out="17869"/>
-  <blank length="254"/>
-  <entry producer="37_playlist9" in="18124" out="18152"/>
+  <blank length="258"/>
+  <entry producer="37_playlist9" in="18128" out="18152"/>
   <blank length="101"/>
   <entry producer="37_playlist9" in="18254" out="18313"/>
   <blank length="41"/>
-  <entry producer="37_playlist9" in="18355" out="18388"/>
-  <blank length="977"/>
-  <entry producer="37_playlist9" in="19024" out="19885"/>
-  <blank length="1236"/>
-  <entry producer="37_playlist9" in="0" out="2124"/>
-  <entry producer="37_playlist9" in="2125" out="2351"/>
-  <blank length="30"/>
-  <entry producer="37_playlist9" in="2382" out="2496"/>
-  <entry producer="37_playlist9" in="2497" out="3444"/>
-  <entry producer="37_playlist9" in="3445" out="4080"/>
-  <blank length="187"/>
-  <entry producer="37_playlist9" in="4268" out="5026"/>
-  <blank length="33"/>
-  <entry producer="37_playlist9" in="5060" out="5548"/>
-  <blank length="28"/>
-  <entry producer="37_playlist9" in="5577" out="12066"/>
+  <entry producer="37_playlist9" in="18355" out="18395"/>
  </playlist>
  <producer title="Anonymous Submission" id="37_playlist10" in="0" out="19885">
   <property name="length">00:06:37:36</property>
@@ -4600,12 +4581,12 @@
   <entry producer="28_playlist10" in="28339" out="28384"/>
   <blank length="96"/>
   <entry producer="28_playlist10" in="28481" out="28533"/>
-  <blank length="90"/>
-  <entry producer="28_playlist10" in="28624" out="28678"/>
-  <blank length="3521"/>
+  <blank length="104"/>
+  <entry producer="28_playlist10" in="28606" out="28639"/>
+  <blank length="3528"/>
   <entry producer="37_playlist10" in="4232" out="4260"/>
  </playlist>
- <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="36177">
+ <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="21939">
   <track producer="black_track"/>
   <track hide="video" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
