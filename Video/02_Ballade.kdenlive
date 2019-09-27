@@ -2751,7 +2751,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">7453</property>
+  <property name="kdenlive:docproperties.position">7689</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2765,7 +2765,7 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">14248</property>
-  <property name="kdenlive:docproperties.zoom">4</property>
+  <property name="kdenlive:docproperties.zoom">3</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -4927,9 +4927,11 @@
   <entry producer="29_playlist6" in="5149" out="5299"/>
   <entry producer="slowmotion:29:0,75:1:0" in="7067" out="7123"/>
   <entry producer="29_playlist6" in="5344" out="5820"/>
-  <entry producer="29_playlist6" in="5834" out="6534"/>
+  <entry producer="29_playlist6" in="5834" out="6531"/>
+  <blank length="1"/>
   <entry producer="slowmotion:29:0,87:1:0" in="7508" out="7573"/>
   <entry producer="29_playlist6" in="6589" out="6836"/>
+  <blank length="2"/>
   <entry producer="29_playlist6" in="6849" out="7469"/>
   <entry producer="29_playlist6" in="7470" out="7621"/>
   <blank length="79"/>
@@ -6679,21 +6681,11 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer title="Anonymous Submission" id="43_playlist12" in="0" out="42317">
-  <property name="length">00:14:06:18</property>
+ <producer id="slowmotion:43:0,7:1:0" in="0" out="60453">
+  <property name="length">60454</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
+  <property name="resource">0,7:/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="aspect_ratio">1</property>
-  <property name="kdenlive:folderid">16</property>
-  <property name="kdenlive:file_size">39069915329</property>
-  <property name="kdenlive:file_hash">73f4a81374204093f22cbe930d68c42b</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">50</property>
@@ -6732,8 +6724,15 @@
   <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
   <property name="meta.attr.creation_time.markup">2019-01-05T03:45:37.000000Z</property>
   <property name="meta.attr.timecode.markup">03:45:37:07</property>
+  <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">0,7</property>
+  <property name="warp_resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">50</property>
   <property name="meta.media.frame_rate_den">1</property>
   <property name="meta.media.colorspace">709</property>
@@ -6813,11 +6812,11 @@
   <entry producer="slowmotion:30:0,5:1:0" in="27898" out="28067"/>
   <blank length="124"/>
   <entry producer="slowmotion:30:0,5:1:0" in="28062" out="28392"/>
-  <blank length="1525"/>
-  <entry producer="43_playlist12" in="17571" out="17681"/>
-  <blank length="31"/>
-  <entry producer="43_playlist12" in="17749" out="17798"/>
-  <blank length="226"/>
+  <blank length="1458"/>
+  <entry producer="slowmotion:43:0,7:1:0" in="25071" out="25204"/>
+  <blank length="68"/>
+  <entry producer="slowmotion:43:0,7:1:0" in="25355" out="25426"/>
+  <blank length="211"/>
   <entry producer="30_playlist12" in="19094" out="19166"/>
   <blank length="331"/>
   <entry producer="30_playlist12" in="19484" out="19571"/>
@@ -6890,6 +6889,70 @@
   <property name="warp_speed">0,5</property>
   <property name="warp_resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="mlt_service">timewarp</property>
+  <property name="meta.media.frame_rate_num">50</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer title="Anonymous Submission" id="43_playlist13" in="0" out="42317">
+  <property name="length">00:14:06:18</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:folderid">16</property>
+  <property name="kdenlive:file_size">39069915329</property>
+  <property name="kdenlive:file_hash">73f4a81374204093f22cbe930d68c42b</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">50</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1920</property>
+  <property name="meta.media.1.codec.height">1080</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.frame_rate">5000</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
+  <property name="meta.media.1.codec.name">prores</property>
+  <property name="meta.media.1.codec.long_name">ProRes</property>
+  <property name="meta.media.1.codec.bit_rate">366957403</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2019-01-05T03:45:37.000000Z</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
+  <property name="meta.attr.1.stream.timecode.markup">03:45:37:07</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">s32</property>
+  <property name="meta.media.2.codec.sample_rate">48000</property>
+  <property name="meta.media.2.codec.channels">2</property>
+  <property name="meta.media.2.codec.name">pcm_s24le</property>
+  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.2.codec.bit_rate">2304000</property>
+  <property name="meta.attr.2.stream.creation_time.markup">2019-01-05T03:45:37.000000Z</property>
+  <property name="meta.attr.2.stream.language.markup">eng</property>
+  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.2.stream.timecode.markup">03:45:37:07</property>
+  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
+  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM1</property>
+  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
+  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
+  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
+  <property name="meta.attr.creation_time.markup">2019-01-05T03:45:37.000000Z</property>
+  <property name="meta.attr.timecode.markup">03:45:37:07</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">50</property>
   <property name="meta.media.frame_rate_den">1</property>
   <property name="meta.media.colorspace">709</property>
@@ -6979,7 +7042,11 @@
   <entry producer="slowmotion:30:0,5:1:0" in="26468" out="26773"/>
   <blank length="791"/>
   <entry producer="slowmotion:30:0,5:1:0" in="27789" out="28005"/>
-  <blank length="1786"/>
+  <blank length="970"/>
+  <entry producer="slowmotion:43:0,7:1:0" in="24324" out="24399"/>
+  <blank length="124"/>
+  <entry producer="43_playlist13" in="17510" out="17592"/>
+  <blank length="533"/>
   <entry producer="41_playlist13" in="2544" out="2599">
    <filter id="qtblend">
     <property name="rotate_center">1</property>
@@ -7029,12 +7096,14 @@
   <entry producer="41_playlist13" in="4693" out="4782"/>
   <blank length="29"/>
   <entry producer="41_playlist13" in="4812" out="4846"/>
-  <blank length="114"/>
-  <entry producer="41_playlist13" in="4994" out="5319"/>
-  <blank length="123"/>
-  <entry producer="41_playlist13" in="5443" out="5564"/>
-  <blank length="114"/>
-  <entry producer="41_playlist13" in="5679" out="6012"/>
+  <blank length="113"/>
+  <entry producer="41_playlist13" in="4959" out="5307"/>
+  <blank length="101"/>
+  <entry producer="41_playlist13" in="5409" out="5540"/>
+  <blank length="139"/>
+  <entry producer="41_playlist13" in="5706" out="5816"/>
+  <blank length="36"/>
+  <entry producer="41_playlist13" in="5824" out="5975"/>
   <blank length="168"/>
   <entry producer="41_playlist13" in="6181" out="6579"/>
   <blank length="321"/>
@@ -7202,6 +7271,67 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <producer id="slowmotion:40:0,82:1:0" in="0" out="11328">
+  <property name="length">11329</property>
+  <property name="eof">pause</property>
+  <property name="resource">0,82:/media/bordun/plagiat2/CAM1_2019-01-05_0517_C0001.mov</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">50</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1920</property>
+  <property name="meta.media.1.codec.height">1080</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.frame_rate">5000</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
+  <property name="meta.media.1.codec.name">prores</property>
+  <property name="meta.media.1.codec.long_name">ProRes</property>
+  <property name="meta.media.1.codec.bit_rate">366957016</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2019-01-05T05:17:29.000000Z</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
+  <property name="meta.attr.1.stream.timecode.markup">05:17:29:25</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">s32</property>
+  <property name="meta.media.2.codec.sample_rate">48000</property>
+  <property name="meta.media.2.codec.channels">2</property>
+  <property name="meta.media.2.codec.name">pcm_s24le</property>
+  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.2.codec.bit_rate">2304000</property>
+  <property name="meta.attr.2.stream.creation_time.markup">2019-01-05T05:17:29.000000Z</property>
+  <property name="meta.attr.2.stream.language.markup">eng</property>
+  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.2.stream.timecode.markup">05:17:29:25</property>
+  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
+  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM1</property>
+  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
+  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
+  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
+  <property name="meta.attr.creation_time.markup">2019-01-05T05:17:29.000000Z</property>
+  <property name="meta.attr.timecode.markup">05:17:29:25</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">0,82</property>
+  <property name="warp_resource">/media/bordun/plagiat2/CAM1_2019-01-05_0517_C0001.mov</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="meta.media.frame_rate_num">50</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
  <playlist id="playlist14">
   <property name="kdenlive:track_name">Video -4</property>
   <blank length="3573"/>
@@ -7209,8 +7339,8 @@
   <entry producer="slowmotion:43:0,5:1:0" in="48639" out="48828"/>
   <blank length="741"/>
   <entry producer="slowmotion:30:0,5:1:0" in="26774" out="27395"/>
-  <blank length="1431"/>
-  <entry producer="slowmotion:40:0,8:1:0" in="379" out="763">
+  <blank length="1449"/>
+  <entry producer="slowmotion:40:0,8:1:0" in="397" out="763">
    <filter id="filter49">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7219,14 +7349,14 @@
     <property name="kdenlive_ix">2</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
-    <property name="rect">374=-177 -41 2976 1674 1</property>
-    <property name="rotation">374=4;379=4;763=4</property>
+    <property name="rect">374=-201 -42 3033 1706 1;397=-96 -54 2112 1188 1;593=-201 -42 3033 1706 1</property>
+    <property name="rotation">374=4;397=0;593=4;763=4</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
    </filter>
   </entry>
   <blank length="296"/>
-  <entry producer="slowmotion:40:0,8:1:0" in="1063" out="1151">
+  <entry producer="slowmotion:40:0,8:1:0" in="1063" out="1158">
    <filter id="filter54" in="1092" out="1132">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
@@ -7237,13 +7367,13 @@
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
-    <property name="disable"/>
+    <property name="disable">0</property>
    </filter>
   </entry>
-  <blank length="144"/>
+  <blank length="137"/>
   <entry producer="40_playlist14" in="1071" out="1174"/>
-  <blank length="557"/>
-  <entry producer="40_playlist14" in="1732" out="1895"/>
+  <blank length="559"/>
+  <entry producer="40_playlist14" in="1734" out="1895"/>
   <blank length="138"/>
   <entry producer="40_playlist14" in="2034" out="2121"/>
   <blank length="160"/>
@@ -7258,9 +7388,9 @@
   <entry producer="40_playlist14" in="4084" out="4153"/>
   <blank length="128"/>
   <entry producer="40_playlist14" in="4299" out="4652"/>
-  <blank length="668"/>
-  <entry producer="40_playlist14" in="5304" out="5338"/>
-  <blank length="273"/>
+  <blank length="659"/>
+  <entry producer="slowmotion:40:0,82:1:0" in="6468" out="6516"/>
+  <blank length="268"/>
   <entry producer="40_playlist14" in="5612" out="5693"/>
   <blank length="88"/>
   <entry producer="40_playlist14" in="5755" out="5944"/>
@@ -7278,8 +7408,8 @@
    </filter>
   </entry>
   <blank length="247"/>
-  <entry producer="40_playlist14" in="6270" out="6383"/>
-  <blank length="166"/>
+  <entry producer="40_playlist14" in="6270" out="6346"/>
+  <blank length="203"/>
   <entry producer="40_playlist14" in="6560" out="6646"/>
   <blank length="126"/>
   <entry producer="40_playlist14" in="6773" out="6888"/>
@@ -7304,12 +7434,12 @@
   <property name="kdenlive:binid">42</property>
   <property name="kdenlive:clipstate">0</property>
  </producer>
- <producer title="Anonymous Submission" id="producer6" in="0" out="11268">
+ <producer title="Anonymous Submission" id="42_playlist15" in="0" out="11268">
   <property name="length">00:03:45:19</property>
   <property name="eof">pause</property>
   <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0525_C0002.mov</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">-1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
@@ -7319,26 +7449,54 @@
   <property name="kdenlive:file_hash">2bc47b71e880be9b41ab5c0f2f63d573</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
-  <property name="kdenlive:binid">42</property>
-  <property name="kdenlive:clipstate">0</property>
- </producer>
- <producer title="Anonymous Submission" id="producer8" in="0" out="11268">
-  <property name="length">00:03:45:19</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0525_C0002.mov</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:folderid">16</property>
-  <property name="kdenlive:file_size">10404105561</property>
-  <property name="kdenlive:file_hash">2bc47b71e880be9b41ab5c0f2f63d573</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="kdenlive:binid">42</property>
-  <property name="kdenlive:clipstate">0</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">50</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1920</property>
+  <property name="meta.media.1.codec.height">1080</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.frame_rate">5000</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
+  <property name="meta.media.1.codec.name">prores</property>
+  <property name="meta.media.1.codec.long_name">ProRes</property>
+  <property name="meta.media.1.codec.bit_rate">366958989</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2019-01-05T05:25:34.000000Z</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
+  <property name="meta.attr.1.stream.timecode.markup">05:25:34:21</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">s32</property>
+  <property name="meta.media.2.codec.sample_rate">48000</property>
+  <property name="meta.media.2.codec.channels">2</property>
+  <property name="meta.media.2.codec.name">pcm_s24le</property>
+  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.2.codec.bit_rate">2304000</property>
+  <property name="meta.attr.2.stream.creation_time.markup">2019-01-05T05:25:34.000000Z</property>
+  <property name="meta.attr.2.stream.language.markup">eng</property>
+  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.2.stream.timecode.markup">05:25:34:21</property>
+  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
+  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM1</property>
+  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
+  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
+  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
+  <property name="meta.attr.creation_time.markup">2019-01-05T05:25:34.000000Z</property>
+  <property name="meta.attr.timecode.markup">05:25:34:21</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">50</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <producer title="Anonymous Submission" id="30_playlist15" in="0" out="43907">
   <property name="length">00:14:38:08</property>
@@ -7503,7 +7661,7 @@
    </filter>
   </entry>
   <blank length="1047"/>
-  <entry producer="producer6" in="5045" out="5046">
+  <entry producer="42_playlist15" in="5045" out="5046">
    <filter id="filter59">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -7518,7 +7676,7 @@
     <property name="distort">0</property>
    </filter>
    <filter id="gamma">
-    <property name="gamma">5045=2,18</property>
+    <property name="gamma">5045=1,3</property>
     <property name="mlt_service">gamma</property>
     <property name="kdenlive_id">gamma</property>
     <property name="tag">gamma</property>
@@ -7527,23 +7685,45 @@
     <property name="disable"/>
    </filter>
   </entry>
-  <blank length="127"/>
-  <entry producer="producer8" in="6102" out="6102">
+  <blank length="94"/>
+  <entry producer="42_playlist15" in="6102" out="6102">
+   <filter id="filter55">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="rect">6102=-190 -229 2400 1350 1</property>
+    <property name="rotation">6102=-3</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
    <filter id="filter60">
+    <property name="gamma">5045=1,3</property>
+    <property name="mlt_service">gamma</property>
+    <property name="kdenlive_id">gamma</property>
+    <property name="tag">gamma</property>
+    <property name="kdenlive_info"/>
+    <property name="kdenlive_ix">2</property>
+    <property name="disable"/>
+   </filter>
+  </entry>
+  <entry producer="42_playlist15" in="6102" out="6102">
+   <filter id="filter61">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
     <property name="tag">qtblend</property>
     <property name="kdenlive_ix">1</property>
     <property name="kdenlive_info"/>
-    <property name="disable"/>
-    <property name="rect">374=-300 -324 2496 1404 1</property>
-    <property name="rotation">374=-1;5144=-1;5176=-1;5328=-1;5343=-1;6102=</property>
+    <property name="rect">6102=-190 -229 2400 1350 1</property>
+    <property name="rotation">6102=-3</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
    </filter>
-   <filter id="filter61">
-    <property name="gamma">5045=1,93;6102=1,93</property>
+   <filter id="filter62">
+    <property name="gamma">5045=1,3</property>
     <property name="mlt_service">gamma</property>
     <property name="kdenlive_id">gamma</property>
     <property name="tag">gamma</property>
@@ -7552,13 +7732,41 @@
     <property name="disable"/>
    </filter>
   </entry>
-  <blank length="5734"/>
+  <blank length="349"/>
+  <entry producer="slowmotion:40:0,8:1:0" in="1063" out="1158">
+   <filter id="filter63" in="1063" out="1158">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="transition.geometry">0=0/0:1920x1080:100;58=0/0:1920x1080:100;90=-192/0:2304x1296:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">1</property>
+   </filter>
+  </entry>
+  <blank length="5321"/>
   <entry producer="30_playlist15" in="24133" out="24188"/>
   <blank length="731"/>
-  <entry producer="30_playlist15" in="24952" out="24994"/>
+  <entry producer="30_playlist15" in="24952" out="24966"/>
+  <entry producer="30_playlist15" in="24967" out="24994">
+   <filter id="filter64" in="24967" out="24994">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.geometry">-96/0:2112x1188:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
   <blank length="32"/>
   <entry producer="slowmotion:30:1:1:0" in="24995" out="25144">
-   <filter id="filter55" in="24995" out="25144">
+   <filter id="filter65" in="24995" out="25144">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -7570,7 +7778,7 @@
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
    </filter>
-   <filter id="filter63">
+   <filter id="filter66">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -7583,6 +7791,24 @@
    </filter>
   </entry>
  </playlist>
+ <producer title="Anonymous Submission" id="producer5" in="0" out="10702">
+  <property name="length">00:03:34:03</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0511_C0000.mov</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:folderid">16</property>
+  <property name="kdenlive:file_size">9881509121</property>
+  <property name="kdenlive:file_hash">377aa92a5fbef78369143e30739b498c</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="kdenlive:binid">41</property>
+  <property name="kdenlive:clipstate">0</property>
+ </producer>
  <producer title="Anonymous Submission" id="41_playlist16" in="0" out="10702">
   <property name="length">00:03:34:03</property>
   <property name="eof">pause</property>
@@ -7703,8 +7929,36 @@
  </producer>
  <playlist id="playlist16">
   <property name="kdenlive:track_name">Video -6</property>
-  <blank length="13649"/>
-  <entry producer="41_playlist16" in="8632" out="8680"/>
+  <blank length="12533"/>
+  <entry producer="producer5" in="7729" out="7766">
+   <filter id="filter67" in="7729" out="7766">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.geometry">-192/0:3264x1836:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+   </filter>
+  </entry>
+  <blank length="1078"/>
+  <entry producer="41_playlist16" in="8632" out="8680">
+   <filter id="filter68" in="8632" out="8680">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.geometry">0=-192/-108:2304x1296:100;7=0/0:1920x1080:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">1</property>
+   </filter>
+  </entry>
   <blank length="42"/>
   <entry producer="28_playlist16" in="8792" out="8841"/>
  </playlist>
@@ -7727,29 +7981,6 @@
   <track hide="audio" producer="playlist14"/>
   <track hide="audio" producer="playlist15"/>
   <track hide="audio" producer="playlist16"/>
-  <transition id="transition16" in="6971" out="6972">
-   <property name="a_track">15</property>
-   <property name="b_track">16</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.overlay</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition17" in="7100" out="7101">
-   <property name="a_track">15</property>
-   <property name="b_track">16</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.overlay</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition18" in="5604" out="6002">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.value</property>
-   <property name="force_track">0</property>
-  </transition>
   <transition id="transition0">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
@@ -7885,6 +8116,13 @@
    <property name="always_active">1</property>
    <property name="sum">1</property>
    <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition18" in="5604" out="6002">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.value</property>
+   <property name="force_track">0</property>
   </transition>
  </tractor>
 </mlt>
