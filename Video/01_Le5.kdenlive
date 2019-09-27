@@ -2813,7 +2813,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">6261</property>
+  <property name="kdenlive:docproperties.position">2553</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -2827,7 +2827,7 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">7607</property>
-  <property name="kdenlive:docproperties.zoom">3</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -3027,7 +3027,8 @@
   <blank length="36"/>
   <entry producer="31_playlist11" in="4251" out="6666"/>
   <entry producer="31_playlist11" in="6667" out="6864"/>
-  <entry producer="31_playlist11" in="6865" out="7820">
+  <entry producer="31_playlist11" in="6865" out="7133"/>
+  <entry producer="31_playlist11" in="7134" out="7820">
    <filter id="fadeout" in="7726" out="7821">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
@@ -10501,7 +10502,19 @@
   <entry producer="24_playlist13" in="1229" out="1230"/>
   <blank length="1"/>
   <entry producer="24_playlist13" in="1229" out="1230"/>
-  <blank length="1915"/>
+  <blank length="1539"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15244" out="15245"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15244" out="15245"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15245" out="15246"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15244" out="15245"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15244" out="15245"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15244" out="15245"/>
+  <blank length="354"/>
   <entry producer="15_playlist13" in="2745" out="2829"/>
   <blank length="128"/>
   <entry producer="slowmotion:15:2:1:0" in="1474" out="1491">
@@ -10532,6 +10545,16 @@
  </playlist>
  <playlist id="playlist14">
   <property name="kdenlive:track_name">Video 12</property>
+  <blank length="5978"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15265" out="15266"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15265" out="15266"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15265" out="15266"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15265" out="15266"/>
+  <blank length="2"/>
+  <entry producer="slowmotion:7:0,5:1:0" in="15265" out="15266"/>
  </playlist>
  <producer title="Anonymous Submission" id="48_playlist15" in="0" out="42317">
   <property name="length">00:14:06:18</property>
@@ -10661,24 +10684,6 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer title="Anonymous Submission" id="producer0" in="0" out="43907">
-  <property name="length">00:14:38:08</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:folderid">17</property>
-  <property name="kdenlive:file_size">40537867713</property>
-  <property name="kdenlive:file_hash">eeb49a6f6e2626b129e2046ec649a60c</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="kdenlive:binid">35</property>
-  <property name="kdenlive:clipstate">0</property>
- </producer>
  <playlist id="playlist15">
   <property name="kdenlive:track_name">Video 13</property>
   <blank length="5108"/>
@@ -10695,12 +10700,7 @@
     <property name="transition.distort">0</property>
    </filter>
   </entry>
-  <blank length="1020"/>
-  <entry producer="35_playlist15" in="8488" out="8513"/>
-  <entry producer="35_playlist15" in="8386" out="8414"/>
-  <blank length="911"/>
-  <entry producer="producer0" in="7223" out="7302"/>
-  <blank length="904"/>
+  <blank length="2970"/>
   <entry producer="48_playlist15" in="10918" out="11104"/>
   <blank length="356"/>
   <entry producer="35_playlist15" in="7398" out="7570"/>
@@ -10709,6 +10709,24 @@
   <blank length="142"/>
   <entry producer="35_playlist15" in="8528" out="9914"/>
  </playlist>
+ <producer title="Anonymous Submission" id="producer0" in="0" out="42317">
+  <property name="length">00:14:06:18</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:folderid">17</property>
+  <property name="kdenlive:file_size">39069915329</property>
+  <property name="kdenlive:file_hash">73f4a81374204093f22cbe930d68c42b</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="kdenlive:binid">48</property>
+  <property name="kdenlive:clipstate">0</property>
+ </producer>
  <producer title="Anonymous Submission" id="48_playlist16" in="0" out="42317">
   <property name="length">00:14:06:18</property>
   <property name="eof">pause</property>
@@ -10997,13 +11015,28 @@
  </producer>
  <playlist id="playlist16">
   <property name="kdenlive:track_name">Video 14</property>
-  <blank length="960"/>
-  <entry producer="48_playlist16" in="3535" out="3558"/>
-  <blank length="368"/>
+  <blank length="334"/>
+  <entry producer="producer0" in="9397" out="9440"/>
+  <blank length="579"/>
+  <entry producer="48_playlist16" in="3494" out="3520"/>
+  <entry producer="48_playlist16" in="3521" out="3573">
+   <filter id="filter51" in="3521" out="3573">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.geometry">0/-162:2496x1404:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+  <blank length="315"/>
   <entry producer="35_playlist16" in="5047" out="5091"/>
   <blank length="155"/>
   <entry producer="producer1" in="5249" out="5283">
-   <filter id="filter51">
+   <filter id="filter52">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -11019,7 +11052,7 @@
   </entry>
   <blank length="239"/>
   <entry producer="35_playlist16" in="5528" out="5578">
-   <filter id="filter52" in="5522" out="5586">
+   <filter id="filter56" in="5522" out="5586">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -11038,7 +11071,7 @@
   <entry producer="35_playlist16" in="8432" out="8454"/>
   <blank length="223"/>
   <entry producer="48_playlist16" in="4909" out="4928">
-   <filter id="filter56" in="4909" out="4928">
+   <filter id="filter73" in="4909" out="4928">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -11053,7 +11086,7 @@
   </entry>
   <blank length="2267"/>
   <entry producer="slowmotion:47:0,5:1:0" in="14436" out="14474">
-   <filter id="filter73" in="14436" out="14474">
+   <filter id="filter74" in="14436" out="14474">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -11079,7 +11112,7 @@
   </entry>
   <blank length="401"/>
   <entry producer="producer12" in="7685" out="7705">
-   <filter id="filter74" in="7685" out="7705">
+   <filter id="filter75" in="7685" out="7705">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -11095,50 +11128,56 @@
   <entry producer="slowmotion:48:0,6:1:0" in="12886" out="12954"/>
   <blank length="44"/>
   <entry producer="48_playlist16" in="7971" out="8015"/>
-  <blank length="1135"/>
+  <blank length="2994"/>
+  <entry producer="48_playlist16" in="9397" out="9441"/>
+  <blank length="391"/>
+  <entry producer="35_playlist16" in="8488" out="8513"/>
+  <blank length="88"/>
+  <entry producer="35_playlist16" in="8386" out="8414"/>
+  <blank length="37"/>
   <entry producer="35_playlist16" in="7177" out="7222">
-   <filter id="filter75" in="7177" out="7222">
+   <filter id="filter76">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
     <property name="transition.geometry">-143/-1:2304x1296:100</property>
     <property name="transition.distort">0</property>
-    <property name="kdenlive:sync_in_out">1</property>
-    <property name="kdenlive_info"/>
    </filter>
   </entry>
   <blank length="161"/>
   <entry producer="35_playlist16" in="7154" out="7188">
-   <filter id="filter76" in="7154" out="7188">
+   <filter id="filter77">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">-384/0:2688x1512:100</property>
-    <property name="transition.distort">0</property>
-    <property name="kdenlive:sync_in_out">1</property>
-    <property name="kdenlive_info"/>
-   </filter>
-  </entry>
-  <entry producer="35_playlist16" in="7375" out="7394">
-   <filter id="filter77" in="7375" out="7387">
-    <property name="background">colour:0x00000000</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">pan_zoom</property>
-    <property name="tag">affine</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">-192/-108:2304x1296:100</property>
-    <property name="transition.distort">0</property>
-    <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
+    <property name="transition.geometry">-384/0:2688x1512:100</property>
+    <property name="transition.distort">0</property>
    </filter>
   </entry>
-  <blank length="159"/>
-  <entry producer="35_playlist16" in="7577" out="7595"/>
+  <blank length="57"/>
+  <entry producer="35_playlist16" in="7362" out="7413">
+   <filter id="filter78">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">1</property>
+    <property name="transition.geometry">-192/-108:2304x1296:100</property>
+    <property name="transition.distort">0</property>
+   </filter>
+  </entry>
+  <blank length="58"/>
+  <entry producer="35_playlist16" in="7565" out="7595"/>
  </playlist>
  <producer title="Anonymous Submission" id="48_playlist17" in="0" out="42317">
   <property name="length">00:14:06:18</property>
@@ -11216,7 +11255,9 @@
   <blank length="35"/>
   <entry producer="48_playlist17" in="7902" out="7970"/>
   <blank length="14"/>
-  <entry producer="48_playlist17" in="7971" out="10917"/>
+  <entry producer="48_playlist17" in="7971" out="9396"/>
+  <blank length="45"/>
+  <entry producer="48_playlist17" in="9442" out="10917"/>
   <blank length="453"/>
   <entry producer="48_playlist17" in="11105" out="42317"/>
  </playlist>
