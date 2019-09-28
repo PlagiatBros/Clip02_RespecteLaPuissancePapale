@@ -1745,7 +1745,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">2190</property>
+  <property name="kdenlive:docproperties.position">18950</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1757,9 +1757,9 @@
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">483</property>
-  <property name="kdenlive:docproperties.zoneout">3064</property>
-  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:docproperties.zonein">0</property>
+  <property name="kdenlive:docproperties.zoneout">10335</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
