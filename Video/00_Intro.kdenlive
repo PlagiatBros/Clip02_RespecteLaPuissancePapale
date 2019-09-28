@@ -3298,7 +3298,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">52</property>
+  <property name="kdenlive:docproperties.position">1208</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3312,7 +3312,7 @@
   <property name="kdenlive:docproperties.videotargettrack">5</property>
   <property name="kdenlive:docproperties.zonein">62</property>
   <property name="kdenlive:docproperties.zoneout">2731</property>
-  <property name="kdenlive:docproperties.zoom">5</property>
+  <property name="kdenlive:docproperties.zoom">2</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -3325,25 +3325,25 @@
   <property name="kdenlive:folder.5.13">Trap</property>
   <property name="kdenlive:folder.5.14">InstruRefrain</property>
   <property name="kdenlive:folder.-1.15">Part IV - Meshuggah</property>
-  <property name="kdenlive:docproperties.renderaudioquality">320</property>
+  <property name="kdenlive:docproperties.renderaudioquality">256</property>
   <property name="kdenlive:docproperties.rendercategory">Personnalisé</property>
   <property name="kdenlive:docproperties.renderendguide">-1</property>
   <property name="kdenlive:docproperties.renderexportaudio">2</property>
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4HD</property>
-  <property name="kdenlive:docproperties.renderquality">10</property>
-  <property name="kdenlive:docproperties.renderratio">0</property>
-  <property name="kdenlive:docproperties.renderrescale">0</property>
-  <property name="kdenlive:docproperties.renderrescaleheight">180</property>
-  <property name="kdenlive:docproperties.renderrescalewidth">320</property>
+  <property name="kdenlive:docproperties.renderquality">19</property>
+  <property name="kdenlive:docproperties.renderratio">1</property>
+  <property name="kdenlive:docproperties.renderrescale">1</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">720</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">1280</property>
   <property name="kdenlive:docproperties.renderscanning">0</property>
   <property name="kdenlive:docproperties.renderspeed">2</property>
   <property name="kdenlive:docproperties.renderstartguide">-1</property>
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/tarantino.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Rendus/2019-01-28-RLPP-Intro-test.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="kdenlive:folder.-1.16">Colors</property>
   <property name="kdenlive:customeffects">&lt;customeffects>
@@ -4176,7 +4176,7 @@
  </producer>
  <playlist id="playlist9">
   <property name="kdenlive:track_name">Vidéo 8</property>
-  <blank length="482"/>
+  <blank length="483"/>
   <entry producer="slowmotion:1:0,5:1:0" in="9762" out="10137">
    <filter id="filter20" in="9762" out="10137">
     <property name="background">colour:0x00000000</property>
@@ -4191,7 +4191,7 @@
     <property name="disable">1</property>
    </filter>
   </entry>
-  <blank length="81"/>
+  <blank length="80"/>
   <entry producer="slowmotion:48:0,6:1:0" in="3250" out="3334"/>
   <blank length="89"/>
   <entry producer="slowmotion:1:0,6:1:0" in="8813" out="9100"/>
@@ -6457,6 +6457,713 @@
     <property name="3">0</property>
    </filter>
   </entry>
+  <blank length="463"/>
+  <entry producer="slowmotion:48:0,5:1:0" in="6504" out="6599">
+   <filter id="filter28">
+    <property name="mode">alpha</property>
+    <property name="alpha_operation">clear</property>
+    <property name="invert">0</property>
+    <property name="feather">0</property>
+    <property name="feather_passes">1</property>
+    <property name="mlt_service">rotoscoping</property>
+    <property name="kdenlive_id">rotoscoping</property>
+    <property name="tag">rotoscoping</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="spline">{
+    "6504": [
+        [
+            [
+                0.948926067322202,
+                0.13610730104509866
+            ],
+            [
+                0.9415753781950964,
+                0.13229583260882166
+            ],
+            [
+                0.9480072311813139,
+                0.12249491377268076
+            ]
+        ],
+        [
+            [
+                0.9492280322511325,
+                0.10778387832144778
+            ],
+            [
+                0.95565988523735,
+                0.09798295948530689
+            ],
+            [
+                0.9630105743644556,
+                0.09798295948530689
+            ]
+        ],
+        [
+            [
+                0.9711313140027847,
+                0.09728742827334376
+            ],
+            [
+                0.9784820031298904,
+                0.09728742827334376
+            ],
+            [
+                0.981238511552555,
+                0.10164339220051749
+            ]
+        ],
+        [
+            [
+                1.0014166788491141,
+                0.12052086908737447
+            ],
+            [
+                1.0041731872717787,
+                0.12487683301454819
+            ],
+            [
+                1.0035606298445203,
+                0.1423006887232431
+            ]
+        ],
+        [
+            [
+                0.9974826669734244,
+                0.16216809931362003
+            ],
+            [
+                0.9968701095461657,
+                0.17959195502231495
+            ],
+            [
+                0.9882943055645426,
+                0.1714245226588642
+            ]
+        ],
+        [
+            [
+                0.9768856631365529,
+                0.18196329395273955
+            ],
+            [
+                0.9683098591549296,
+                0.1737958615892888
+            ],
+            [
+                0.9609591700278239,
+                0.16998439315301178
+            ]
+        ]
+    ],
+    "6515": [
+        [
+            [
+                0.9291034277812528,
+                0.12405142670440428
+            ],
+            [
+                0.9217527386541471,
+                0.12023995826812726
+            ],
+            [
+                0.9281845916403646,
+                0.11043903943198638
+            ]
+        ],
+        [
+            [
+                0.9247105570294318,
+                0.09572800398075344
+            ],
+            [
+                0.9311424100156493,
+                0.08592708514461253
+            ],
+            [
+                0.938493099142755,
+                0.08592708514461253
+            ]
+        ],
+        [
+            [
+                0.9500045534394045,
+                0.08337680403408103
+            ],
+            [
+                0.9573552425665102,
+                0.08337680403408103
+            ],
+            [
+                0.9601117509891748,
+                0.08773276796125475
+            ]
+        ],
+        [
+            [
+                0.9835502208418112,
+                0.12492590009647433
+            ],
+            [
+                0.9863067292644757,
+                0.12928186402364805
+            ],
+            [
+                0.9856941718372172,
+                0.14670571973234298
+            ]
+        ],
+        [
+            [
+                0.974530136978641,
+                0.14640272517578892
+            ],
+            [
+                0.9739175795513824,
+                0.16382658088448385
+            ],
+            [
+                0.9653417755697592,
+                0.15565914852103307
+            ]
+        ],
+        [
+            [
+                0.954976429959714,
+                0.15553310789814032
+            ],
+            [
+                0.9464006259780907,
+                0.1473656755346896
+            ],
+            [
+                0.939049936850985,
+                0.14355420709841257
+            ]
+        ]
+    ],
+    "6530": [
+        [
+            [
+                0.9019777105146903,
+                0.10457655276943648
+            ],
+            [
+                0.8946270213875847,
+                0.10076508433315944
+            ],
+            [
+                0.9010588743738022,
+                0.09096416549701855
+            ]
+        ],
+        [
+            [
+                0.8996714333987589,
+                0.07625313004578557
+            ],
+            [
+                0.9061032863849764,
+                0.06645221120964469
+            ],
+            [
+                0.9134539755120821,
+                0.06645221120964469
+            ]
+        ],
+        [
+            [
+                0.9290082049782672,
+                0.07201646090534979
+            ],
+            [
+                0.9363588941053729,
+                0.07201646090534979
+            ],
+            [
+                0.9391154025280375,
+                0.07637242483252353
+            ]
+        ],
+        [
+            [
+                0.9534250252236577,
+                0.10475549494954337
+            ],
+            [
+                0.9561815336463223,
+                0.10911145887671708
+            ],
+            [
+                0.9555689762190638,
+                0.12653531458541206
+            ]
+        ],
+        [
+            [
+                0.9463611228941339,
+                0.13341947588581038
+            ],
+            [
+                0.9457485654668752,
+                0.15084333159450528
+            ],
+            [
+                0.9371727614852521,
+                0.1426758992310545
+            ]
+        ],
+        [
+            [
+                0.9240687617281022,
+                0.14695488961726166
+            ],
+            [
+                0.9154929577464788,
+                0.13878745725381092
+            ],
+            [
+                0.9081422686193732,
+                0.1349759888175339
+            ]
+        ]
+    ],
+    "6545": [
+        [
+            [
+                0.8706788059763492,
+                0.09252067842874208
+            ],
+            [
+                0.8633281168492436,
+                0.08870920999246508
+            ],
+            [
+                0.8697599698354611,
+                0.0789082911563242
+            ]
+        ],
+        [
+            [
+                0.8636776931796667,
+                0.05677825611081774
+            ],
+            [
+                0.8701095461658841,
+                0.046977337274676866
+            ],
+            [
+                0.8774602352929898,
+                0.046977337274676866
+            ]
+        ],
+        [
+            [
+                0.8987525972578708,
+                0.055323711818234506
+            ],
+            [
+                0.9061032863849764,
+                0.055323711818234506
+            ],
+            [
+                0.9088597948076411,
+                0.05967967574540825
+            ]
+        ],
+        [
+            [
+                0.9289075500019572,
+                0.10104599515240663
+            ],
+            [
+                0.9316640584246217,
+                0.10540195907958035
+            ],
+            [
+                0.9310515009973632,
+                0.12282581478827526
+            ]
+        ],
+        [
+            [
+                0.9208003508544886,
+                0.11301722700155839
+            ],
+            [
+                0.92018779342723,
+                0.1304410827102533
+            ],
+            [
+                0.9116119894456068,
+                0.12227365034680254
+            ]
+        ],
+        [
+            [
+                0.8923786208830317,
+                0.12632079699568863
+            ],
+            [
+                0.8838028169014084,
+                0.11815336463223787
+            ],
+            [
+                0.8764521277743028,
+                0.11434189619596084
+            ]
+        ]
+    ],
+    "6559": [
+        [
+            [
+                0.8472046275725933,
+                0.0813921790373319
+            ],
+            [
+                0.8398539384454877,
+                0.07758071060105488
+            ],
+            [
+                0.8462857914317052,
+                0.067779791764914
+            ]
+        ],
+        [
+            [
+                0.8469849440925513,
+                0.045649756719407554
+            ],
+            [
+                0.8534167970787688,
+                0.035848837883266677
+            ],
+            [
+                0.8607674862058745,
+                0.035848837883266677
+            ]
+        ],
+        [
+            [
+                0.8693721286370598,
+                0.03717883273779139
+            ],
+            [
+                0.8767228177641654,
+                0.03717883273779139
+            ],
+            [
+                0.8794793261868301,
+                0.04153479666496512
+            ]
+        ],
+        [
+            [
+                0.9029555416555827,
+                0.06789234071549712
+            ],
+            [
+                0.9057120500782472,
+                0.07224830464267085
+            ],
+            [
+                0.9050994926509887,
+                0.08967216035136578
+            ]
+        ],
+        [
+            [
+                0.8962828756327881,
+                0.10559822740728493
+            ],
+            [
+                0.8956703182055293,
+                0.12302208311597983
+            ],
+            [
+                0.8870945142239062,
+                0.11485465075252908
+            ]
+        ],
+        [
+            [
+                0.8751642233869441,
+                0.12353867214783608
+            ],
+            [
+                0.8665884194053208,
+                0.11537123978438532
+            ],
+            [
+                0.8592377302782152,
+                0.11155977134810832
+            ]
+        ]
+    ],
+    "6573": [
+        [
+            [
+                0.8320768237123951,
+                0.07582792934162683
+            ],
+            [
+                0.8247261345852894,
+                0.07201646090534979
+            ],
+            [
+                0.8311579875715069,
+                0.0622155420692089
+            ]
+        ],
+        [
+            [
+                0.828727249778519,
+                0.033593882378713184
+            ],
+            [
+                0.8351591027647365,
+                0.023792963542572303
+            ],
+            [
+                0.8425097918918422,
+                0.023792963542572303
+            ]
+        ],
+        [
+            [
+                0.8608026755051322,
+                0.022170057381324985
+            ],
+            [
+                0.8681533646322379,
+                0.022170057381324985
+            ],
+            [
+                0.8709098730549025,
+                0.026526021308498716
+            ]
+        ],
+        [
+            [
+                0.8892622709200584,
+                0.05838674748533424
+            ],
+            [
+                0.8920187793427229,
+                0.06274271141250796
+            ],
+            [
+                0.8914062219154644,
+                0.08016656712120289
+            ]
+        ],
+        [
+            [
+                0.8816767201815622,
+                0.08890547832016964
+            ],
+            [
+                0.8810641627543034,
+                0.10632933402886453
+            ],
+            [
+                0.8724883587726803,
+                0.09816190166541379
+            ]
+        ],
+        [
+            [
+                0.8625142494693645,
+                0.11264201649374692
+            ],
+            [
+                0.8539384454877411,
+                0.10447458413029617
+            ],
+            [
+                0.8465877563606355,
+                0.10066311569401916
+            ]
+        ]
+    ],
+    "6584": [
+        [
+            [
+                0.8190356134880863,
+                0.05542568045737481
+            ],
+            [
+                0.8116849243609806,
+                0.051614212021097776
+            ],
+            [
+                0.8181167773471981,
+                0.04181329318495689
+            ]
+        ],
+        [
+            [
+                0.816028975082331,
+                0.01536409518121023
+            ],
+            [
+                0.8224608280685485,
+                0.005563176345069347
+            ],
+            [
+                0.8298115171956542,
+                0.005563176345069347
+            ]
+        ],
+        [
+            [
+                0.8544124824952208,
+                0.007100214455457022
+            ],
+            [
+                0.8617631716223265,
+                0.007100214455457022
+            ],
+            [
+                0.8645196800449911,
+                0.011456178382630753
+            ]
+        ],
+        [
+            [
+                0.8824808416034178,
+                0.04818562304320823
+            ],
+            [
+                0.8852373500260824,
+                0.05254158697038196
+            ],
+            [
+                0.8846247925988239,
+                0.06996544267907688
+            ]
+        ],
+        [
+            [
+                0.8733303456380045,
+                0.07592222903019108
+            ],
+            [
+                0.8727177882107459,
+                0.09334608473888598
+            ],
+            [
+                0.8641419842291227,
+                0.08517865237543523
+            ]
+        ],
+        [
+            [
+                0.8523662558837078,
+                0.09327877102489664
+            ],
+            [
+                0.8437904519020846,
+                0.08511133866144589
+            ],
+            [
+                0.836439762774979,
+                0.08129987022516888
+            ]
+        ]
+    ],
+    "6599": [
+        [
+            [
+                0.814340777807335,
+                0.028531806928133507
+            ],
+            [
+                0.8069900886802295,
+                0.024720338491856488
+            ],
+            [
+                0.8134219416664469,
+                0.014919419655715603
+            ]
+        ],
+        [
+            [
+                0.8042097745568184,
+                -0.00535586549122247
+            ],
+            [
+                0.8106416275430359,
+                -0.015156784327363355
+            ],
+            [
+                0.8179923166701415,
+                -0.015156784327363355
+            ]
+        ],
+        [
+            [
+                0.8467181684628786,
+                -0.023735002608242045
+            ],
+            [
+                0.8540688575899843,
+                -0.023735002608242045
+            ],
+            [
+                0.8568253660126489,
+                -0.019379038681068314
+            ]
+        ],
+        [
+            [
+                0.8762210606957496,
+                0.0185096246661144
+            ],
+            [
+                0.8789775691184141,
+                0.022865588593288123
+            ],
+            [
+                0.8783650116911556,
+                0.040289444301983036
+            ]
+        ],
+        [
+            [
+                0.868113861548281,
+                0.05644735509522326
+            ],
+            [
+                0.8675013041210223,
+                0.07387121080391815
+            ],
+            [
+                0.8589255001393992,
+                0.06570377844046742
+            ]
+        ],
+        [
+            [
+                0.8376055379409346,
+                0.06511405034293258
+            ],
+            [
+                0.8290297339593113,
+                0.05694661797948183
+            ],
+            [
+                0.8216790448322057,
+                0.053135149543204835
+            ]
+        ]
+    ]
+}
+</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+   </filter>
+  </entry>
  </playlist>
  <producer title="Anonymous Submission" id="33_playlist13" in="0" out="252">
   <property name="length">00:00:05:03</property>
@@ -6730,7 +7437,7 @@
   <entry producer="36_playlist13" in="0" out="129"/>
   <entry producer="36_playlist13" in="72" out="147"/>
   <entry producer="36_playlist13" in="130" out="250"/>
-  <filter id="frei0r.brightness">
+  <filter id="filter29">
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.brightness</property>
    <property name="kdenlive_id">frei0r.brightness</property>
@@ -6745,7 +7452,7 @@
   <property name="kdenlive:track_name">Vidéo 16</property>
   <blank length="2299"/>
   <entry producer="65" in="18" out="450">
-   <filter id="filter28" out="450">
+   <filter id="filter30" out="450">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6753,7 +7460,7 @@
     <property name="kdenlive_info">0/-1/</property>
     <property name="kdenlive_ix">1</property>
     <property name="disable">0</property>
-    <property name="transition.geometry">0/-30:1920x1080:100</property>
+    <property name="transition.geometry">0=0/-30:1920x1080:100;432=28/0:1863x1048:100</property>
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
    </filter>
@@ -6763,7 +7470,7 @@
   <property name="kdenlive:track_name">Vidéo 12</property>
   <blank length="2299"/>
   <entry producer="47" in="18" out="450">
-   <filter id="filter29">
+   <filter id="filter31">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6771,7 +7478,7 @@
     <property name="kdenlive_ix">1</property>
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
-    <property name="transition.geometry">0/-30:1920x1080:100</property>
+    <property name="transition.geometry">0=0/-30:1920x1080:100;432=28/0:1863x1048:100</property>
     <property name="transition.distort">0</property>
    </filter>
   </entry>
@@ -6840,7 +7547,7 @@
   <property name="kdenlive:track_name">Vidéo 14</property>
   <blank length="2296"/>
   <entry producer="68_playlist17" in="5165" out="5599">
-   <filter id="filter30" in="5150" out="5599">
+   <filter id="filter32" in="5150" out="5599">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6862,7 +7569,7 @@
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter31">
+   <filter id="filter33">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
@@ -7111,14 +7818,36 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition id="transition19" in="2296" out="2298">
+  <transition id="transition19" in="1208" out="1303">
+   <property name="a_track">13</property>
+   <property name="b_track">14</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">1</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">composite</property>
+   <property name="force_track">1</property>
+   <property name="deinterlace">0</property>
+   <property name="distort">0</property>
+   <property name="fill">1</property>
+   <property name="geometry">0%/0%:100%x100%:100</property>
+   <property name="halign">centre</property>
+   <property name="luma_invert">0</property>
+   <property name="operator">over</property>
+   <property name="softness">0</property>
+   <property name="valign">middle</property>
+   <property name="automatic">0</property>
+   <property name="luma"/>
+  </transition>
+  <transition id="transition20" in="2296" out="2298">
    <property name="a_track">13</property>
    <property name="b_track">19</property>
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.grain_merge</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition20" in="730" out="731">
+  <transition id="transition21" in="730" out="731">
    <property name="a_track">12</property>
    <property name="b_track">14</property>
    <property name="rect">0=-631 -620 2880 1620 1</property>
@@ -7130,7 +7859,7 @@
    <property name="force_track">1</property>
    <property name="rotation">0=1</property>
   </transition>
-  <transition id="transition21" in="734" out="735">
+  <transition id="transition29" in="734" out="735">
    <property name="a_track">12</property>
    <property name="b_track">14</property>
    <property name="rect">0=-623 -621 2880 1620 1</property>
@@ -7142,7 +7871,7 @@
    <property name="force_track">1</property>
    <property name="rotation">0=1</property>
   </transition>
-  <transition id="transition29" in="738" out="739">
+  <transition id="transition30" in="738" out="739">
    <property name="a_track">12</property>
    <property name="b_track">14</property>
    <property name="rect">0=-614 -622 2880 1620 1</property>
@@ -7154,7 +7883,7 @@
    <property name="force_track">1</property>
    <property name="rotation">0=1</property>
   </transition>
-  <transition id="transition30" in="741" out="744">
+  <transition id="transition31" in="741" out="744">
    <property name="a_track">12</property>
    <property name="b_track">14</property>
    <property name="rect">0=546 147 1728 972 1;1=552 147 1728 972 1;2=556 147 1728 972 1;3=561 147 1728 972 1</property>
@@ -7166,14 +7895,14 @@
    <property name="force_track">1</property>
    <property name="rotation">0=1;1=1;2=1;3=1</property>
   </transition>
-  <transition id="transition31" in="2299" out="2731">
+  <transition id="transition32" in="2299" out="2731">
    <property name="a_track">9</property>
    <property name="b_track">16</property>
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.addition_alpha</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition32" in="2299" out="2731">
+  <transition id="transition33" in="2299" out="2731">
    <property name="a_track">9</property>
    <property name="b_track">17</property>
    <property name="version">0,2</property>
@@ -7181,7 +7910,7 @@
    <property name="force_track">1</property>
    <property name="automatic">0</property>
   </transition>
-  <transition id="transition33" in="2299" out="2730">
+  <transition id="transition34" in="2299" out="2730">
    <property name="a_track">9</property>
    <property name="b_track">19</property>
    <property name="version">0,2</property>
@@ -7232,7 +7961,7 @@
    <property name="automatic">0</property>
    <property name="luma"/>
   </transition>
-  <transition id="transition34" in="1113" out="2298">
+  <transition id="transition35" in="1113" out="2298">
    <property name="a_track">8</property>
    <property name="b_track">13</property>
    <property name="start">0/0:100%x100%</property>
@@ -7254,7 +7983,7 @@
    <property name="automatic">0</property>
    <property name="luma"/>
   </transition>
-  <transition id="transition35" in="187" out="857">
+  <transition id="transition36" in="187" out="857">
    <property name="a_track">8</property>
    <property name="b_track">13</property>
    <property name="start">0/0:100%x100%</property>
@@ -7274,7 +8003,7 @@
    <property name="softness">0</property>
    <property name="valign">middle</property>
   </transition>
-  <transition id="transition36" in="187" out="2731">
+  <transition id="transition37" in="187" out="2731">
    <property name="a_track">8</property>
    <property name="b_track">15</property>
    <property name="version">0,2</property>
