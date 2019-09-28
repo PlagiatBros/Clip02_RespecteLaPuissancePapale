@@ -1745,7 +1745,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">187</property>
+  <property name="kdenlive:docproperties.position">2190</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1757,9 +1757,9 @@
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">0</property>
-  <property name="kdenlive:docproperties.zoneout">3509</property>
-  <property name="kdenlive:docproperties.zoom">8</property>
+  <property name="kdenlive:docproperties.zonein">483</property>
+  <property name="kdenlive:docproperties.zoneout">3064</property>
+  <property name="kdenlive:docproperties.zoom">7</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -1955,51 +1955,21 @@
  </producer>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Vidéo 1</property>
-  <entry producer="28_playlist3" in="0" out="2298"/>
-  <entry producer="28_playlist3" in="2299" out="2437">
-   <filter id="frei0r.softglow">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.softglow</property>
-    <property name="kdenlive_id">frei0r.softglow</property>
-    <property name="tag">frei0r.softglow</property>
+  <entry producer="28_playlist3" in="0" out="2725"/>
+  <entry producer="28_playlist3" in="2726" out="2728">
+   <filter id="frei0r.glitch0r">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
     <property name="kdenlive_ix">1</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-    <property name="0">0,5</property>
-    <property name="1">0,75</property>
-    <property name="2">0,85</property>
+    <property name="0">1</property>
+    <property name="1">0,01</property>
+    <property name="2">0,01</property>
     <property name="3">0</property>
-   </filter>
-   <filter id="frei0r.defish0r">
-    <property name="version">0,3</property>
-    <property name="mlt_service">frei0r.defish0r</property>
-    <property name="kdenlive_id">frei0r.defish0r</property>
-    <property name="tag">frei0r.defish0r</property>
-    <property name="kdenlive_ix">2</property>
     <property name="kdenlive_info"/>
-    <property name="disable"/>
-    <property name="Amount">2281=0,516</property>
-    <property name="DeFish">0</property>
-    <property name="Type">0,666</property>
-    <property name="Scaling">0</property>
-    <property name="Manual Scale">0,205</property>
-    <property name="Interpolator">0,166</property>
-    <property name="Aspect type">0</property>
-    <property name="Manual Aspect">0,445</property>
-   </filter>
-   <filter id="brightness">
-    <property name="start">1</property>
-    <property name="level">2281=1,5;2289=1;2298=1;2299=1,5;2308=1;2437=1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">brightness</property>
-    <property name="tag">brightness</property>
-    <property name="kdenlive_ix">3</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
    </filter>
   </entry>
-  <entry producer="28_playlist3" in="2438" out="2725"/>
-  <entry producer="28_playlist3" in="2726" out="2728"/>
   <blank length="7606"/>
   <entry producer="33_playlist3" in="0" out="14312">
    <filter id="filter3" out="15">
