@@ -1767,7 +1767,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">4703</property>
+  <property name="kdenlive:docproperties.position">2814</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1991,7 +1991,7 @@
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Vidéo 1</property>
   <entry producer="28_playlist3" in="0" out="2725"/>
-  <entry producer="28_playlist3" in="2726" out="2728">
+  <entry producer="28_playlist3" in="2726" out="2726">
    <filter id="frei0r.glitch0r">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
@@ -2003,13 +2003,79 @@
     <property name="2">0,01</property>
     <property name="3">0</property>
     <property name="kdenlive_info"/>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="wave" in="2726">
+    <property name="start">2</property>
+    <property name="speed">5</property>
+    <property name="deformX">1</property>
+    <property name="deformY">0</property>
+    <property name="mlt_service">wave</property>
+    <property name="kdenlive_id">wave</property>
+    <property name="tag">wave</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+   </filter>
+  </entry>
+  <entry producer="28_playlist3" in="2727" out="2727">
+   <filter id="filter1">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="0">1</property>
+    <property name="1">0,01</property>
+    <property name="2">0,01</property>
+    <property name="3">0</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="filter2" in="2727">
+    <property name="start">3</property>
+    <property name="speed">5</property>
+    <property name="deformX">1</property>
+    <property name="deformY">0</property>
+    <property name="mlt_service">wave</property>
+    <property name="kdenlive_id">wave</property>
+    <property name="tag">wave</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+   </filter>
+  </entry>
+  <entry producer="28_playlist3" in="2728" out="2728">
+   <filter id="filter3">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="0">1</property>
+    <property name="1">0,01</property>
+    <property name="2">0,01</property>
+    <property name="3">0</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="filter4" in="2728">
+    <property name="start">5</property>
+    <property name="speed">5</property>
+    <property name="deformX">1</property>
+    <property name="deformY">0</property>
+    <property name="mlt_service">wave</property>
+    <property name="kdenlive_id">wave</property>
+    <property name="tag">wave</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
    </filter>
   </entry>
   <blank length="2004"/>
   <entry producer="29_playlist3" in="235" out="7606"/>
   <blank length="6023"/>
   <entry producer="33_playlist3" in="0" out="14239">
-   <filter id="filter3" out="15">
+   <filter id="filter5" out="15">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -2060,15 +2126,13 @@
   <property name="kdenlive:track_name">Vidéo 2</property>
   <blank length="2729"/>
   <entry producer="37_playlist4" in="0" out="2003"/>
-  <blank length="12930"/>
-  <entry producer="34" in="0" out="464"/>
-  <blank length="13221"/>
+  <blank length="26616"/>
   <entry producer="35_playlist4" in="14749" out="21618"/>
  </playlist>
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Vidéo 3</property>
   <blank length="4499"/>
-  <entry producer="38" in="0" out="233">
+  <entry producer="34" in="0" out="233">
    <filter id="frei0r.c0rners">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.c0rners</property>
@@ -2087,7 +2151,7 @@
     <property name="Corner 4 Y">0=0,476833;202=0,476833;233=0,666667</property>
     <property name="Stretch X">0=0,5;202=0,5;233=0,5</property>
     <property name="Stretch Y">0=0,5;202=0,5;233=0,5</property>
-    <property name="Feather Alpha">0=0,05;202=0,05;233=0,05</property>
+    <property name="Feather Alpha">0=0,04;202=0,04;233=0,04</property>
     <property name="Enable Stretch">0</property>
     <property name="Interpolator">0,166</property>
     <property name="Transparent Background">1</property>
@@ -2112,7 +2176,7 @@
   <property name="kdenlive:track_name">Video 4</property>
   <blank length="4499"/>
   <entry producer="29_playlist0" in="1" out="234">
-   <filter id="filter1">
+   <filter id="filter6">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.c0rners</property>
     <property name="kdenlive_id">frei0r.c0rners</property>
@@ -2128,7 +2192,7 @@
     <property name="Corner 4 Y">1=0,476833;203=0,476833;234=0,666667</property>
     <property name="Stretch X">1=0,5;203=0,5;234=0,5</property>
     <property name="Stretch Y">1=0,5;203=0,5;234=0,5</property>
-    <property name="Feather Alpha">1=0,04;203=0,04;234=0,04</property>
+    <property name="Feather Alpha">1=0,02;203=0,02;234=0,02</property>
     <property name="Enable Stretch">0</property>
     <property name="Interpolator">0,166</property>
     <property name="Transparent Background">1</property>
@@ -2244,24 +2308,6 @@
    <property name="valign">middle</property>
    <property name="automatic">0</property>
    <property name="luma"/>
-  </transition>
-  <transition id="transition9" in="17752" out="18127">
-   <property name="a_track">3</property>
-   <property name="b_track">4</property>
-   <property name="factory">loader</property>
-   <property name="mlt_service">luma</property>
-   <property name="kdenlive_id">dissolve</property>
-   <property name="force_track">0</property>
-   <property name="reverse">1</property>
-  </transition>
-  <transition id="transition10" in="17634" out="17662">
-   <property name="a_track">0</property>
-   <property name="b_track">4</property>
-   <property name="factory">loader</property>
-   <property name="mlt_service">luma</property>
-   <property name="kdenlive_id">dissolve</property>
-   <property name="force_track">1</property>
-   <property name="reverse">1</property>
   </transition>
  </tractor>
 </mlt>

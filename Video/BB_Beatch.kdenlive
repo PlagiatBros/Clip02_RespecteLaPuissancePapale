@@ -3414,7 +3414,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">1286</property>
+  <property name="kdenlive:docproperties.position">4193</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3428,7 +3428,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">2035</property>
-  <property name="kdenlive:docproperties.zoom">8</property>
+  <property name="kdenlive:docproperties.zoom">9</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -3612,6 +3612,8 @@
   <property name="kdenlive:track_name">Audio 1</property>
   <property name="kdenlive:locked_track">0</property>
   <entry producer="72_playlist2" in="206" out="2209"/>
+  <blank length="127"/>
+  <entry producer="72_playlist2" in="2921" out="6463"/>
  </playlist>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Vidéo 1</property>
@@ -3649,8 +3651,10 @@
   <entry producer="30" in="0" out="15099"/>
   <blank length="11325"/>
   <entry producer="72_playlist5" in="206" out="2209"/>
-  <blank length="67"/>
-  <entry producer="72_playlist5" in="2277" out="21387"/>
+  <blank length="127"/>
+  <entry producer="72_playlist5" in="2921" out="6480"/>
+  <blank length="1298"/>
+  <entry producer="72_playlist5" in="7195" out="21387"/>
  </playlist>
  <producer title="Anonymous Submission" id="53_playlist0" in="0" out="5863">
   <property name="length">00:01:57:14</property>
@@ -4038,8 +4042,8 @@
    </filter>
   </entry>
   <blank length="127"/>
-  <entry producer="51_playlist0" in="5297" out="8710">
-   <filter id="filter3">
+  <entry producer="51_playlist0" in="5297" out="8839">
+   <filter id="filter2">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.alphaspot</property>
     <property name="kdenlive_id">frei0r.alphaspot</property>
@@ -4058,7 +4062,7 @@
     <property name="Max">5297=1</property>
     <property name="Operation">1,0</property>
    </filter>
-   <filter id="filter4">
+   <filter id="filter3">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -4214,7 +4218,7 @@
 ]
 </property>
    </filter>
-   <filter id="filter5">
+   <filter id="filter4">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.alphaspot</property>
     <property name="kdenlive_id">frei0r.alphaspot</property>
@@ -4231,9 +4235,10 @@
     <property name="Max">5297=1</property>
     <property name="Operation">1,0</property>
     <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
-  <blank length="155"/>
+  <blank length="1084"/>
   <entry producer="50_playlist0" in="3078" out="5223">
    <filter id="filter6">
     <property name="version">0,1</property>
@@ -5440,7 +5445,7 @@
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <blank length="232"/>
+  <blank length="412"/>
   <entry producer="50_playlist0" in="323" out="2309">
    <filter id="filter8">
     <property name="version">0,1</property>
@@ -7460,7 +7465,7 @@
     <property name="disable">0</property>
    </filter>
   </entry>
-  <blank length="258"/>
+  <blank length="194"/>
   <entry producer="49_playlist0" in="1768" out="3983">
    <filter id="filter11">
     <property name="version">0,1</property>
@@ -7565,9 +7570,9 @@
     <property name="kdenlive:sync_in_out">1</property>
    </filter>
   </entry>
-  <blank length="13886"/>
+  <blank length="12712"/>
   <entry producer="53_playlist0" in="3829" out="5832">
-   <filter id="filter2">
+   <filter id="filter5">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.alphaspot</property>
     <property name="kdenlive_id">frei0r.alphaspot</property>
@@ -7690,7 +7695,7 @@
    </filter>
   </entry>
   <blank length="127"/>
-  <entry producer="51_playlist0" in="5297" out="8710">
+  <entry producer="51_playlist0" in="5297" out="8856">
    <filter id="filter17">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.alphaspot</property>
@@ -7886,7 +7891,7 @@
     <property name="Operation">1,0</property>
    </filter>
   </entry>
-  <blank length="155"/>
+  <blank length="1298"/>
   <entry producer="50_playlist0" in="3078" out="5223">
    <filter id="filter20">
     <property name="version">0,1</property>
@@ -9094,7 +9099,6 @@
     <property name="Brightness">0,45</property>
    </filter>
   </entry>
-  <blank length="232"/>
   <entry producer="50_playlist0" in="323" out="2309">
    <filter id="filter23">
     <property name="version">0,1</property>
@@ -11114,7 +11118,7 @@
     <property name="Brightness">0,45</property>
    </filter>
   </entry>
-  <blank length="258"/>
+  <blank length="400"/>
   <entry producer="49_playlist0" in="1768" out="3983">
    <filter id="filter26">
     <property name="version">0,1</property>
