@@ -1767,7 +1767,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">2814</property>
+  <property name="kdenlive:docproperties.position">4727</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1781,7 +1781,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">4348</property>
   <property name="kdenlive:docproperties.zoneout">5038</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.zoom">4</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -2141,17 +2141,17 @@
     <property name="kdenlive_info">0/-1/</property>
     <property name="kdenlive_ix">1</property>
     <property name="disable">0</property>
-    <property name="Corner 1 X">0=0,359;202=0,359;233=0,333333</property>
-    <property name="Corner 1 Y">0=0,3925;202=0,3925;233=0,333333</property>
-    <property name="Corner 2 X">0=0,426;202=0,426;233=0,666667</property>
-    <property name="Corner 2 Y">0=0,4015;202=0,4015;233=0,333333</property>
-    <property name="Corner 3 X">0=0,425667;202=0,425667;233=0,666667</property>
-    <property name="Corner 3 Y">0=0,4725;202=0,4725;233=0,666667</property>
-    <property name="Corner 4 X">0=0,359;202=0,359;233=0,333333</property>
-    <property name="Corner 4 Y">0=0,476833;202=0,476833;233=0,666667</property>
-    <property name="Stretch X">0=0,5;202=0,5;233=0,5</property>
-    <property name="Stretch Y">0=0,5;202=0,5;233=0,5</property>
-    <property name="Feather Alpha">0=0,04;202=0,04;233=0,04</property>
+    <property name="Corner 1 X">0=0,359;212=0,359;233=0,333333</property>
+    <property name="Corner 1 Y">0=0,3925;212=0,3925;233=0,333333</property>
+    <property name="Corner 2 X">0=0,426;212=0,426;233=0,666667</property>
+    <property name="Corner 2 Y">0=0,4015;212=0,4015;233=0,333333</property>
+    <property name="Corner 3 X">0=0,425667;212=0,425667;233=0,666667</property>
+    <property name="Corner 3 Y">0=0,4725;212=0,4725;233=0,666667</property>
+    <property name="Corner 4 X">0=0,359;212=0,359;233=0,333333</property>
+    <property name="Corner 4 Y">0=0,476833;212=0,476833;233=0,666667</property>
+    <property name="Stretch X">0=0,5;212=0,5;233=0,5</property>
+    <property name="Stretch Y">0=0,5;212=0,5;233=0,5</property>
+    <property name="Feather Alpha">0=0,04;212=0,04;233=0,04</property>
     <property name="Enable Stretch">0</property>
     <property name="Interpolator">0,166</property>
     <property name="Transparent Background">1</property>
@@ -2182,17 +2182,17 @@
     <property name="kdenlive_id">frei0r.c0rners</property>
     <property name="tag">frei0r.c0rners</property>
     <property name="kdenlive_ix">1</property>
-    <property name="Corner 1 X">1=0,359;203=0,359;234=0,333333</property>
-    <property name="Corner 1 Y">1=0,3925;203=0,3925;234=0,333333</property>
-    <property name="Corner 2 X">1=0,426;203=0,426;234=0,666667</property>
-    <property name="Corner 2 Y">1=0,4015;203=0,4015;234=0,333333</property>
-    <property name="Corner 3 X">1=0,425667;203=0,425667;234=0,666667</property>
-    <property name="Corner 3 Y">1=0,4725;203=0,4725;234=0,666667</property>
-    <property name="Corner 4 X">1=0,359;203=0,359;234=0,333333</property>
-    <property name="Corner 4 Y">1=0,476833;203=0,476833;234=0,666667</property>
-    <property name="Stretch X">1=0,5;203=0,5;234=0,5</property>
-    <property name="Stretch Y">1=0,5;203=0,5;234=0,5</property>
-    <property name="Feather Alpha">1=0,02;203=0,02;234=0,02</property>
+    <property name="Corner 1 X">1=0,359;212=0,359;234=0,333333</property>
+    <property name="Corner 1 Y">1=0,3925;212=0,3925;234=0,333333</property>
+    <property name="Corner 2 X">1=0,426;212=0,426;234=0,666667</property>
+    <property name="Corner 2 Y">1=0,4015;212=0,4015;234=0,333333</property>
+    <property name="Corner 3 X">1=0,425667;212=0,425667;234=0,666667</property>
+    <property name="Corner 3 Y">1=0,4725;212=0,4725;234=0,666667</property>
+    <property name="Corner 4 X">1=0,359;212=0,359;234=0,333333</property>
+    <property name="Corner 4 Y">1=0,476833;212=0,476833;234=0,666667</property>
+    <property name="Stretch X">1=0,5;212=0,5;234=0,5</property>
+    <property name="Stretch Y">1=0,5;212=0,5;234=0,5</property>
+    <property name="Feather Alpha">1=0,02;212=0,02;234=0,02</property>
     <property name="Enable Stretch">0</property>
     <property name="Interpolator">0,166</property>
     <property name="Transparent Background">1</property>

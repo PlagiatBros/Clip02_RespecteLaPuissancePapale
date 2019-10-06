@@ -2654,7 +2654,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">30690</property>
+  <property name="kdenlive:docproperties.position">26423</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2668,7 +2668,7 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">21580</property>
   <property name="kdenlive:docproperties.zoneout">30844</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.zoom">2</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -5865,7 +5865,7 @@
   <entry producer="28_playlist11" in="37319" out="37362"/>
   <blank length="153"/>
   <entry producer="28_playlist11" in="37539" out="37544"/>
-  <entry producer="slowmotion:28:0,7:1:0" in="53635" out="53654">
+  <entry producer="slowmotion:28:0,6:1:0" in="62573" out="62595">
    <filter id="filter30">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
@@ -5878,7 +5878,7 @@
     <property name="transition.distort">0</property>
    </filter>
   </entry>
-  <blank length="198"/>
+  <blank length="195"/>
   <entry producer="28_playlist11" in="37740" out="37790"/>
   <blank length="30"/>
   <entry producer="producer5" in="1638" out="1675">
@@ -6158,7 +6158,7 @@
   <blank length="237"/>
   <entry producer="35_playlist12" in="988" out="1039"/>
   <blank length="40"/>
-  <entry producer="35_playlist12" in="1084" out="1130">
+  <entry producer="35_playlist12" in="1084" out="1129">
    <filter id="filter39">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
@@ -6171,7 +6171,7 @@
     <property name="transition.distort">0</property>
    </filter>
   </entry>
-  <blank length="195"/>
+  <blank length="196"/>
   <entry producer="producer10" in="2659" out="2716"/>
   <blank length="574"/>
   <entry producer="35_playlist12" in="1318" out="1361"/>

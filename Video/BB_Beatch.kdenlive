@@ -3414,7 +3414,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">4193</property>
+  <property name="kdenlive:docproperties.position">820</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3428,7 +3428,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">2035</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.zoom">10</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -3648,13 +3648,17 @@
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Vidéo 3</property>
   <property name="kdenlive:locked_track">0</property>
-  <entry producer="30" in="0" out="15099"/>
+  <entry producer="30" in="0" out="2003"/>
+  <blank length="127"/>
+  <entry producer="30" in="2131" out="15099"/>
   <blank length="11325"/>
   <entry producer="72_playlist5" in="206" out="2209"/>
   <blank length="127"/>
   <entry producer="72_playlist5" in="2921" out="6480"/>
-  <blank length="1298"/>
-  <entry producer="72_playlist5" in="7195" out="21387"/>
+  <blank length="993"/>
+  <entry producer="72_playlist5" in="7195" out="10341"/>
+  <blank length="305"/>
+  <entry producer="72_playlist5" in="10342" out="21387"/>
  </playlist>
  <producer title="Anonymous Submission" id="53_playlist0" in="0" out="5863">
   <property name="length">00:01:57:14</property>
@@ -11231,7 +11235,7 @@
    <property name="kdenlive_ix">1</property>
    <property name="kdenlive_info">1/-1/</property>
    <property name="Brightness">0,614</property>
-   <property name="disable">0</property>
+   <property name="disable">1</property>
   </filter>
   <filter id="frei0r.contrast0r">
    <property name="version">0,2</property>
@@ -11241,6 +11245,30 @@
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info">1/-1/</property>
    <property name="Contrast">0=2</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="frei0r.curves">
+   <property name="version">0,4</property>
+   <property name="mlt_service">frei0r.curves</property>
+   <property name="kdenlive_id">frei0r.curves</property>
+   <property name="tag">frei0r.curves</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info">1/-1/</property>
+   <property name="Channel">0,5</property>
+   <property name="Luma formula">1</property>
+   <property name="Curve point number">0,5</property>
+   <property name="Point 1 input value">0</property>
+   <property name="Point 1 output value">0</property>
+   <property name="Point 2 input value">0,160714</property>
+   <property name="Point 2 output value">0</property>
+   <property name="Point 3 input value">0,271714</property>
+   <property name="Point 3 output value">0,164286</property>
+   <property name="Point 4 input value">0,396428</property>
+   <property name="Point 4 output value">0,560714</property>
+   <property name="Point 5 input value">1</property>
+   <property name="Point 5 output value">1</property>
+   <property name="Show curves">0</property>
+   <property name="Graph position">0,3</property>
    <property name="disable">0</property>
   </filter>
   <filter id="frei0r.sharpness">
@@ -11248,10 +11276,36 @@
    <property name="mlt_service">frei0r.sharpness</property>
    <property name="kdenlive_id">frei0r.sharpness</property>
    <property name="tag">frei0r.sharpness</property>
-   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_ix">4</property>
    <property name="kdenlive_info">1/-1/</property>
    <property name="Amount">0=0,44</property>
    <property name="Size">0=0</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="frei0r.coloradj_RGB">
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
+   <property name="tag">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_ix">5</property>
+   <property name="kdenlive_info">1/-1/</property>
+   <property name="R">0=0,485</property>
+   <property name="G">0=0,5</property>
+   <property name="B">0=0,5</property>
+   <property name="Action">0,5</property>
+   <property name="Keep luma">1</property>
+   <property name="Alpha controlled">0</property>
+   <property name="Luma formula">1,0</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="frei0r.saturat0r">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.saturat0r</property>
+   <property name="kdenlive_id">frei0r.saturat0r</property>
+   <property name="tag">frei0r.saturat0r</property>
+   <property name="kdenlive_ix">6</property>
+   <property name="kdenlive_info">1/-1/</property>
+   <property name="Saturation">0=0,11</property>
    <property name="disable">0</property>
   </filter>
  </playlist>
@@ -11307,6 +11361,8 @@
   <property name="meta.media.color_trc">2</property>
   <property name="meta.media.width">620</property>
   <property name="meta.media.height">348</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist6">
   <property name="kdenlive:track_name">Vidéo 5</property>
@@ -11433,7 +11489,7 @@
     <property name="Operation">0,0</property>
    </filter>
   </entry>
-  <blank length="13610"/>
+  <blank length="16189"/>
   <entry producer="71_playlist8" in="3410" out="6380"/>
  </playlist>
  <producer title="Anonymous Submission" id="71_playlist7" in="0" out="6482">
