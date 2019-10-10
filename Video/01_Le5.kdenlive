@@ -3394,7 +3394,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">5462</property>
+  <property name="kdenlive:docproperties.position">3580</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3408,7 +3408,7 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">5108</property>
   <property name="kdenlive:docproperties.zoneout">5526</property>
-  <property name="kdenlive:docproperties.zoom">2</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -6139,8 +6139,7 @@
   <blank length="34"/>
   <entry producer="7_playlist6" in="6004" out="6035"/>
   <entry producer="7_playlist6" in="6035" out="6069"/>
-  <entry producer="29" in="0" out="1"/>
-  <blank length="53"/>
+  <blank length="55"/>
   <entry producer="7_playlist6" in="6639" out="6762"/>
   <blank length="28"/>
   <entry producer="7_playlist6" in="6792" out="6883"/>
@@ -6761,39 +6760,7 @@
   </entry>
   <blank length="97"/>
   <entry producer="6_playlist7" in="2950" out="3000"/>
-  <blank length="67"/>
-  <entry producer="5_playlist7" in="17298" out="17299">
-   <filter id="frei0r.colorize">
-    <property name="version">0,1</property>
-    <property name="mlt_service">frei0r.colorize</property>
-    <property name="kdenlive_id">frei0r.colorize</property>
-    <property name="tag">frei0r.colorize</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-    <property name="0">0</property>
-    <property name="1">0,637</property>
-    <property name="2">0,583</property>
-   </filter>
-   <filter id="filter105">
-    <property name="version">0,3</property>
-    <property name="mlt_service">frei0r.levels</property>
-    <property name="kdenlive_id">frei0r.levels</property>
-    <property name="tag">frei0r.levels</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-    <property name="Channel">0,3</property>
-    <property name="Input black level">17298=0</property>
-    <property name="Input white level">17298=0,447</property>
-    <property name="Gamma">17298=0,07425</property>
-    <property name="Black output">17298=0,184</property>
-    <property name="White output">17298=0,399</property>
-    <property name="Show histogram">0</property>
-    <property name="Histogram position">0,3</property>
-   </filter>
-  </entry>
-  <blank length="23"/>
+  <blank length="92"/>
   <entry producer="6_playlist7" in="3093" out="3149"/>
   <blank length="86"/>
   <entry producer="producer0" in="3239" out="3285"/>
@@ -14435,20 +14402,6 @@
    <property name="force_track">1</property>
    <property name="rotation">0=-10;1=-13;6=-11;10=-15;16=-10;22=-10;26=-8;32=-13;35=-14;42=-14;45=-15;47=-15;57=-9;65=-6;70=-4</property>
    <property name="automatic">0</property>
-  </transition>
-  <transition id="transition29" in="3580" out="3581">
-   <property name="a_track">9</property>
-   <property name="b_track">10</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.saturation</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition30" in="3580" out="3581">
-   <property name="a_track">8</property>
-   <property name="b_track">9</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.screen</property>
-   <property name="force_track">0</property>
   </transition>
   <transition id="transition31" in="5565" out="5582">
    <property name="a_track">7</property>

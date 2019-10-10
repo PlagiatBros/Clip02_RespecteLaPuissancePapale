@@ -3414,7 +3414,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">13470</property>
+  <property name="kdenlive:docproperties.position">4700</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -5451,14 +5451,23 @@
 }
 </property>
    </filter>
+   <filter id="gamma">
+    <property name="gamma">3078=0,95</property>
+    <property name="mlt_service">gamma</property>
+    <property name="kdenlive_id">gamma</property>
+    <property name="tag">gamma</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="kdenlive_info">0/-1/</property>
+   </filter>
    <filter id="frei0r.brightness">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
     <property name="tag">frei0r.brightness</property>
-    <property name="kdenlive_ix">3</property>
+    <property name="kdenlive_ix">4</property>
     <property name="Brightness">0,45</property>
     <property name="kdenlive_info"/>
+    <property name="disable">0</property>
    </filter>
   </entry>
   <blank length="799"/>
@@ -11317,9 +11326,9 @@
    <property name="kdenlive_id">frei0r.saturat0r</property>
    <property name="tag">frei0r.saturat0r</property>
    <property name="kdenlive_ix">6</property>
-   <property name="kdenlive_info">1/-1/</property>
-   <property name="Saturation">0=0,11</property>
-   <property name="disable">1</property>
+   <property name="kdenlive_info">0/-1/</property>
+   <property name="Saturation">0=0,09</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="frei0r.colgate">
    <property name="version">0,1</property>
@@ -11330,7 +11339,7 @@
    <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,666667</property>
-   <property name="disable">0</property>
+   <property name="disable">1</property>
   </filter>
  </playlist>
  <playlist id="playlist6">

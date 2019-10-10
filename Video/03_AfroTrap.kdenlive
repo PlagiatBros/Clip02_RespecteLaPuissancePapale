@@ -1386,9 +1386,9 @@
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
    <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,95</property>
-   <property name="Gamma">0=0,3125</property>
+   <property name="Input black level">0=0,01</property>
+   <property name="Input white level">0=0,9</property>
+   <property name="Gamma">0=0,2875</property>
    <property name="Black output">0=0</property>
    <property name="White output">0=1</property>
    <property name="Show histogram">0</property>
@@ -1479,9 +1479,9 @@
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
    <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,95</property>
-   <property name="Gamma">0=0,3125</property>
+   <property name="Input black level">0=0,01</property>
+   <property name="Input white level">0=0,9</property>
+   <property name="Gamma">0=0,25</property>
    <property name="Black output">0=0</property>
    <property name="White output">0=1</property>
    <property name="Show histogram">0</property>
@@ -2713,7 +2713,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">18012</property>
+  <property name="kdenlive:docproperties.position">20256</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2727,7 +2727,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">14750</property>
   <property name="kdenlive:docproperties.zoneout">21939</property>
-  <property name="kdenlive:docproperties.zoom">11</property>
+  <property name="kdenlive:docproperties.zoom">10</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -2948,9 +2948,9 @@
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
    <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,95</property>
-   <property name="Gamma">0=0,3125</property>
+   <property name="Input black level">0=0,01</property>
+   <property name="Input white level">0=0,9</property>
+   <property name="Gamma">0=0,2875</property>
    <property name="Black output">0=0</property>
    <property name="White output">0=1</property>
    <property name="Show histogram">0</property>
@@ -3118,9 +3118,9 @@
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
    <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,95</property>
-   <property name="Gamma">0=0,3125</property>
+   <property name="Input black level">0=0,01</property>
+   <property name="Input white level">0=0,9</property>
+   <property name="Gamma">0=0,2875</property>
    <property name="Black output">0=0</property>
    <property name="White output">0=1</property>
    <property name="Show histogram">0</property>
@@ -3320,9 +3320,9 @@
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
    <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,95</property>
-   <property name="Gamma">0=0,3125</property>
+   <property name="Input black level">0=0,01</property>
+   <property name="Input white level">0=0,9</property>
+   <property name="Gamma">0=0,25</property>
    <property name="Black output">0=0</property>
    <property name="White output">0=1</property>
    <property name="Show histogram">0</property>
@@ -4176,22 +4176,22 @@
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <blank length="167"/>
-  <entry producer="28_playlist7" in="30534" out="30559">
-   <filter id="filter39" in="30531" out="30559">
+  <blank length="161"/>
+  <entry producer="28_playlist7" in="30534" out="30568">
+   <filter id="filter11" in="30534" out="30568">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
+    <property name="kdenlive_info"/>
     <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">0/-216:2304x1296:100</property>
+    <property name="disable"/>
+    <property name="transition.geometry">-480/-540:2880x1620:100</property>
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
    </filter>
   </entry>
-  <blank length="20"/>
+  <blank length="17"/>
   <entry producer="producer9" in="30632" out="30665"/>
   <blank length="12"/>
   <entry producer="producer11" in="30678" out="30824"/>
@@ -4821,7 +4821,16 @@
   <blank length="243"/>
   <entry producer="37_playlist9" in="16877" out="16918"/>
   <blank length="121"/>
-  <entry producer="37_playlist9" in="5023" out="5059"/>
+  <entry producer="37_playlist9" in="5023" out="5059">
+   <filter id="gamma">
+    <property name="gamma">5023=0,9</property>
+    <property name="mlt_service">gamma</property>
+    <property name="kdenlive_id">gamma</property>
+    <property name="tag">gamma</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
   <blank length="100"/>
   <entry producer="37_playlist9" in="17065" out="17088"/>
   <blank length="366"/>
