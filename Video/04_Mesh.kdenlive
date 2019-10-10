@@ -1489,6 +1489,32 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
+  <filter id="frei0r.colgate">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="frei0r.levels">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer title="Anonymous Submission" id="13" in="0" out="4748">
   <property name="length">00:01:34:49</property>
@@ -1554,6 +1580,32 @@
   <property name="meta.media.1.codec.color_trc">1</property>
   <property name="kdenlive:zone_in">2167</property>
   <property name="kdenlive:zone_out">2201</property>
+  <filter id="filter0">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter1">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer title="Anonymous Submission" id="12" in="0" out="23600">
   <property name="length">00:07:52:01</property>
@@ -1617,6 +1669,32 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
+  <filter id="filter2">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter3">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer title="Anonymous Submission" id="27" in="0" out="30874">
   <property name="length">00:10:17:25</property>
@@ -2654,7 +2732,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">26423</property>
+  <property name="kdenlive:docproperties.position">28541</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2668,7 +2746,7 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">21580</property>
   <property name="kdenlive:docproperties.zoneout">30844</property>
-  <property name="kdenlive:docproperties.zoom">2</property>
+  <property name="kdenlive:docproperties.zoom">9</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -2885,6 +2963,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter4">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter5">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer title="Anonymous Submission" id="producer0" in="0" out="23600">
   <property name="length">00:07:52:01</property>
@@ -2923,7 +3027,7 @@
    </filter>
   </entry>
   <entry producer="12_playlist6" in="5064" out="5077">
-   <filter id="filter0">
+   <filter id="filter6">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3016,6 +3120,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter7">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter8">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:3:1:0" in="0" out="7866">
   <property name="length">7867</property>
@@ -3077,6 +3207,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter9">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter10">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:0,55:1:0" in="0" out="42910">
   <property name="length">42911</property>
@@ -3138,6 +3294,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter11">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter12">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer title="Anonymous Submission" id="producer2" in="0" out="23600">
   <property name="length">00:07:52:01</property>
@@ -3161,7 +3343,7 @@
   <property name="kdenlive:locked_track">0</property>
   <blank length="24697"/>
   <entry producer="producer1" in="7915" out="7944">
-   <filter id="filter1">
+   <filter id="filter13">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3177,7 +3359,7 @@
   <entry producer="12_playlist3" in="1564" out="2592"/>
   <blank length="39"/>
   <entry producer="12_playlist3" in="11400" out="11449">
-   <filter id="filter2" in="11400" out="11449">
+   <filter id="filter14" in="11400" out="11449">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3205,7 +3387,7 @@
   <blank length="3"/>
   <entry producer="12_playlist3" in="3917" out="4133"/>
   <entry producer="12_playlist3" in="4134" out="4158">
-   <filter id="filter3">
+   <filter id="filter15">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3220,7 +3402,7 @@
   <entry producer="12_playlist3" in="4159" out="4323"/>
   <blank length="6"/>
   <entry producer="12_playlist3" in="4324" out="4545">
-   <filter id="filter4" in="4324" out="4545">
+   <filter id="filter16" in="4324" out="4545">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3233,7 +3415,7 @@
    </filter>
   </entry>
   <entry producer="12_playlist3" in="4546" out="4571">
-   <filter id="filter5">
+   <filter id="filter17">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3244,7 +3426,7 @@
     <property name="transition.geometry">-91/0:2880x1620:100</property>
     <property name="transition.distort">0</property>
    </filter>
-   <filter id="filter6">
+   <filter id="filter18">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3257,7 +3439,7 @@
    </filter>
   </entry>
   <entry producer="12_playlist3" in="4572" out="4605">
-   <filter id="filter7">
+   <filter id="filter19">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3270,7 +3452,7 @@
    </filter>
   </entry>
   <entry producer="12_playlist3" in="4606" out="4728">
-   <filter id="filter8">
+   <filter id="filter20">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3348,6 +3530,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter21">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter22">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:0,68:1:0" in="0" out="34706">
   <property name="length">34707</property>
@@ -3409,6 +3617,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter23">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter24">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:1,21:1:0" in="0" out="19504">
   <property name="length">19505</property>
@@ -3470,6 +3704,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter25">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter26">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:0,71:1:0" in="0" out="33240">
   <property name="length">33241</property>
@@ -3531,6 +3791,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter27">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter28">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:0,6:1:0" in="0" out="39334">
   <property name="length">39335</property>
@@ -3592,6 +3878,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter29">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter30">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer title="Anonymous Submission" id="13_playlist4" in="0" out="4748">
   <property name="length">00:01:34:49</property>
@@ -3658,6 +3970,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter31">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter32">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <playlist id="playlist4">
   <property name="kdenlive:track_name">Vidéo 2</property>
@@ -3673,7 +4011,7 @@
   <blank length="82"/>
   <entry producer="12_playlist4" in="7922" out="8012"/>
   <entry producer="12_playlist4" in="8013" out="8084">
-   <filter id="filter9">
+   <filter id="filter33">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3779,6 +4117,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter34">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter35">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:1,09:1:0" in="0" out="21651">
   <property name="length">21652</property>
@@ -3840,6 +4204,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter36">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter37">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:0,91:1:0" in="0" out="25934">
   <property name="length">25935</property>
@@ -3901,6 +4291,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter38">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter39">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:0,44:1:0" in="0" out="53637">
   <property name="length">53638</property>
@@ -3962,6 +4378,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter40">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter41">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:13:0,5:1:0" in="0" out="9497">
   <property name="length">9498</property>
@@ -4023,6 +4465,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter42">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter43">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:13:0,6:1:0" in="0" out="7914">
   <property name="length">7915</property>
@@ -4084,6 +4552,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter44">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter45">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Vidéo 3</property>
@@ -4098,7 +4592,7 @@
   <entry producer="slowmotion:12:1,09:1:0" in="15311" out="15409"/>
   <entry producer="slowmotion:12:0,91:1:0" in="18458" out="18526"/>
   <entry producer="slowmotion:12:0,91:1:0" in="18527" out="18553">
-   <filter id="filter10">
+   <filter id="filter46">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4111,7 +4605,7 @@
    </filter>
   </entry>
   <entry producer="12_playlist5" in="16884" out="17008">
-   <filter id="filter11">
+   <filter id="filter47">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4132,7 +4626,7 @@
   <blank length="123"/>
   <entry producer="12_playlist5" in="18507" out="18588"/>
   <entry producer="12_playlist5" in="18589" out="18661">
-   <filter id="filter12">
+   <filter id="filter48">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4162,7 +4656,7 @@
   <entry producer="12_playlist5" in="20021" out="20090"/>
   <blank length="107"/>
   <entry producer="12_playlist5" in="20185" out="20233">
-   <filter id="filter13">
+   <filter id="filter49">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4176,7 +4670,7 @@
   </entry>
   <blank length="736"/>
   <entry producer="slowmotion:13:0,5:1:0" in="8093" out="8218">
-   <filter id="filter14" in="8093" out="8218">
+   <filter id="filter50" in="8093" out="8218">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4315,6 +4809,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter51">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter52">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer title="Anonymous Submission" id="13_playlist0" in="0" out="4748">
   <property name="length">00:01:34:49</property>
@@ -4381,6 +4901,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter53">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter54">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:13:0,94:1:0" in="0" out="5051">
   <property name="length">5052</property>
@@ -4442,6 +4988,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter55">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter56">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:13:0,95:1:0" in="0" out="4998">
   <property name="length">4999</property>
@@ -4503,6 +5075,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter57">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter58">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:13:0,63:1:0" in="0" out="7537">
   <property name="length">7538</property>
@@ -4564,6 +5162,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter59">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter60">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:13:0,85:1:0" in="0" out="5586">
   <property name="length">5587</property>
@@ -4625,6 +5249,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter61">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter62">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <producer id="slowmotion:12:0,5:1:0" in="0" out="47201">
   <property name="length">47202</property>
@@ -4686,6 +5336,32 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <filter id="filter63">
+   <property name="version">0,1</property>
+   <property name="mlt_service">frei0r.colgate</property>
+   <property name="kdenlive_id">frei0r.colgate</property>
+   <property name="tag">frei0r.colgate</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Neutral Color">0x7f7f7fff</property>
+   <property name="Color Temperature">0=0,523333</property>
+  </filter>
+  <filter id="filter64">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,85</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
  </producer>
  <playlist id="playlist0">
   <property name="kdenlive:track_name">Vidéo 4</property>
@@ -4693,7 +5369,7 @@
   <entry producer="slowmotion:28:0,74:1:0" in="47405" out="47527"/>
   <blank length="893"/>
   <entry producer="12_playlist0" in="7835" out="7911">
-   <filter id="filter16">
+   <filter id="filter65">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4706,7 +5382,7 @@
    </filter>
   </entry>
   <entry producer="12_playlist0" in="7915" out="7944">
-   <filter id="filter17" in="7915" out="7944">
+   <filter id="filter66" in="7915" out="7944">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4730,7 +5406,7 @@
   <blank length="159"/>
   <entry producer="13_playlist0" in="1631" out="1710"/>
   <entry producer="slowmotion:13:0,63:1:0" in="2716" out="2748">
-   <filter id="filter18">
+   <filter id="filter67">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5227,7 +5903,7 @@
   <property name="kdenlive:track_name">Video 7</property>
   <blank length="30110"/>
   <entry producer="slowmotion:41:0,6:1:0" in="66696" out="66705">
-   <filter id="filter19">
+   <filter id="filter68">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -5240,7 +5916,7 @@
     <property name="2">0,01</property>
     <property name="3">0</property>
    </filter>
-   <filter id="filter20" in="66696" out="66705">
+   <filter id="filter69" in="66696" out="66705">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5253,7 +5929,7 @@
    </filter>
   </entry>
   <entry producer="slowmotion:41:0,5:1:0" in="80072" out="80303">
-   <filter id="filter15" in="80046" out="80304">
+   <filter id="filter70" in="80046" out="80304">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5267,7 +5943,7 @@
    </filter>
   </entry>
   <entry producer="slowmotion:41:0,5:1:0" in="80304" out="80307">
-   <filter id="filter21">
+   <filter id="filter71">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -5280,7 +5956,7 @@
     <property name="2">0,01</property>
     <property name="3">0</property>
    </filter>
-   <filter id="filter22" in="80304" out="80307">
+   <filter id="filter72" in="80304" out="80307">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5294,7 +5970,7 @@
    </filter>
   </entry>
   <entry producer="slowmotion:41:0,5:1:0" in="80424" out="80701">
-   <filter id="filter23" in="80424" out="80739">
+   <filter id="filter73" in="80424" out="80739">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5396,7 +6072,7 @@
   <entry producer="producer3" in="34945" out="35007"/>
   <blank length="3350"/>
   <entry producer="slowmotion:35:0,7:1:0" in="3891" out="3920">
-   <filter id="filter24" in="3900" out="3920">
+   <filter id="filter74" in="3900" out="3920">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5411,7 +6087,7 @@
   </entry>
   <blank length="552"/>
   <entry producer="slowmotion:41:0,6:1:0" in="65281" out="65443">
-   <filter id="filter25" in="65281" out="65443">
+   <filter id="filter75" in="65281" out="65443">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5425,7 +6101,7 @@
    </filter>
   </entry>
   <entry producer="slowmotion:41:0,6:1:0" in="65444" out="65568">
-   <filter id="filter26" in="65444" out="65576">
+   <filter id="filter76" in="65444" out="65576">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5440,7 +6116,7 @@
   </entry>
   <blank length="247"/>
   <entry producer="slowmotion:41:0,6:1:0" in="65554" out="65676">
-   <filter id="filter27" in="65554" out="65687">
+   <filter id="filter77" in="65554" out="65687">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5827,7 +6503,7 @@
   <property name="kdenlive:locked_track">0</property>
   <blank length="24477"/>
   <entry producer="slowmotion:28:0,7:1:0" in="51152" out="51263">
-   <filter id="filter28">
+   <filter id="filter78">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5840,7 +6516,7 @@
    </filter>
   </entry>
   <entry producer="28_playlist11" in="35884" out="35897">
-   <filter id="filter29" in="35884" out="35897">
+   <filter id="filter79" in="35884" out="35897">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5866,7 +6542,7 @@
   <blank length="153"/>
   <entry producer="28_playlist11" in="37539" out="37544"/>
   <entry producer="slowmotion:28:0,6:1:0" in="62573" out="62595">
-   <filter id="filter30">
+   <filter id="filter80">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5882,7 +6558,7 @@
   <entry producer="28_playlist11" in="37740" out="37790"/>
   <blank length="30"/>
   <entry producer="producer5" in="1638" out="1675">
-   <filter id="filter31">
+   <filter id="filter81">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5895,7 +6571,7 @@
    </filter>
   </entry>
   <entry producer="producer6" in="1750" out="1776">
-   <filter id="filter32">
+   <filter id="filter82">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5912,7 +6588,7 @@
   <blank length="206"/>
   <entry producer="producer7" in="1334" out="1361"/>
   <entry producer="producer8" in="1362" out="1404">
-   <filter id="filter33">
+   <filter id="filter83">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5929,7 +6605,7 @@
   <entry producer="slowmotion:28:0,5:1:0" in="77876" out="77908"/>
   <blank length="257"/>
   <entry producer="34_playlist11" in="4525" out="4578">
-   <filter id="filter34">
+   <filter id="filter84">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5947,7 +6623,7 @@
   <entry producer="slowmotion:28:0,65:1:0" in="61242" out="61278"/>
   <blank length="14"/>
   <entry producer="producer9" in="39842" out="39854">
-   <filter id="filter35">
+   <filter id="filter85">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5961,7 +6637,7 @@
   </entry>
   <blank length="39"/>
   <entry producer="35_playlist11" in="2098" out="2152">
-   <filter id="filter36" in="2098" out="2152">
+   <filter id="filter86" in="2098" out="2152">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5975,7 +6651,7 @@
   </entry>
   <blank length="88"/>
   <entry producer="35_playlist11" in="2241" out="2269">
-   <filter id="filter37" in="2241" out="2286">
+   <filter id="filter87" in="2241" out="2286">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5990,7 +6666,7 @@
   </entry>
   <blank length="1015"/>
   <entry producer="slowmotion:41:0,6:1:0" in="65723" out="66027">
-   <filter id="filter38" in="65723" out="66027">
+   <filter id="filter88" in="65723" out="66027">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6159,7 +6835,7 @@
   <entry producer="35_playlist12" in="988" out="1039"/>
   <blank length="40"/>
   <entry producer="35_playlist12" in="1084" out="1129">
-   <filter id="filter39">
+   <filter id="filter89">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6176,7 +6852,7 @@
   <blank length="574"/>
   <entry producer="35_playlist12" in="1318" out="1361"/>
   <entry producer="35_playlist12" in="1362" out="1382">
-   <filter id="filter40">
+   <filter id="filter90">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6190,7 +6866,7 @@
   </entry>
   <blank length="553"/>
   <entry producer="35_playlist12" in="1634" out="1675">
-   <filter id="filter41" in="1638" out="1675">
+   <filter id="filter91" in="1638" out="1675">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6204,7 +6880,7 @@
    </filter>
   </entry>
   <entry producer="35_playlist12" in="1750" out="1776">
-   <filter id="filter42" in="1735" out="1751">
+   <filter id="filter92" in="1735" out="1751">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6219,7 +6895,7 @@
   </entry>
   <blank length="707"/>
   <entry producer="34_playlist12" in="4525" out="4583">
-   <filter id="filter43" in="4525" out="4583">
+   <filter id="filter93" in="4525" out="4583">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6234,7 +6910,7 @@
   <blank length="132"/>
   <entry producer="35_playlist12" in="1897" out="1960"/>
   <entry producer="35_playlist12" in="1961" out="1984">
-   <filter id="filter44" in="1961" out="1984">
+   <filter id="filter94" in="1961" out="1984">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6248,7 +6924,7 @@
    </filter>
   </entry>
   <entry producer="35_playlist12" in="1985" out="2011">
-   <filter id="filter45" in="1985" out="2011">
+   <filter id="filter95" in="1985" out="2011">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
