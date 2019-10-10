@@ -2937,7 +2937,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">12254</property>
+  <property name="kdenlive:docproperties.position">13963</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2951,7 +2951,7 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">6622</property>
   <property name="kdenlive:docproperties.zoneout">7663</property>
-  <property name="kdenlive:docproperties.zoom">5</property>
+  <property name="kdenlive:docproperties.zoom">6</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -11483,7 +11483,19 @@
   <blank length="410"/>
   <entry producer="slowmotion:43:0,5:1:0" in="33546" out="33665"/>
   <blank length="1125"/>
-  <entry producer="43_playlist12" in="17751" out="17824"/>
+  <entry producer="43_playlist12" in="17751" out="17824">
+   <filter id="filter188" in="17751" out="17824">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.geometry">0/0:2880x1620:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
   <blank length="186"/>
   <entry producer="43_playlist12" in="17904" out="17930"/>
   <blank length="405"/>
@@ -12248,7 +12260,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter188">
+  <filter id="filter197">
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.contrast0r</property>
    <property name="kdenlive_id">frei0r.contrast0r</property>
@@ -12723,8 +12735,8 @@
   </entry>
   <blank length="1089"/>
   <entry producer="41_playlist16" in="8643" out="8655"/>
-  <entry producer="41_playlist16" in="8656" out="8680">
-   <filter id="filter216" in="8656" out="8680">
+  <entry producer="41_playlist16" in="8656" out="8686">
+   <filter id="filter198" in="8656" out="8680">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -12734,9 +12746,10 @@
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
-  <blank length="42"/>
+  <blank length="36"/>
   <entry producer="28_playlist16" in="8792" out="8841"/>
  </playlist>
  <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="63933">
