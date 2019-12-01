@@ -2703,6 +2703,22 @@
   <property name="kdenlive:file_hash">23a7c272941f6ead8c4c67cee7e89762</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="45" in="0" out="255">
+  <property name="length">256</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/sunglasses.svg</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">537</property>
+  <property name="meta.media.height">212</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:duration">250</property>
+  <property name="kdenlive:file_size">10366</property>
+  <property name="kdenlive:file_hash">fcb10f200b14e219466b94dfc32e0529</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -2713,7 +2729,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">20256</property>
+  <property name="kdenlive:docproperties.position">16903</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2727,7 +2743,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">14750</property>
   <property name="kdenlive:docproperties.zoneout">21939</property>
-  <property name="kdenlive:docproperties.zoom">10</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -2810,6 +2826,7 @@
   <entry producer="41" in="0" out="42317"/>
   <entry producer="42" in="0" out="1689"/>
   <entry producer="43" in="0" out="3049"/>
+  <entry producer="45" in="0" out="249"/>
  </playlist>
  <producer id="black" in="0" out="65311">
   <property name="length">65312</property>
@@ -3335,31 +3352,33 @@
   <blank length="15984"/>
   <entry producer="25_playlist5" in="64" out="148"/>
   <blank length="50"/>
-  <entry producer="25_playlist5" in="199" out="322"/>
-  <blank length="33"/>
+  <entry producer="25_playlist5" in="199" out="294"/>
+  <entry producer="25_playlist5" in="298" out="321"/>
+  <blank length="37"/>
   <entry producer="25_playlist5" in="356" out="383"/>
   <blank length="50"/>
-  <entry producer="25_playlist5" in="434" out="491"/>
+  <entry producer="25_playlist5" in="437" out="494"/>
   <blank length="37"/>
-  <entry producer="25_playlist5" in="537" out="572"/>
-  <blank length="137"/>
+  <entry producer="25_playlist5" in="539" out="572"/>
+  <blank length="139"/>
   <entry producer="25_playlist5" in="702" out="812">
-   <filter id="filter18" in="702" out="812">
+   <filter id="filter11" in="702" out="812">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">0=0 0 1920 1080</property>
+    <property name="transition.geometry">0/0:2304x1296:100</property>
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
   <blank length="80"/>
   <entry producer="25_playlist5" in="893" out="943"/>
-  <entry producer="25_playlist5" in="944" out="1001"/>
-  <blank length="62"/>
+  <entry producer="25_playlist5" in="944" out="970"/>
+  <blank length="93"/>
   <entry producer="25_playlist5" in="1064" out="1364"/>
   <blank length="87"/>
   <entry producer="25_playlist5" in="1505" out="1557"/>
@@ -3479,6 +3498,111 @@
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">2</property>
     <property name="end">0</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist11">
+  <property name="kdenlive:track_name">Video 1</property>
+  <blank length="15984"/>
+  <entry producer="45" in="0" out="84">
+   <filter id="qtblend">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="rect">0=1163 294 76 43 1;13=1163 294 76 43 1;14=1151 303 76 43 1;15=1142 309 76 43 1;16=1142 309 76 43 1;17=1143 296 76 43 1;18=1138 273 76 43 1;19=1137 246 76 43 1;20=1140 224 76 43 1;21=1124 203 76 43 1;22=1116 194 76 43 1;23=1105 189 76 43 1;24=1100 188 76 43 1;25=1101 184 76 43 1;26=1114 171 76 43 1;27=1124 156 76 43 1;28=1140 142 76 43 1;29=1153 130 76 43 1;30=1171 122 76 43 1;31=1176 120 76 43 1;32=1187 122 76 43 1;33=1199 131 76 43 1;34=1213 143 76 43 1;35=1227 152 76 43 1;36=1237 162 76 43 1;37=1236 176 76 43 1;38=1234 182 76 43 1;39=1224 192 76 43 1;40=1202 203 76 43 1;41=1181 202 76 43 1;42=1155 203 76 43 1;43=1127 203 76 43 1;44=1100 202 76 43 1;45=1082 197 76 43 1;46=1061 190 76 43 1;47=1040 184 76 43 1;48=1025 177 76 43 1;49=1011 169 76 43 1;50=998 161 76 43 1;51=990 153 76 43 1;52=978 148 76 43 1;53=969 148 76 43 1;54=959 148 76 43 1;55=946 150 76 43 1;56=947 156 76 43 1;57=948,712 173,677 76 43 1;58=943 182 76 43 1;59=938 198 76 43 1;60=931 216 76 43 1;61=923 223 76 43 1;62=910 237 76 43 1;63=897 253 76 43 1;64=889 262 76 43 1;65=878 266 76 43 1;66=863 279 76 43 1;67=857 283 76 43 1;68=852 289 76 43 1;69=849 291 76 43 1;70=857 294 76 43 1;71=862 297 76 43 1;72=871 302 76 43 1;73=891 302 76 43 1;74=904 304 76 43 1;75=920 305 76 43 1;76=928 302 76 43 1;77=944 304 76 43 1;78=949 312 76 43 1;79=949 312 76 43 1;80=959 323 76 43 1;81=965 338 76 43 1;82=973 347 76 43 1;83=980 363 76 43 1;84=990 385 76 43 1;85=1004 402 76 43 1;86=1004 419 76 43 1;87=1017 448 76 43 1;88=1025 470 76 43 1;89=1025 490 76 43 1;90=1024 511 76 43 1;91=1022 530 76 43 1;92=1019 551 76 43 1;93=1020 561 76 43 1;94=1014 571 76 43 1;95=1011 579 76 43 1;96=1007 582 76 43 1;97=999 584 76 43 1;98=996 577 76 43 1;99=993 569 76 43 1;100=991 556 76 43 1;101=998 545 76 43 1;102=1009 529 76 43 1;103=1020 506 76 43 1;104=1037 490 76 43 1;105=1059 472 76 43 1;106=1077 453 76 43 1;107=1100 436 76 43 1;108=1106 420 76 43 1;109=1119 402 76 43 1;110=1126 393 76 43 1;111=1126 380 76 43 1;112=1130 370 76 43 1;113=1134 363 76 43 1;114=1143 355 76 43 1;115=1148 346 76 43 1;116=1153 336 76 43 1;117=1156 320 76 43 1;118=1158 307 76 43 1;119=1166 286 76 43 1;120=1168 265 76 43 1;121=1173 240 76 43 1;122=1185 215 76 43 1;123=1189 195 76 43 1;124=1192 177 76 43 1;125=1195 150 76 43 1;126=1194 134 76 43 1;127=1190 117 76 43 1;128=1190 106 76 43 1;129=1185 96 76 43 1;130=1182 90 76 43 1;132=1179 90 76 43 1;133=1174 92 76 43 1;134=1166 98 76 43 1;135=1156 114 76 43 1;136=1143 124 76 43 1;137=1130 140 76 43 1;138=1119 153 76 43 1;139=1105 161 76 43 1;140=1093 166 76 43 1;141=1087 169 76 43 1;142=1075 164 76 43 1;143=1066 160 76 43 1;144=1054 155 76 43 1;145=1043 145 76 43 1;146=1032 134 76 43 1;147=1019 124 76 43 1;148=1015 111 76 43 1;149=1004 104 76 43 1;150=998 98 76 43 1;151=996 95 76 43 1;152=990 87 76 43 1;153=985 88 76 43 1;154=985 93 76 43 1;155=985 96 76 43 1;156=980 100 76 43 1;157=973 104 76 43 1;158=964 116 76 43 1;159=947 130 76 43 1;160=938 150 76 43 1;161=905 171 76 43 1;162=880 195 76 43 1;163=836 236 76 43 1;164=800 265 76 43 1;165=771 307 76 43 1;166=752 334 76 43 1;167=745 359 76 43 1;168=739 376 76 43 1;169=739 386 76 43 1;170=744 388 76 43 1;171=750 385 76 43 1;172=760 376 76 43 1;173=771 365 76 43 1;174=786 355 76 43 1;175=800 346 76 43 1;176=805 336 76 43 1;177=808 325 76 43 1;178=799 317 76 43 1;204=960 197 76 43 1;205=972 200 76 43 1;206=981 210 76 43 1;207=986 219 76 43 1;208=983 231 76 43 1;209=967 247 76 43 1;210=946 266 76 43 1;211=925 278 76 43 1;212=917 291 76 43 1;213=915 297 76 43 1;214=920 302 76 43 1;215=930 307 76 43 1;216=947 307 76 43 1;217=964 302 76 43 1;218=983 292 76 43 1;219=1001 284 76 43 1;220=1019 274 76 43 1;221=1037 262 76 43 1;222=1049 258 76 43 1;223=1061 249 76 43 1;224=1069 242 76 43 1;225=1077 229 76 43 1</property>
+    <property name="rotation">0=4;13=4;14=4;15=4;16=4;17=4;18=4;19=4;20=4;21=4;22=4;23=4;24=4;25=4;26=-1;27=-10;28=-10;29=-10;30=-10;31=-10;32=-10;33=-10;34=-11;35=-11;36=-11;37=-11;38=-11;39=-11;40=-11;41=-11;42=-11;43=-6;44=1;45=1;46=1;47=1;48=1;49=1;50=1;51=1;52=1;53=1;54=-9;55=-14;56=-20;57=-11;58=-11;59=-11;60=-11;61=-11;62=-11;63=-11;64=-11;65=-11;66=-11;67=-11;68=-11;69=-11;70=-11;71=-11;72=-11;73=-11;74=-11;75=-11;76=-11;77=-11;78=-11;79=-7;80=-7;81=-7;82=-3;83=-1;84=1;85=4;86=4;87=4;88=16;89=16;90=16;91=16;92=16;93=16;94=16;95=16;96=16;97=16;98=16;99=16;100=16;101=16;102=16;103=13;104=13;105=13;106=13;107=13;108=13;109=13;110=13;111=13;112=13;113=13;114=13;115=13;116=13;117=13;118=13;119=13;120=13;121=13;122=13;123=11;124=11;125=11;126=11;127=11;128=11;129=11;130=11;132=11;133=11;134=11;135=6;136=6;137=4;138=4;139=-1;140=-1;141=-1;142=-1;143=-1;144=-1;145=-1;146=-1;147=-1;148=-1;149=-1;150=-1;151=-1;152=-1;153=-1;154=-1;155=-1;156=-1;157=-1;158=-1;159=-1;160=-1;161=-1;162=-1;163=-9;164=-11;165=-14;166=-14;167=-14;168=-14;169=-14;170=-14;171=-14;172=-14;173=-14;174=-14;175=-14;176=-14;177=-14;178=-14;204=-2;205=-2;206=-2;207=-2;208=-2;209=-2;210=-2;211=-2;212=-2;213=-2;214=-2;215=-2;216=2;217=2;218=2;219=2;220=2;221=2;222=2;223=2;224=2;225=2</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+   </filter>
+  </entry>
+  <blank length="50"/>
+  <entry producer="45" in="135" out="254">
+   <filter id="filter12">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+    <property name="rect">13=1163 294 76 43 1;14=1151 303 76 43 1;15=1142 309 76 43 1;16=1142 309 76 43 1;17=1143 296 76 43 1;18=1138 273 76 43 1;19=1137 246 76 43 1;20=1140 224 76 43 1;21=1124 203 76 43 1;22=1116 194 76 43 1;23=1105 189 76 43 1;24=1100 188 76 43 1;25=1101 184 76 43 1;26=1114 171 76 43 1;27=1124 156 76 43 1;28=1140 142 76 43 1;29=1153 130 76 43 1;30=1171 122 76 43 1;31=1176 120 76 43 1;32=1187 122 76 43 1;33=1199 131 76 43 1;34=1213 143 76 43 1;35=1227 152 76 43 1;36=1237 162 76 43 1;37=1236 176 76 43 1;38=1234 182 76 43 1;39=1224 192 76 43 1;40=1202 203 76 43 1;41=1181 202 76 43 1;42=1155 203 76 43 1;43=1127 203 76 43 1;44=1100 202 76 43 1;45=1082 197 76 43 1;46=1061 190 76 43 1;47=1040 184 76 43 1;48=1025 177 76 43 1;49=1011 169 76 43 1;50=998 161 76 43 1;51=990 153 76 43 1;52=978 148 76 43 1;53=969 148 76 43 1;54=959 148 76 43 1;55=946 150 76 43 1;56=947 156 76 43 1;57=948,712 173,677 76 43 1;58=943 182 76 43 1;59=938 198 76 43 1;60=931 216 76 43 1;61=923 223 76 43 1;62=910 237 76 43 1;63=897 253 76 43 1;64=889 262 76 43 1;65=878 266 76 43 1;66=863 279 76 43 1;67=857 283 76 43 1;68=852 289 76 43 1;69=849 291 76 43 1;70=857 294 76 43 1;71=862 297 76 43 1;72=871 302 76 43 1;73=891 302 76 43 1;74=904 304 76 43 1;75=920 305 76 43 1;76=928 302 76 43 1;77=944 304 76 43 1;78=949 312 76 43 1;79=949 312 76 43 1;80=959 323 76 43 1;81=965 338 76 43 1;82=973 347 76 43 1;83=980 363 76 43 1;84=990 385 76 43 1;85=1004 402 76 43 1;86=1004 419 76 43 1;87=1017 448 76 43 1;88=1025 470 76 43 1;89=1025 490 76 43 1;90=1024 511 76 43 1;91=1022 530 76 43 1;92=1019 551 76 43 1;93=1020 561 76 43 1;94=1014 571 76 43 1;95=1011 579 76 43 1;96=1007 582 76 43 1;97=999 584 76 43 1;98=996 577 76 43 1;99=993 569 76 43 1;100=991 556 76 43 1;101=998 545 76 43 1;102=1009 529 76 43 1;103=1020 506 76 43 1;104=1037 490 76 43 1;105=1059 472 76 43 1;106=1077 453 76 43 1;107=1100 436 76 43 1;108=1106 420 76 43 1;109=1119 402 76 43 1;110=1126 393 76 43 1;111=1126 380 76 43 1;112=1130 370 76 43 1;113=1134 363 76 43 1;114=1143 355 76 43 1;115=1148 346 76 43 1;116=1153 336 76 43 1;117=1156 320 76 43 1;118=1158 307 76 43 1;119=1166 286 76 43 1;120=1168 265 76 43 1;121=1173 240 76 43 1;122=1185 215 76 43 1;123=1189 195 76 43 1;124=1192 177 76 43 1;125=1195 150 76 43 1;126=1194 134 76 43 1;127=1190 117 76 43 1;128=1190 106 76 43 1;129=1185 96 76 43 1;130=1182 90 76 43 1;132=1179 90 76 43 1;133=1174 92 76 43 1;134=1166 98 76 43 1;135=1163 294 76 43 1;136=1143 124 76 43 1;137=1130 140 76 43 1;138=1119 153 76 43 1;139=1105 161 76 43 1;140=1093 166 76 43 1;141=1087 169 76 43 1;142=1075 164 76 43 1;143=1066 160 76 43 1;144=1054 155 76 43 1;145=1043 145 76 43 1;146=1032 134 76 43 1;147=1019 124 76 43 1;148=1015 111 76 43 1;149=1004 104 76 43 1;150=998 98 76 43 1;151=996 95 76 43 1;152=990 87 76 43 1;153=985 88 76 43 1;154=985 93 76 43 1;155=985 96 76 43 1;156=980 100 76 43 1;157=973 104 76 43 1;158=964 116 76 43 1;159=947 130 76 43 1;160=938 150 76 43 1;161=905 171 76 43 1;162=880 195 76 43 1;163=836 236 76 43 1;164=800 265 76 43 1;165=771 307 76 43 1;166=752 334 76 43 1;167=745 359 76 43 1;168=739 376 76 43 1;169=739 386 76 43 1;170=744 388 76 43 1;171=750 385 76 43 1;172=760 376 76 43 1;173=771 365 76 43 1;174=786 355 76 43 1;175=800 346 76 43 1;176=805 336 76 43 1;177=808 325 76 43 1;178=799 317 76 43 1;204=960 197 76 43 1;205=972 200 76 43 1;206=981 210 76 43 1;207=986 219 76 43 1;208=983 231 76 43 1;209=967 247 76 43 1;210=946 266 76 43 1;211=925 278 76 43 1;212=917 291 76 43 1;213=915 297 76 43 1;214=920 302 76 43 1;215=930 307 76 43 1;216=947 307 76 43 1;217=964 302 76 43 1;218=983 292 76 43 1;219=1001 284 76 43 1;220=1019 274 76 43 1;221=1037 262 76 43 1;222=1049 258 76 43 1;223=1061 249 76 43 1;224=1069 242 76 43 1;225=1077 229 76 43 1;226=1082 218 76 43 1;227=1088 205 76 43 1;228=1098 195 76 43 1;229=1105 181 76 43 1;230=1116 164 76 43 1;231=1147 124 76 43 1;232=1158 119 76 43 1;233=1164 119 76 43 1;234=1168 119 76 43 1;235=1170 119 76 43 1;236=1175 119 76 43 1;237=1177 119 76 43 1;238=1179 119 76 43 1;239=1177 119 76 43 1;240=1179 117 76 43 1;241=1179 117 76 43 1;242=1181 117 76 43 1;243=1185 115 76 43 1;244=1197 115 76 43 1;245=1210 114 76 43 1;246=1228 107 76 43 1;247=1242 105 80 45 1;248=1251 99 86 48 1;249=1262 100 87 48 1;250=1264 101 88 48 1;251=1262 104 89 48 1;252=1254 106 90 49 1;253=1246 112 91 50 1;254=1231 113 92 51 1</property>
+    <property name="rotation">13=4;14=4;15=4;16=4;17=4;18=4;19=4;20=4;21=4;22=4;23=4;24=4;25=4;26=-1;27=-10;28=-10;29=-10;30=-10;31=-10;32=-10;33=-10;34=-11;35=-11;36=-11;37=-11;38=-11;39=-11;40=-11;41=-11;42=-11;43=-6;44=1;45=1;46=1;47=1;48=1;49=1;50=1;51=1;52=1;53=1;54=-9;55=-14;56=-20;57=-11;58=-11;59=-11;60=-11;61=-11;62=-11;63=-11;64=-11;65=-11;66=-11;67=-11;68=-11;69=-11;70=-11;71=-11;72=-11;73=-11;74=-11;75=-11;76=-11;77=-11;78=-11;79=-7;80=-7;81=-7;82=-3;83=-1;84=1;85=4;86=4;87=4;88=16;89=16;90=16;91=16;92=16;93=16;94=16;95=16;96=16;97=16;98=16;99=16;100=16;101=16;102=16;103=13;104=13;105=13;106=13;107=13;108=13;109=13;110=13;111=13;112=13;113=13;114=13;115=13;116=13;117=13;118=13;119=13;120=13;121=13;122=13;123=11;124=11;125=11;126=11;127=11;128=11;129=11;130=11;132=11;133=11;134=11;135=4;136=6;137=4;138=4;139=-1;140=-1;141=-1;142=-1;143=-1;144=-1;145=-1;146=-1;147=-1;148=-1;149=-1;150=-1;151=-1;152=-1;153=-1;154=-1;155=-1;156=-1;157=-1;158=-1;159=-1;160=-1;161=-1;162=-1;163=-9;164=-11;165=-14;166=-14;167=-14;168=-14;169=-14;170=-14;171=-14;172=-14;173=-14;174=-14;175=-14;176=-14;177=-14;178=-14;204=-2;205=-2;206=-2;207=-2;208=-2;209=-2;210=-2;211=-2;212=-2;213=-2;214=-2;215=-2;216=2;217=2;218=2;219=2;220=2;221=2;222=2;223=2;224=2;225=2;226=2;227=2;228=2;229=2;230=2;231=2;232=2;233=2;234=2;235=2;236=2;237=2;238=2;239=2;240=2;241=2;242=2;243=2;244=5;245=5;246=5;247=5;248=9;249=9;250=9;251=9;252=9;253=9;254=9</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+   </filter>
+  </entry>
+  <blank length="115"/>
+  <entry producer="45" in="135" out="192">
+   <filter id="filter16">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+    <property name="rect">135=957 336 92 51 1;136=903 330 92 51 1;137=846 318 92 51 1;138=794 305 92 51 1;139=742 290 92 51 1;140=702 274 92 51 1;141=661 260 92 51 1;142=627 250 92 51 1;143=597 243 92 51 1;144=565 245 92 51 1;145=535 249 92 51 1;146=508 260 92 51 1;147=481 276 92 51 1;148=462 287 92 51 1;149=442 303 92 51 1;150=426 321 92 51 1;151=416 333 92 51 1;152=408 335 92 51 1;153=402 336 92 51 1;154=401 334 92 51 1;155=402 326 92 51 1;156=410 316 92 51 1;157=425 309 92 51 1;158=433 304 92 51 1;159=436 301 92 51 1;160=434 297 92 51 1;161=431 293 92 51 1;162=424 295 92 51 1;163=417 303 92 51 1;164=413 305 92 51 1;165=416 312 92 51 1;166=419 320 92 51 1;167=420 320 92 51 1;168=424 319 92 51 1;169=428 318 92 51 1;170=429 312 92 51 1;171=430 307 92 51 1;172=431 302 92 51 1;173=428 298 92 51 1;174=420 295 92 51 1;175=413 294 92 51 1;176=404 291 92 51 1;177=395 287 92 51 1;178=387 284 92 51 1;179=383 284 92 51 1;180=385 284 92 51 1;181=388 281 92 51 1;182=393 277 92 51 1;183=399 272 92 51 1;184=409 267 92 51 1;185=421 262 92 51 1;186=436 260 92 51 1;187=458 259 92 51 1;188=483 258 92 51 1;189=508 258 92 51 1;190=533 258 92 51 1;191=557 256 91 51 1;192=578 250 91 51 1</property>
+    <property name="rotation">135=13;136=18;137=16;138=16;139=18;140=18;141=18;142=18;143=13;144=11;145=8;146=8;147=4;148=4;149=2;150=2;151=2;152=2;153=2;154=2;155=2;156=2;157=2;158=2;159=2;160=2;161=2;162=2;163=0;164=0;165=0;166=0;167=0;168=0;169=0;170=0;171=0;172=0;173=-2;174=-2;175=-2;176=-2;177=-2;178=-2;179=-2;180=-2;181=-2;182=-2;183=-2;184=-2;185=-2;186=-2;187=-2;188=-2;189=-2;190=-2;191=-3;192=-3</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+   </filter>
+  </entry>
+  <blank length="37"/>
+  <entry producer="45" in="135" out="168">
+   <filter id="frei0r.c0rners">
+    <property name="version">0,2</property>
+    <property name="mlt_service">frei0r.c0rners</property>
+    <property name="kdenlive_id">frei0r.c0rners</property>
+    <property name="tag">frei0r.c0rners</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="Corner 1 X">160=0,333333;162=0,333333;165=0,333333;168=0,333333</property>
+    <property name="Corner 1 Y">160=0,333333;162=0,333333;165=0,333333;168=0,333333</property>
+    <property name="Corner 2 X">160=0,666667;162=0,575667;165=0,575667;168=0,5245</property>
+    <property name="Corner 2 Y">160=0,333333;162=0,360333;165=0,360333;168=0,360333</property>
+    <property name="Corner 3 X">160=0,666667;162=0,666667;165=0,666667;168=0,552167</property>
+    <property name="Corner 3 Y">160=0,666667;162=0,567167;165=0,567167;168=0,567167</property>
+    <property name="Corner 4 X">160=0,333333;162=0,333333;165=0,333333;168=0,333333</property>
+    <property name="Corner 4 Y">160=0,666667;162=0,666667;165=0,666667;168=0,666667</property>
+    <property name="Stretch X">160=0,5;162=0,373;165=0,373;168=0,354</property>
+    <property name="Stretch Y">160=0,5;162=0,5;165=0,5;168=0,5</property>
+    <property name="Feather Alpha">160=0,05;162=0,05;165=0,05;168=0,05</property>
+    <property name="Enable Stretch">1</property>
+    <property name="Interpolator">1,0</property>
+    <property name="Transparent Background">1</property>
+    <property name="Alpha operation">0,5</property>
+    <property name="kdenlive_info"/>
+   </filter>
+   <filter id="filter17">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="rect">135=1061 249 105 59 1;139=1084 252 105 59 1;144=1085 265 105 59 1;147=1076 292 113 63 1;151=1110 284 124 70 1;153=1107 253 137 77 0,98;158=1066 196 172 97 0,96;160=1071 185 172 97 0,96;161=1082 175 172 97 0,96;162=1092 159 172 97 0,96;163=1076 148 172 97 0,96;166=980 116 172 97 0,96;168=906 112 172 97 0,96</property>
+    <property name="rotation">135=32;139=32;144=32;147=30;151=32;153=29,7143;158=24;160=24;161=24;162=13;163=13;166=13;168=13</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+   </filter>
+  </entry>
+  <blank length="330"/>
+  <entry producer="45" in="135" out="185">
+   <filter id="filter18">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="rect">135=-28 493 211 118 1;136=19 459 211 118 1;137=68 430 211 118 1;138=128 394 211 118 1;139=206 368 230 129 1;140=264 341 230 129 1;141=339 316 230 129 1;142=414 291 230 129 1;143=489 272 230 129 1;144=545 238 230 129 1;145=589 219 230 129 1;146=626 197 230 129 1;147=660 166 230 129 1;148=691 147 230 129 1;149=735 138 230 129 1;150=769 132 230 129 1;151=807 135 230 129 1;152=832 144 230 129 1;153=841 144 230 129 1;154=847 151 230 129 1;155=847 151 230 129 1;156=857 160 230 129 1;158=910 157 230 129 1;160=1003 179 230 129 1;162=1097 235 230 129 1;165=1190 369 230 129 1;167=1287 456 230 129 1;168=1309 478 230 129 1;169=1343 490 230 129 1;171=1368 518 230 129 1;173=1343 515 230 129 1;174=1312 512 230 129 1;176=1262 453 230 129 1;178=1221 350 230 129 1;180=1125 241 230 129 1;181=1079 188 230 129 1;183=978 88 230 129 1;184=935 51 230 129 1;185=888 13 230 129 1</property>
+    <property name="rotation">135=0;136=0;137=-4;138=-5;139=-4,66667;140=-4,66667;141=-3;142=-4;143=-4;144=-4;145=-4;146=-4;147=-1;148=-1;149=-1;150=-1;151=1;152=1;153=2;154=2;155=2;156=5;158=10;160=21;162=31;165=38;167=48;168=48;169=48;171=48;173=48;174=48;176=48;178=40;180=32;181=22;183=13;184=11;185=6</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="disable"/>
    </filter>
   </entry>
  </playlist>
@@ -3923,26 +4047,6 @@
   <property name="kdenlive:binid">28</property>
   <property name="kdenlive:clipstate">0</property>
  </producer>
- <producer title="Anonymous Submission" id="producer5" in="0" out="43907">
-  <property name="length">00:14:38:08</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:folderid">17</property>
-  <property name="kdenlive:file_size">40537867713</property>
-  <property name="kdenlive:file_hash">eeb49a6f6e2626b129e2046ec649a60c</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:zone_in">31033</property>
-  <property name="kdenlive:zone_out">43908</property>
-  <property name="xml">was here</property>
-  <property name="kdenlive:binid">28</property>
-  <property name="kdenlive:clipstate">0</property>
- </producer>
  <producer title="Anonymous Submission" id="producer6" in="0" out="43907">
   <property name="length">00:14:38:08</property>
   <property name="eof">pause</property>
@@ -4112,11 +4216,9 @@
   <blank length="8"/>
   <entry producer="28_playlist7" in="26693" out="26910"/>
   <entry producer="28_playlist7" in="26882" out="26936"/>
-  <blank length="558"/>
-  <entry producer="producer4" in="27367" out="27393"/>
-  <blank length="115"/>
-  <entry producer="producer5" in="27509" out="28975"/>
-  <blank length="20"/>
+  <blank length="700"/>
+  <entry producer="producer4" in="27509" out="27538"/>
+  <blank length="1457"/>
   <entry producer="28_playlist7" in="28996" out="29020">
    <filter id="filter35" in="28996" out="29020">
     <property name="background">colour:0x00000000</property>
@@ -4178,7 +4280,7 @@
   </entry>
   <blank length="161"/>
   <entry producer="28_playlist7" in="30534" out="30568">
-   <filter id="filter11" in="30534" out="30568">
+   <filter id="filter25" in="30534" out="30568">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5000,6 +5102,7 @@
   <track hide="audio" producer="playlist3"/>
   <track hide="audio" producer="playlist4"/>
   <track hide="audio" producer="playlist5"/>
+  <track producer="playlist11"/>
   <track hide="audio" producer="playlist0"/>
   <track hide="audio" producer="playlist6"/>
   <track hide="audio" producer="playlist7"/>
@@ -5093,6 +5196,34 @@
    <property name="always_active">1</property>
    <property name="sum">1</property>
    <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition11">
+   <property name="a_track">0</property>
+   <property name="b_track">12</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition12" in="15780" out="22018">
+   <property name="a_track">5</property>
+   <property name="b_track">6</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">1</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">composite</property>
+   <property name="force_track">0</property>
+   <property name="deinterlace">0</property>
+   <property name="distort">0</property>
+   <property name="fill">1</property>
+   <property name="geometry">0%/0%:100%x100%:100</property>
+   <property name="halign">centre</property>
+   <property name="luma_invert">0</property>
+   <property name="operator">over</property>
+   <property name="softness">0</property>
+   <property name="valign">middle</property>
   </transition>
  </tractor>
 </mlt>
