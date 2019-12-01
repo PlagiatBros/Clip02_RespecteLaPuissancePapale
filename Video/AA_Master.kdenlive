@@ -196,7 +196,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">2517</property>
+  <property name="kdenlive:docproperties.position">2380</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -210,7 +210,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">47905</property>
-  <property name="kdenlive:docproperties.zoom">4</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:docproperties.renderaudioquality">320</property>
@@ -358,8 +358,7 @@
   <blank length="13699"/>
   <entry producer="39_playlist3" in="6874" out="9003"/>
   <blank length="6870"/>
-  <entry producer="39_playlist3" in="12686" out="12792"/>
-  <entry producer="39_playlist3" in="12971" out="14757"/>
+  <entry producer="39_playlist3" in="12684" out="13530"/>
  </playlist>
  <producer title="Anonymous Submission" id="39_playlist4" in="0" out="47607">
   <property name="length">00:15:52:08</property>
@@ -739,84 +738,8 @@
  </producer>
  <playlist id="playlist7">
   <property name="kdenlive:track_name">Video 2</property>
-  <blank length="2368"/>
-  <entry producer="28_playlist7" in="2365" out="2722">
-   <filter id="filter3">
-    <property name="mlt_service">avfilter.lut3d</property>
-    <property name="kdenlive_id">avfilter.lut3d</property>
-    <property name="tag">avfilter.lut3d</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-    <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
-    <property name="av.interp">tetrahedral </property>
-   </filter>
-   <filter id="filter4">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.softglow</property>
-    <property name="kdenlive_id">frei0r.softglow</property>
-    <property name="tag">frei0r.softglow</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-    <property name="0">0,505</property>
-    <property name="1">0,271</property>
-    <property name="2">0,1</property>
-    <property name="3">0</property>
-   </filter>
-   <filter id="filter5">
-    <property name="version">0,2</property>
-    <property name="mlt_service">frei0r.vignette</property>
-    <property name="kdenlive_id">frei0r.vignette</property>
-    <property name="tag">frei0r.vignette</property>
-    <property name="kdenlive_ix">3</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-    <property name="aspect">2365=0,5</property>
-    <property name="clearCenter">2365=0</property>
-    <property name="soft">2365=0,704</property>
-   </filter>
-   <filter id="frei0r.vertigo">
-    <property name="version">1,1</property>
-    <property name="mlt_service">frei0r.vertigo</property>
-    <property name="kdenlive_id">frei0r.vertigo</property>
-    <property name="tag">frei0r.vertigo</property>
-    <property name="kdenlive_ix">4</property>
-    <property name="kdenlive_info"/>
-    <property name="PhaseIncrement">2365=0,3;2725=0,3</property>
-    <property name="Zoomrate">2365=0,218;2725=0,23</property>
-    <property name="disable"/>
-   </filter>
-   <filter id="frei0r.levels">
-    <property name="version">0,3</property>
-    <property name="mlt_service">frei0r.levels</property>
-    <property name="kdenlive_id">frei0r.levels</property>
-    <property name="tag">frei0r.levels</property>
-    <property name="kdenlive_ix">5</property>
-    <property name="Channel">0,3</property>
-    <property name="Input black level">2365=0,697</property>
-    <property name="Input white level">2365=1</property>
-    <property name="Gamma">2365=0,3195</property>
-    <property name="Black output">2365=0</property>
-    <property name="White output">2365=1</property>
-    <property name="Show histogram">0</property>
-    <property name="Histogram position">0,3</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-   </filter>
-   <filter id="fadein" in="2365" out="2510">
-    <property name="window">75</property>
-    <property name="max_gain">20dB</property>
-    <property name="mlt_service">volume</property>
-    <property name="kdenlive_id">fadein</property>
-    <property name="tag">volume</property>
-    <property name="kdenlive_ix">6</property>
-    <property name="gain">0</property>
-    <property name="end">1</property>
-    <property name="kdenlive_info"/>
-   </filter>
-  </entry>
-  <entry producer="28_playlist7" in="2723" out="2725">
+  <blank length="2724"/>
+  <entry producer="28_playlist7" in="2721" out="2725">
    <filter id="filter6">
     <property name="mlt_service">avfilter.lut3d</property>
     <property name="kdenlive_id">avfilter.lut3d</property>
@@ -840,7 +763,7 @@
     <property name="2">0,1</property>
     <property name="3">0</property>
    </filter>
-   <filter id="filter8">
+   <filter id="filter3">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.vignette</property>
     <property name="kdenlive_id">frei0r.vignette</property>
@@ -848,33 +771,33 @@
     <property name="kdenlive_ix">3</property>
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
-    <property name="aspect">2365=0,5</property>
-    <property name="clearCenter">2365=0</property>
-    <property name="soft">2365=0,704</property>
+    <property name="aspect">2721=0,5</property>
+    <property name="clearCenter">2721=0</property>
+    <property name="soft">2721=0,704</property>
    </filter>
-   <filter id="filter9">
+   <filter id="frei0r.vertigo">
     <property name="version">1,1</property>
     <property name="mlt_service">frei0r.vertigo</property>
     <property name="kdenlive_id">frei0r.vertigo</property>
     <property name="tag">frei0r.vertigo</property>
     <property name="kdenlive_ix">4</property>
     <property name="kdenlive_info"/>
-    <property name="PhaseIncrement">2365=0,3;2725=0,3</property>
-    <property name="Zoomrate">2365=0,218;2725=0,23</property>
+    <property name="PhaseIncrement">2721=0,3;2725=0,3</property>
+    <property name="Zoomrate">2721=0,23;2725=0,23</property>
     <property name="disable"/>
    </filter>
-   <filter id="filter10">
+   <filter id="frei0r.levels">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.levels</property>
     <property name="kdenlive_id">frei0r.levels</property>
     <property name="tag">frei0r.levels</property>
     <property name="kdenlive_ix">5</property>
     <property name="Channel">0,3</property>
-    <property name="Input black level">2723=0</property>
-    <property name="Input white level">2365=1</property>
-    <property name="Gamma">2723=0,36825</property>
-    <property name="Black output">2723=0,271</property>
-    <property name="White output">2365=1</property>
+    <property name="Input black level">2721=0</property>
+    <property name="Input white level">2721=1</property>
+    <property name="Gamma">2721=0,36825</property>
+    <property name="Black output">2721=0,271</property>
+    <property name="White output">2721=1</property>
     <property name="Show histogram">0</property>
     <property name="Histogram position">0,3</property>
     <property name="kdenlive_info"/>
@@ -978,7 +901,7 @@
    <property name="automatic">0</property>
    <property name="luma"/>
   </transition>
-  <transition id="transition6" in="2368" out="2728">
+  <transition id="transition6" in="2724" out="2728">
    <property name="a_track">6</property>
    <property name="b_track">8</property>
    <property name="version">0,2</property>
@@ -1082,7 +1005,7 @@
    <property name="fill">1</property>
    <property name="geometry">0=0/0:1920x1080:0;35=0/0:1920x1080:30;113=0/0:1920x1080:100</property>
    <property name="halign">centre</property>
-   <property name="luma">/tmp/.mount_kdenliOu7eQM/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
+   <property name="luma">/tmp/.mount_kdenliJ0sSem/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0,04</property>
