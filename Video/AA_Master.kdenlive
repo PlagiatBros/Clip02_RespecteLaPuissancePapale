@@ -196,7 +196,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">24051</property>
+  <property name="kdenlive:docproperties.position">2517</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -210,7 +210,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">47905</property>
-  <property name="kdenlive:docproperties.zoom">12</property>
+  <property name="kdenlive:docproperties.zoom">4</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:docproperties.renderaudioquality">320</property>
@@ -504,23 +504,13 @@
     <property name="disable">1</property>
    </filter>
   </entry>
-  <entry producer="28_playlist5" in="2368" out="2725">
-   <filter id="frei0r.colortap">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.colortap</property>
-    <property name="kdenlive_id">frei0r.colortap</property>
-    <property name="tag">frei0r.colortap</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="table">xpro</property>
-    <property name="kdenlive_info">0/-1/</property>
-    <property name="disable">1</property>
-   </filter>
+  <entry producer="28_playlist5" in="2368" out="2728">
    <filter id="filter1">
     <property name="mlt_service">avfilter.lut3d</property>
     <property name="kdenlive_id">avfilter.lut3d</property>
     <property name="tag">avfilter.lut3d</property>
     <property name="kdenlive_info"/>
-    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_ix">1</property>
     <property name="disable">0</property>
     <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
     <property name="av.interp">tetrahedral </property>
@@ -530,7 +520,7 @@
     <property name="mlt_service">frei0r.softglow</property>
     <property name="kdenlive_id">frei0r.softglow</property>
     <property name="tag">frei0r.softglow</property>
-    <property name="kdenlive_ix">3</property>
+    <property name="kdenlive_ix">2</property>
     <property name="0">0,505</property>
     <property name="1">0,271</property>
     <property name="2">0,1</property>
@@ -538,140 +528,15 @@
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
    </filter>
-  </entry>
-  <entry producer="28_playlist5" in="2726" out="2726">
    <filter id="filter2">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.colortap</property>
-    <property name="kdenlive_id">frei0r.colortap</property>
-    <property name="tag">frei0r.colortap</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="table">xpro</property>
-    <property name="kdenlive_info">0/-1/</property>
-    <property name="disable">1</property>
-   </filter>
-   <filter id="filter3">
-    <property name="mlt_service">avfilter.lut3d</property>
-    <property name="kdenlive_id">avfilter.lut3d</property>
-    <property name="tag">avfilter.lut3d</property>
-    <property name="kdenlive_info"/>
-    <property name="kdenlive_ix">2</property>
-    <property name="disable">0</property>
-    <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
-    <property name="av.interp">tetrahedral </property>
-   </filter>
-   <filter id="filter4">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.softglow</property>
-    <property name="kdenlive_id">frei0r.softglow</property>
-    <property name="tag">frei0r.softglow</property>
+    <property name="version">0,2</property>
+    <property name="mlt_service">frei0r.vignette</property>
+    <property name="kdenlive_id">frei0r.vignette</property>
+    <property name="tag">frei0r.vignette</property>
     <property name="kdenlive_ix">3</property>
-    <property name="0">0,505</property>
-    <property name="1">0,271</property>
-    <property name="2">0,1</property>
-    <property name="3">0</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-   </filter>
-   <filter id="frei0r.pixeliz0r">
-    <property name="version">1</property>
-    <property name="mlt_service">frei0r.pixeliz0r</property>
-    <property name="kdenlive_id">frei0r.pixeliz0r</property>
-    <property name="tag">frei0r.pixeliz0r</property>
-    <property name="kdenlive_ix">4</property>
-    <property name="BlockSizeX">2726=0,032</property>
-    <property name="BlockSizeY">2726=0,008</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-   </filter>
-  </entry>
-  <entry producer="28_playlist5" in="2727" out="2727">
-   <filter id="filter5">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.colortap</property>
-    <property name="kdenlive_id">frei0r.colortap</property>
-    <property name="tag">frei0r.colortap</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="table">xpro</property>
-    <property name="kdenlive_info">0/-1/</property>
-    <property name="disable">1</property>
-   </filter>
-   <filter id="filter6">
-    <property name="mlt_service">avfilter.lut3d</property>
-    <property name="kdenlive_id">avfilter.lut3d</property>
-    <property name="tag">avfilter.lut3d</property>
-    <property name="kdenlive_info"/>
-    <property name="kdenlive_ix">2</property>
-    <property name="disable">0</property>
-    <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
-    <property name="av.interp">tetrahedral </property>
-   </filter>
-   <filter id="filter7">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.softglow</property>
-    <property name="kdenlive_id">frei0r.softglow</property>
-    <property name="tag">frei0r.softglow</property>
-    <property name="kdenlive_ix">3</property>
-    <property name="0">0,505</property>
-    <property name="1">0,271</property>
-    <property name="2">0,1</property>
-    <property name="3">0</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-   </filter>
-   <filter id="filter8">
-    <property name="version">1</property>
-    <property name="mlt_service">frei0r.pixeliz0r</property>
-    <property name="kdenlive_id">frei0r.pixeliz0r</property>
-    <property name="tag">frei0r.pixeliz0r</property>
-    <property name="kdenlive_ix">4</property>
-    <property name="BlockSizeX">2726=0,041</property>
-    <property name="BlockSizeY">2726=0,045</property>
-    <property name="kdenlive_info"/>
-   </filter>
-  </entry>
-  <entry producer="28_playlist5" in="2728" out="2728">
-   <filter id="filter9">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.colortap</property>
-    <property name="kdenlive_id">frei0r.colortap</property>
-    <property name="tag">frei0r.colortap</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="table">xpro</property>
-    <property name="kdenlive_info">0/-1/</property>
-    <property name="disable">1</property>
-   </filter>
-   <filter id="filter10">
-    <property name="mlt_service">avfilter.lut3d</property>
-    <property name="kdenlive_id">avfilter.lut3d</property>
-    <property name="tag">avfilter.lut3d</property>
-    <property name="kdenlive_info"/>
-    <property name="kdenlive_ix">2</property>
-    <property name="disable">0</property>
-    <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
-    <property name="av.interp">tetrahedral </property>
-   </filter>
-   <filter id="filter11">
-    <property name="version">0,9</property>
-    <property name="mlt_service">frei0r.softglow</property>
-    <property name="kdenlive_id">frei0r.softglow</property>
-    <property name="tag">frei0r.softglow</property>
-    <property name="kdenlive_ix">3</property>
-    <property name="0">0,505</property>
-    <property name="1">0,271</property>
-    <property name="2">0,1</property>
-    <property name="3">0</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-   </filter>
-   <filter id="filter12">
-    <property name="version">1</property>
-    <property name="mlt_service">frei0r.pixeliz0r</property>
-    <property name="kdenlive_id">frei0r.pixeliz0r</property>
-    <property name="tag">frei0r.pixeliz0r</property>
-    <property name="kdenlive_ix">4</property>
-    <property name="BlockSizeX">2728=0,05</property>
-    <property name="BlockSizeY">2728=0,056</property>
+    <property name="aspect">2368=0,5</property>
+    <property name="clearCenter">2368=0</property>
+    <property name="soft">2368=0,704</property>
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
    </filter>
@@ -861,8 +726,161 @@
    <property name="av.interp">tetrahedral </property>
   </filter>
  </playlist>
+ <producer title="Anonymous Submission" id="28_playlist7" in="0" out="114270">
+  <property name="length">00:38:05:21</property>
+  <property name="eof">pause</property>
+  <property name="resource">00_Intro.kdenlive</property>
+  <property name="mlt_service">xml</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">286174</property>
+  <property name="kdenlive:file_hash">0c76646757af9f65571b8e091e4fb017</property>
+ </producer>
  <playlist id="playlist7">
   <property name="kdenlive:track_name">Video 2</property>
+  <blank length="2368"/>
+  <entry producer="28_playlist7" in="2365" out="2722">
+   <filter id="filter3">
+    <property name="mlt_service">avfilter.lut3d</property>
+    <property name="kdenlive_id">avfilter.lut3d</property>
+    <property name="tag">avfilter.lut3d</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
+    <property name="av.interp">tetrahedral </property>
+   </filter>
+   <filter id="filter4">
+    <property name="version">0,9</property>
+    <property name="mlt_service">frei0r.softglow</property>
+    <property name="kdenlive_id">frei0r.softglow</property>
+    <property name="tag">frei0r.softglow</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0,505</property>
+    <property name="1">0,271</property>
+    <property name="2">0,1</property>
+    <property name="3">0</property>
+   </filter>
+   <filter id="filter5">
+    <property name="version">0,2</property>
+    <property name="mlt_service">frei0r.vignette</property>
+    <property name="kdenlive_id">frei0r.vignette</property>
+    <property name="tag">frei0r.vignette</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="aspect">2365=0,5</property>
+    <property name="clearCenter">2365=0</property>
+    <property name="soft">2365=0,704</property>
+   </filter>
+   <filter id="frei0r.vertigo">
+    <property name="version">1,1</property>
+    <property name="mlt_service">frei0r.vertigo</property>
+    <property name="kdenlive_id">frei0r.vertigo</property>
+    <property name="tag">frei0r.vertigo</property>
+    <property name="kdenlive_ix">4</property>
+    <property name="kdenlive_info"/>
+    <property name="PhaseIncrement">2365=0,3;2725=0,3</property>
+    <property name="Zoomrate">2365=0,218;2725=0,23</property>
+    <property name="disable"/>
+   </filter>
+   <filter id="frei0r.levels">
+    <property name="version">0,3</property>
+    <property name="mlt_service">frei0r.levels</property>
+    <property name="kdenlive_id">frei0r.levels</property>
+    <property name="tag">frei0r.levels</property>
+    <property name="kdenlive_ix">5</property>
+    <property name="Channel">0,3</property>
+    <property name="Input black level">2365=0,697</property>
+    <property name="Input white level">2365=1</property>
+    <property name="Gamma">2365=0,3195</property>
+    <property name="Black output">2365=0</property>
+    <property name="White output">2365=1</property>
+    <property name="Show histogram">0</property>
+    <property name="Histogram position">0,3</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+   </filter>
+   <filter id="fadein" in="2365" out="2510">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">6</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+  <entry producer="28_playlist7" in="2723" out="2725">
+   <filter id="filter6">
+    <property name="mlt_service">avfilter.lut3d</property>
+    <property name="kdenlive_id">avfilter.lut3d</property>
+    <property name="tag">avfilter.lut3d</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
+    <property name="av.interp">tetrahedral </property>
+   </filter>
+   <filter id="filter7">
+    <property name="version">0,9</property>
+    <property name="mlt_service">frei0r.softglow</property>
+    <property name="kdenlive_id">frei0r.softglow</property>
+    <property name="tag">frei0r.softglow</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="0">0,505</property>
+    <property name="1">0,271</property>
+    <property name="2">0,1</property>
+    <property name="3">0</property>
+   </filter>
+   <filter id="filter8">
+    <property name="version">0,2</property>
+    <property name="mlt_service">frei0r.vignette</property>
+    <property name="kdenlive_id">frei0r.vignette</property>
+    <property name="tag">frei0r.vignette</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+    <property name="aspect">2365=0,5</property>
+    <property name="clearCenter">2365=0</property>
+    <property name="soft">2365=0,704</property>
+   </filter>
+   <filter id="filter9">
+    <property name="version">1,1</property>
+    <property name="mlt_service">frei0r.vertigo</property>
+    <property name="kdenlive_id">frei0r.vertigo</property>
+    <property name="tag">frei0r.vertigo</property>
+    <property name="kdenlive_ix">4</property>
+    <property name="kdenlive_info"/>
+    <property name="PhaseIncrement">2365=0,3;2725=0,3</property>
+    <property name="Zoomrate">2365=0,218;2725=0,23</property>
+    <property name="disable"/>
+   </filter>
+   <filter id="filter10">
+    <property name="version">0,3</property>
+    <property name="mlt_service">frei0r.levels</property>
+    <property name="kdenlive_id">frei0r.levels</property>
+    <property name="tag">frei0r.levels</property>
+    <property name="kdenlive_ix">5</property>
+    <property name="Channel">0,3</property>
+    <property name="Input black level">2723=0</property>
+    <property name="Input white level">2365=1</property>
+    <property name="Gamma">2723=0,36825</property>
+    <property name="Black output">2723=0,271</property>
+    <property name="White output">2365=1</property>
+    <property name="Show histogram">0</property>
+    <property name="Histogram position">0,3</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+   </filter>
+  </entry>
  </playlist>
  <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="47905">
   <track producer="black_track"/>
@@ -960,7 +978,14 @@
    <property name="automatic">0</property>
    <property name="luma"/>
   </transition>
-  <transition id="transition6" in="4499" out="4732">
+  <transition id="transition6" in="2368" out="2728">
+   <property name="a_track">6</property>
+   <property name="b_track">8</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.dodge</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition9" in="4499" out="4732">
    <property name="a_track">5</property>
    <property name="b_track">6</property>
    <property name="start">0/0:100%x100%</property>
@@ -1042,7 +1067,7 @@
    <property name="shear_z">0</property>
    <property name="automatic">0</property>
   </transition>
-  <transition id="transition9" in="15416" out="15529">
+  <transition id="transition14" in="15416" out="15529">
    <property name="a_track">3</property>
    <property name="b_track">6</property>
    <property name="start">0/0:100%x100%</property>
@@ -1057,7 +1082,7 @@
    <property name="fill">1</property>
    <property name="geometry">0=0/0:1920x1080:0;35=0/0:1920x1080:30;113=0/0:1920x1080:100</property>
    <property name="halign">centre</property>
-   <property name="luma">/tmp/.mount_kdenli9GIPvh/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
+   <property name="luma">/tmp/.mount_kdenliOu7eQM/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0,04</property>
