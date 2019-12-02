@@ -196,7 +196,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">47728</property>
+  <property name="kdenlive:docproperties.position">4544</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -210,7 +210,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">47905</property>
-  <property name="kdenlive:docproperties.zoom">11</property>
+  <property name="kdenlive:docproperties.zoom">4</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:docproperties.renderaudioquality">320</property>
@@ -352,10 +352,21 @@
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Vidéo 1</property>
   <blank length="2729"/>
-  <entry producer="39_playlist3" in="0" out="2003"/>
+  <entry producer="39_playlist3" in="0" out="2003">
+   <filter id="filter1">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">0=0;1769=1,81818;114045=-60</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
   <blank length="6573"/>
   <entry producer="39_playlist3" in="1963" out="6607">
-   <filter id="filter1">
+   <filter id="filter2">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="level">2761=-60;2766=-1,81818;6163=0;6193=-60</property>
@@ -515,7 +526,7 @@
    </filter>
   </entry>
   <entry producer="28_playlist5" in="2368" out="2728">
-   <filter id="filter2">
+   <filter id="filter3">
     <property name="mlt_service">avfilter.lut3d</property>
     <property name="kdenlive_id">avfilter.lut3d</property>
     <property name="tag">avfilter.lut3d</property>
@@ -538,7 +549,7 @@
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter3">
+   <filter id="filter4">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.vignette</property>
     <property name="kdenlive_id">frei0r.vignette</property>
@@ -740,7 +751,7 @@
     <property name="2">0,1</property>
     <property name="3">0</property>
    </filter>
-   <filter id="filter4">
+   <filter id="filter5">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.vignette</property>
     <property name="kdenlive_id">frei0r.vignette</property>
@@ -1001,7 +1012,7 @@
    <property name="fill">1</property>
    <property name="geometry">0=0/0:1920x1080:0;35=0/0:1920x1080:30;113=0/0:1920x1080:100</property>
    <property name="halign">centre</property>
-   <property name="luma">/tmp/.mount_kdenli05XQYT/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
+   <property name="luma">/tmp/.mount_kdenli5VR2q1/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0,04</property>
