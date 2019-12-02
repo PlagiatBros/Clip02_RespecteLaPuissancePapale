@@ -2363,28 +2363,29 @@
   <property name="kdenlive:file_size">18359664313</property>
   <property name="kdenlive:file_hash">46f909828b8adaa191142911fc3d1240</property>
   <property name="global_feed">1</property>
-  <property name="kdenlive:zone_in">13119</property>
-  <property name="kdenlive:zone_out">13238</property>
+  <property name="kdenlive:zone_in">14884</property>
+  <property name="kdenlive:zone_out">14925</property>
   <filter id="frei0r.keyspillm0pup">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.keyspillm0pup</property>
    <property name="kdenlive_id">frei0r.keyspillm0pup</property>
    <property name="tag">frei0r.keyspillm0pup</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Key color">0xb986e5ff</property>
    <property name="Target color">0xc87f65ff</property>
    <property name="Mask type">0</property>
    <property name="Tolerance">0,892</property>
    <property name="Slope">1</property>
    <property name="Hue gate">0,794</property>
-   <property name="Saturation threshold">0,111</property>
+   <property name="Saturation threshold">0,124</property>
    <property name="Operation 1">1</property>
-   <property name="Amount 1">0,362</property>
+   <property name="Amount 1">0,187</property>
    <property name="Operation 2">3</property>
-   <property name="Amount 2">0,497</property>
+   <property name="Amount 2">0,498</property>
    <property name="Show mask">0</property>
    <property name="Mask to Alpha">0</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter5">
    <property name="version">0,3</property>
@@ -2401,6 +2402,7 @@
    <property name="White output">0=0,95</property>
    <property name="Show histogram">0</property>
    <property name="Histogram position">0,3</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter6">
    <property name="version">0,1</property>
@@ -2408,9 +2410,10 @@
    <property name="kdenlive_id">frei0r.colgate</property>
    <property name="tag">frei0r.colgate</property>
    <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
-   <property name="Color Temperature">0=0,4</property>
+   <property name="Color Temperature">0=0,413333</property>
+   <property name="disable">0</property>
   </filter>
  </producer>
  <producer id="38" in="0" out="9289">
@@ -2790,7 +2793,8 @@
    <property name="kdenlive_ix">3</property>
    <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
-   <property name="Color Temperature">0=0,4</property>
+   <property name="Color Temperature">0=0,413333</property>
+   <property name="disable">1</property>
   </filter>
  </producer>
  <producer title="Anonymous Submission" id="43" in="0" out="3049">
@@ -2855,13 +2859,15 @@
   <property name="kdenlive:file_size">2815906853</property>
   <property name="kdenlive:file_hash">23a7c272941f6ead8c4c67cee7e89762</property>
   <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">1516</property>
+  <property name="kdenlive:zone_out">1758</property>
   <filter id="filter11">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.keyspillm0pup</property>
    <property name="kdenlive_id">frei0r.keyspillm0pup</property>
    <property name="tag">frei0r.keyspillm0pup</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Key color">0xb986e5ff</property>
    <property name="Target color">0xc87f65ff</property>
    <property name="Mask type">0</property>
@@ -2870,11 +2876,12 @@
    <property name="Hue gate">0,794</property>
    <property name="Saturation threshold">0,111</property>
    <property name="Operation 1">1</property>
-   <property name="Amount 1">0,362</property>
+   <property name="Amount 1">0,359</property>
    <property name="Operation 2">3</property>
-   <property name="Amount 2">0,497</property>
+   <property name="Amount 2">0,486</property>
    <property name="Show mask">0</property>
    <property name="Mask to Alpha">0</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter12">
    <property name="version">0,3</property>
@@ -2891,6 +2898,7 @@
    <property name="White output">0=0,95</property>
    <property name="Show histogram">0</property>
    <property name="Histogram position">0,3</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter13">
    <property name="version">0,1</property>
@@ -2900,7 +2908,8 @@
    <property name="kdenlive_ix">3</property>
    <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
-   <property name="Color Temperature">0=0,4</property>
+   <property name="Color Temperature">0=0,413333</property>
+   <property name="disable">1</property>
   </filter>
  </producer>
  <producer title="Anonymous Submission" id="45" in="0" out="280">
@@ -2941,7 +2950,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">21483</property>
+  <property name="kdenlive:docproperties.position">15619</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2955,7 +2964,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">20533</property>
   <property name="kdenlive:docproperties.zoneout">20670</property>
-  <property name="kdenlive:docproperties.zoom">8</property>
+  <property name="kdenlive:docproperties.zoom">7</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -4403,206 +4412,206 @@
    <property name="tag">lines</property>
    <property name="kdenlive_ix">1</property>
    <property name="kdenlive_info">0/-1/</property>
-   <property name="line4">831</property>
+   <property name="line4">830</property>
    <property name="typeline4">1</property>
-   <property name="line3">1483</property>
+   <property name="line3">1487</property>
    <property name="typeline3">1</property>
-   <property name="line2">1293</property>
+   <property name="line2">1289</property>
    <property name="typeline2">3</property>
-   <property name="line1">957</property>
+   <property name="line1">956</property>
    <property name="typeline1">2</property>
-   <property name="line0">1106</property>
+   <property name="line0">1103</property>
    <property name="typeline0">1</property>
-   <property name="last_oldfilm_line_pos">74,1857</property>
-   <property name="line99">950</property>
+   <property name="last_oldfilm_line_pos">60,6786</property>
+   <property name="line99">946</property>
    <property name="typeline99">1</property>
-   <property name="line98">834</property>
+   <property name="line98">842</property>
    <property name="typeline98">2</property>
-   <property name="line97">1245</property>
+   <property name="line97">1237</property>
    <property name="typeline97">2</property>
-   <property name="line96">647</property>
+   <property name="line96">656</property>
    <property name="typeline96">3</property>
-   <property name="line95">1779</property>
+   <property name="line95">1782</property>
    <property name="typeline95">3</property>
-   <property name="line94">652</property>
+   <property name="line94">651</property>
    <property name="typeline94">1</property>
-   <property name="line93">235</property>
+   <property name="line93">232</property>
    <property name="typeline93">2</property>
-   <property name="line92">2410</property>
+   <property name="line92">2417</property>
    <property name="typeline92">2</property>
-   <property name="line91">1486</property>
+   <property name="line91">1487</property>
    <property name="typeline91">1</property>
-   <property name="line90">880</property>
+   <property name="line90">879</property>
    <property name="typeline90">3</property>
-   <property name="line89">1615</property>
+   <property name="line89">1624</property>
    <property name="typeline89">1</property>
-   <property name="line88">1283</property>
+   <property name="line88">1273</property>
    <property name="typeline88">1</property>
-   <property name="line87">859</property>
+   <property name="line87">866</property>
    <property name="typeline87">3</property>
-   <property name="line86">1165</property>
+   <property name="line86">1159</property>
    <property name="typeline86">1</property>
-   <property name="line85">706</property>
+   <property name="line85">707</property>
    <property name="typeline85">2</property>
-   <property name="line84">1581</property>
+   <property name="line84">1583</property>
    <property name="typeline84">2</property>
-   <property name="line83">274</property>
+   <property name="line83">271</property>
    <property name="typeline83">1</property>
-   <property name="line82">399</property>
+   <property name="line82">394</property>
    <property name="typeline82">3</property>
-   <property name="line81">1362</property>
+   <property name="line81">1361</property>
    <property name="typeline81">3</property>
-   <property name="line80">754</property>
+   <property name="line80">761</property>
    <property name="typeline80">3</property>
-   <property name="line79">257</property>
+   <property name="line79">265</property>
    <property name="typeline79">2</property>
-   <property name="line78">1411</property>
+   <property name="line78">1409</property>
    <property name="typeline78">1</property>
-   <property name="line77">1527</property>
+   <property name="line77">1523</property>
    <property name="typeline77">1</property>
-   <property name="line76">1059</property>
+   <property name="line76">1066</property>
    <property name="typeline76">1</property>
-   <property name="line75">1575</property>
+   <property name="line75">1583</property>
    <property name="typeline75">2</property>
-   <property name="line74">1358</property>
+   <property name="line74">1360</property>
    <property name="typeline74">1</property>
-   <property name="line73">1759</property>
+   <property name="line73">1754</property>
    <property name="typeline73">2</property>
-   <property name="line72">1390</property>
+   <property name="line72">1393</property>
    <property name="typeline72">1</property>
-   <property name="line71">1748</property>
+   <property name="line71">1749</property>
    <property name="typeline71">1</property>
    <property name="line70">1228</property>
    <property name="typeline70">1</property>
-   <property name="line69">1407</property>
+   <property name="line69">1404</property>
    <property name="typeline69">1</property>
-   <property name="line68">1152</property>
+   <property name="line68">1156</property>
    <property name="typeline68">1</property>
-   <property name="line67">420</property>
+   <property name="line67">426</property>
    <property name="typeline67">3</property>
-   <property name="line66">1336</property>
+   <property name="line66">1344</property>
    <property name="typeline66">3</property>
-   <property name="line65">1838</property>
+   <property name="line65">1835</property>
    <property name="typeline65">1</property>
-   <property name="line64">951</property>
+   <property name="line64">944</property>
    <property name="typeline64">1</property>
-   <property name="line63">1128</property>
+   <property name="line63">1123</property>
    <property name="typeline63">3</property>
-   <property name="line62">522</property>
+   <property name="line62">521</property>
    <property name="typeline62">1</property>
-   <property name="line61">153</property>
+   <property name="line61">147</property>
    <property name="typeline61">2</property>
-   <property name="line60">1835</property>
+   <property name="line60">1844</property>
    <property name="typeline60">3</property>
-   <property name="line59">955</property>
+   <property name="line59">950</property>
    <property name="typeline59">3</property>
-   <property name="line58">1549</property>
+   <property name="line58">1554</property>
    <property name="typeline58">3</property>
-   <property name="line57">1810</property>
+   <property name="line57">1809</property>
    <property name="typeline57">3</property>
-   <property name="line56">1310</property>
+   <property name="line56">1312</property>
    <property name="typeline56">1</property>
-   <property name="line55">1066</property>
+   <property name="line55">1069</property>
    <property name="typeline55">2</property>
-   <property name="line54">1643</property>
+   <property name="line54">1649</property>
    <property name="typeline54">3</property>
-   <property name="line53">248</property>
+   <property name="line53">249</property>
    <property name="typeline53">1</property>
-   <property name="line52">613</property>
+   <property name="line52">611</property>
    <property name="typeline52">3</property>
    <property name="line51">1141</property>
    <property name="typeline51">2</property>
    <property name="line50">1818</property>
    <property name="typeline50">3</property>
-   <property name="line49">658</property>
+   <property name="line49">664</property>
    <property name="typeline49">1</property>
-   <property name="line48">1144</property>
+   <property name="line48">1140</property>
    <property name="typeline48">2</property>
-   <property name="line47">2108</property>
+   <property name="line47">2103</property>
    <property name="typeline47">2</property>
-   <property name="line46">980</property>
+   <property name="line46">983</property>
    <property name="typeline46">2</property>
-   <property name="line45">890</property>
+   <property name="line45">895</property>
    <property name="typeline45">1</property>
-   <property name="line44">1889</property>
+   <property name="line44">1895</property>
    <property name="typeline44">1</property>
-   <property name="line43">1445</property>
+   <property name="line43">1441</property>
    <property name="typeline43">1</property>
-   <property name="line42">1644</property>
+   <property name="line42">1641</property>
    <property name="typeline42">1</property>
    <property name="line41">1341</property>
    <property name="typeline41">1</property>
-   <property name="line40">940</property>
+   <property name="line40">930</property>
    <property name="typeline40">3</property>
-   <property name="line39">1278</property>
+   <property name="line39">1283</property>
    <property name="typeline39">2</property>
-   <property name="line38">739</property>
+   <property name="line38">735</property>
    <property name="typeline38">3</property>
-   <property name="line37">1370</property>
+   <property name="line37">1369</property>
    <property name="typeline37">2</property>
-   <property name="line36">2016</property>
+   <property name="line36">2022</property>
    <property name="typeline36">1</property>
-   <property name="line35">1111</property>
+   <property name="line35">1115</property>
    <property name="typeline35">2</property>
-   <property name="line34">990</property>
+   <property name="line34">986</property>
    <property name="typeline34">2</property>
-   <property name="line33">577</property>
+   <property name="line33">570</property>
    <property name="typeline33">3</property>
-   <property name="line32">1628</property>
+   <property name="line32">1636</property>
    <property name="typeline32">2</property>
-   <property name="line31">1281</property>
+   <property name="line31">1273</property>
    <property name="typeline31">2</property>
-   <property name="line30">435</property>
+   <property name="line30">440</property>
    <property name="typeline30">2</property>
-   <property name="line29">1322</property>
+   <property name="line29">1323</property>
    <property name="typeline29">2</property>
-   <property name="line28">1867</property>
+   <property name="line28">1864</property>
    <property name="typeline28">1</property>
-   <property name="line27">2720</property>
+   <property name="line27">2723</property>
    <property name="typeline27">2</property>
-   <property name="line26">119</property>
+   <property name="line26">115</property>
    <property name="typeline26">1</property>
    <property name="line25">1285</property>
    <property name="typeline25">2</property>
-   <property name="line24">2262</property>
+   <property name="line24">2258</property>
    <property name="typeline24">3</property>
-   <property name="line23">221</property>
+   <property name="line23">224</property>
    <property name="typeline23">3</property>
-   <property name="line22">1739</property>
+   <property name="line22">1737</property>
    <property name="typeline22">2</property>
-   <property name="line21">701</property>
+   <property name="line21">706</property>
    <property name="typeline21">2</property>
-   <property name="line20">1097</property>
+   <property name="line20">1107</property>
    <property name="typeline20">1</property>
-   <property name="line19">1474</property>
+   <property name="line19">1470</property>
    <property name="typeline19">2</property>
-   <property name="line18">1124</property>
+   <property name="line18">1125</property>
    <property name="typeline18">2</property>
-   <property name="line17">1557</property>
+   <property name="line17">1565</property>
    <property name="typeline17">2</property>
-   <property name="line16">1796</property>
+   <property name="line16">1801</property>
    <property name="typeline16">1</property>
-   <property name="line15">435</property>
+   <property name="line15">431</property>
    <property name="typeline15">3</property>
-   <property name="line14">1448</property>
+   <property name="line14">1456</property>
    <property name="typeline14">2</property>
    <property name="line13">1855</property>
    <property name="typeline13">2</property>
    <property name="line12">925</property>
    <property name="typeline12">3</property>
-   <property name="line11">854</property>
+   <property name="line11">856</property>
    <property name="typeline11">1</property>
-   <property name="line10">1131</property>
+   <property name="line10">1130</property>
    <property name="typeline10">1</property>
-   <property name="line9">1237</property>
+   <property name="line9">1231</property>
    <property name="typeline9">1</property>
-   <property name="line8">944</property>
+   <property name="line8">946</property>
    <property name="typeline8">1</property>
-   <property name="line7">1971</property>
+   <property name="line7">1965</property>
    <property name="typeline7">1</property>
-   <property name="line6">750</property>
+   <property name="line6">742</property>
    <property name="typeline6">1</property>
-   <property name="line5">1632</property>
+   <property name="line5">1627</property>
    <property name="typeline5">1</property>
    <property name="disable">0</property>
   </filter>
@@ -4676,7 +4685,7 @@
    <property name="kdenlive_id">frei0r.keyspillm0pup</property>
    <property name="tag">frei0r.keyspillm0pup</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Key color">0xb986e5ff</property>
    <property name="Target color">0xc87f65ff</property>
    <property name="Mask type">0</property>
@@ -4685,11 +4694,12 @@
    <property name="Hue gate">0,794</property>
    <property name="Saturation threshold">0,111</property>
    <property name="Operation 1">1</property>
-   <property name="Amount 1">0,362</property>
+   <property name="Amount 1">0,359</property>
    <property name="Operation 2">3</property>
-   <property name="Amount 2">0,497</property>
+   <property name="Amount 2">0,486</property>
    <property name="Show mask">0</property>
    <property name="Mask to Alpha">0</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter52">
    <property name="version">0,3</property>
@@ -4706,6 +4716,7 @@
    <property name="White output">0=0,95</property>
    <property name="Show histogram">0</property>
    <property name="Histogram position">0,3</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter53">
    <property name="version">0,1</property>
@@ -4715,7 +4726,8 @@
    <property name="kdenlive_ix">3</property>
    <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
-   <property name="Color Temperature">0=0,4</property>
+   <property name="Color Temperature">0=0,413333</property>
+   <property name="disable">1</property>
   </filter>
  </producer>
  <producer title="Anonymous Submission" id="22_playlist0" in="0" out="2303">
@@ -5042,7 +5054,8 @@
    <property name="kdenlive_ix">3</property>
    <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
-   <property name="Color Temperature">0=0,4</property>
+   <property name="Color Temperature">0=0,413333</property>
+   <property name="disable">1</property>
   </filter>
  </producer>
  <producer title="Anonymous Submission" id="producer3" in="0" out="3049">
@@ -5726,20 +5739,21 @@
    <property name="kdenlive_id">frei0r.keyspillm0pup</property>
    <property name="tag">frei0r.keyspillm0pup</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Key color">0xb986e5ff</property>
    <property name="Target color">0xc87f65ff</property>
    <property name="Mask type">0</property>
    <property name="Tolerance">0,892</property>
    <property name="Slope">1</property>
    <property name="Hue gate">0,794</property>
-   <property name="Saturation threshold">0,111</property>
+   <property name="Saturation threshold">0,124</property>
    <property name="Operation 1">1</property>
-   <property name="Amount 1">0,362</property>
+   <property name="Amount 1">0,187</property>
    <property name="Operation 2">3</property>
-   <property name="Amount 2">0,497</property>
+   <property name="Amount 2">0,498</property>
    <property name="Show mask">0</property>
    <property name="Mask to Alpha">0</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter79">
    <property name="version">0,3</property>
@@ -5756,6 +5770,7 @@
    <property name="White output">0=0,95</property>
    <property name="Show histogram">0</property>
    <property name="Histogram position">0,3</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter80">
    <property name="version">0,1</property>
@@ -5763,9 +5778,10 @@
    <property name="kdenlive_id">frei0r.colgate</property>
    <property name="tag">frei0r.colgate</property>
    <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
-   <property name="Color Temperature">0=0,4</property>
+   <property name="Color Temperature">0=0,413333</property>
+   <property name="disable">0</property>
   </filter>
  </producer>
  <producer title="Anonymous Submission" id="41_playlist8" in="0" out="42317">
@@ -6208,20 +6224,21 @@
    <property name="kdenlive_id">frei0r.keyspillm0pup</property>
    <property name="tag">frei0r.keyspillm0pup</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Key color">0xb986e5ff</property>
    <property name="Target color">0xc87f65ff</property>
    <property name="Mask type">0</property>
    <property name="Tolerance">0,892</property>
    <property name="Slope">1</property>
    <property name="Hue gate">0,794</property>
-   <property name="Saturation threshold">0,111</property>
+   <property name="Saturation threshold">0,124</property>
    <property name="Operation 1">1</property>
-   <property name="Amount 1">0,362</property>
+   <property name="Amount 1">0,187</property>
    <property name="Operation 2">3</property>
-   <property name="Amount 2">0,497</property>
+   <property name="Amount 2">0,498</property>
    <property name="Show mask">0</property>
    <property name="Mask to Alpha">0</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter91">
    <property name="version">0,3</property>
@@ -6238,6 +6255,7 @@
    <property name="White output">0=0,95</property>
    <property name="Show histogram">0</property>
    <property name="Histogram position">0,3</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter92">
    <property name="version">0,1</property>
@@ -6245,9 +6263,10 @@
    <property name="kdenlive_id">frei0r.colgate</property>
    <property name="tag">frei0r.colgate</property>
    <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
-   <property name="Color Temperature">0=0,4</property>
+   <property name="Color Temperature">0=0,413333</property>
+   <property name="disable">0</property>
   </filter>
  </producer>
  <producer title="Anonymous Submission" id="producer14" in="0" out="19885">
@@ -6523,20 +6542,21 @@
    <property name="kdenlive_id">frei0r.keyspillm0pup</property>
    <property name="tag">frei0r.keyspillm0pup</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Key color">0xb986e5ff</property>
    <property name="Target color">0xc87f65ff</property>
    <property name="Mask type">0</property>
    <property name="Tolerance">0,892</property>
    <property name="Slope">1</property>
    <property name="Hue gate">0,794</property>
-   <property name="Saturation threshold">0,111</property>
+   <property name="Saturation threshold">0,124</property>
    <property name="Operation 1">1</property>
-   <property name="Amount 1">0,362</property>
+   <property name="Amount 1">0,187</property>
    <property name="Operation 2">3</property>
-   <property name="Amount 2">0,497</property>
+   <property name="Amount 2">0,498</property>
    <property name="Show mask">0</property>
    <property name="Mask to Alpha">0</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter98">
    <property name="version">0,3</property>
@@ -6553,6 +6573,7 @@
    <property name="White output">0=0,95</property>
    <property name="Show histogram">0</property>
    <property name="Histogram position">0,3</property>
+   <property name="disable">0</property>
   </filter>
   <filter id="filter99">
    <property name="version">0,1</property>
@@ -6560,9 +6581,10 @@
    <property name="kdenlive_id">frei0r.colgate</property>
    <property name="tag">frei0r.colgate</property>
    <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info">1/-1/</property>
+   <property name="kdenlive_info"/>
    <property name="Neutral Color">0x7f7f7fff</property>
-   <property name="Color Temperature">0=0,4</property>
+   <property name="Color Temperature">0=0,413333</property>
+   <property name="disable">0</property>
   </filter>
  </producer>
  <producer title="Anonymous Submission" id="28_playlist10" in="0" out="43907">
