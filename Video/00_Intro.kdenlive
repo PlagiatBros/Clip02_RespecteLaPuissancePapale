@@ -3581,6 +3581,57 @@
   <property name="kdenlive:file_hash">e5906706d0750f299fff4406743bc97e</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="76" in="0" out="435">
+  <property name="length">436</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/particules_grain.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">3021</property>
+  <property name="meta.media.height">2118</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:folderid">17</property>
+  <property name="kdenlive:duration">250</property>
+  <property name="kdenlive:file_size">92250</property>
+  <property name="kdenlive:file_hash">63096b2f3aceff0f900d06fae66cc154</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer title="Anonymous Submission" id="75" in="0" out="432">
+  <property name="length">433</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/particules.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">1142</property>
+  <property name="meta.media.height">1219</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:folderid">17</property>
+  <property name="kdenlive:duration">250</property>
+  <property name="kdenlive:file_size">171683</property>
+  <property name="kdenlive:file_hash">8daadb4af29233cf57ce57bb935b90b4</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer title="Anonymous Submission" id="78" in="0" out="432">
+  <property name="length">433</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/godray.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">3757</property>
+  <property name="meta.media.height">2453</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:folderid">17</property>
+  <property name="kdenlive:duration">250</property>
+  <property name="kdenlive:file_size">312482</property>
+  <property name="kdenlive:file_hash">a78f9de7f5bcdc4b7ffe09976d46d060</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -3591,7 +3642,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">2417</property>
+  <property name="kdenlive:docproperties.position">2489</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3747,6 +3798,9 @@
   <entry producer="73" in="0" out="249"/>
   <entry producer="74" in="0" out="249"/>
   <entry producer="42" in="0" out="2363"/>
+  <entry producer="76" in="0" out="435"/>
+  <entry producer="75" in="0" out="432"/>
+  <entry producer="78" in="0" out="432"/>
  </playlist>
  <producer id="black" in="0" out="114270">
   <property name="length">114271</property>
@@ -4038,10 +4092,6 @@
  </playlist>
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Vidéo 3</property>
- </playlist>
- <playlist id="playlist0">
-  <property name="kdenlive:track_name">Vidéo 4</property>
-  <property name="kdenlive:locked_track">0</property>
   <blank length="2368"/>
   <entry producer="42" in="108" out="539">
    <filter id="qtblend">
@@ -4059,11 +4109,84 @@
    </filter>
   </entry>
  </playlist>
+ <playlist id="playlist0">
+  <property name="kdenlive:track_name">Vidéo 4</property>
+  <property name="kdenlive:locked_track">0</property>
+  <blank length="2368"/>
+  <entry producer="75" in="0" out="431">
+   <filter id="filter23">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="rect">0=309 -170 1066 599 1;431=141 -514 1344 756 1</property>
+    <property name="rotation">0=0;431=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+   </filter>
+   <filter id="frei0r.glitch0r">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="0">1</property>
+    <property name="1">0,499</property>
+    <property name="2">0</property>
+    <property name="3">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="mirror">
+    <property name="mirror">flip</property>
+    <property name="mlt_service">mirror</property>
+    <property name="kdenlive_id">mirror</property>
+    <property name="tag">mirror</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="reverse">0</property>
+    <property name="kdenlive_info">0/-1/</property>
+   </filter>
+   <filter id="filter24">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_ix">4</property>
+    <property name="0">1</property>
+    <property name="1">0,013</property>
+    <property name="2">0,002</property>
+    <property name="3">0</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+   </filter>
+   <filter id="filter25">
+    <property name="mirror">flip</property>
+    <property name="mlt_service">mirror</property>
+    <property name="kdenlive_id">mirror</property>
+    <property name="tag">mirror</property>
+    <property name="kdenlive_ix">5</property>
+    <property name="reverse">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
+   <filter id="frei0r.saturat0r">
+    <property name="version">0,3</property>
+    <property name="mlt_service">frei0r.saturat0r</property>
+    <property name="kdenlive_id">frei0r.saturat0r</property>
+    <property name="tag">frei0r.saturat0r</property>
+    <property name="kdenlive_ix">6</property>
+    <property name="Saturation">0=0,046</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+ </playlist>
  <playlist id="playlist6">
   <property name="kdenlive:track_name">Vidéo 5</property>
   <blank length="2368"/>
   <entry producer="69" in="0" out="431">
-   <filter id="filter23">
+   <filter id="filter26">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -4138,7 +4261,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter24">
+  <filter id="filter27">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -4148,7 +4271,7 @@
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,533333</property>
   </filter>
-  <filter id="filter25">
+  <filter id="filter28">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -4170,7 +4293,7 @@
   <property name="kdenlive:locked_track">0</property>
   <blank length="859"/>
   <entry producer="slowmotion:2:0,5:1:0" in="9336" out="9589">
-   <filter id="filter26" in="9336" out="9589">
+   <filter id="filter29" in="9336" out="9589">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4185,7 +4308,7 @@
   </entry>
   <blank length="281"/>
   <entry producer="slowmotion:2:0,5:1:0" in="9945" out="10178">
-   <filter id="filter27" in="9945" out="10178">
+   <filter id="filter30" in="9945" out="10178">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4202,7 +4325,7 @@
   <entry producer="slowmotion:2:0,5:1:0" in="10379" out="10514"/>
   <blank length="396"/>
   <entry producer="70" in="0" out="431">
-   <filter id="filter28">
+   <filter id="filter31">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -4276,7 +4399,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter29">
+  <filter id="filter32">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -4286,7 +4409,7 @@
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,55</property>
   </filter>
-  <filter id="filter30">
+  <filter id="filter33">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -4363,7 +4486,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter31">
+  <filter id="filter34">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -4374,7 +4497,7 @@
    <property name="Color Temperature">0=0,466667</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter32">
+  <filter id="filter35">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -4452,7 +4575,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter33">
+  <filter id="filter36">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -4462,7 +4585,7 @@
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,55</property>
   </filter>
-  <filter id="filter34">
+  <filter id="filter37">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -4539,7 +4662,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter35">
+  <filter id="filter38">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -4549,7 +4672,7 @@
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,55</property>
   </filter>
-  <filter id="filter36">
+  <filter id="filter39">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -4575,7 +4698,7 @@
   <entry producer="slowmotion:1:0,62:1:0" in="8526" out="8806"/>
   <blank length="578"/>
   <entry producer="slowmotion:3:0,3:1:0" in="15450" out="15649">
-   <filter id="filter37" in="15450" out="15649">
+   <filter id="filter40" in="15450" out="15649">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4590,7 +4713,7 @@
   </entry>
   <blank length="127"/>
   <entry producer="slowmotion:3:0,3:1:0" in="15650" out="15718">
-   <filter id="filter38" in="15650" out="15776">
+   <filter id="filter41" in="15650" out="15776">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -4604,7 +4727,7 @@
    </filter>
   </entry>
   <entry producer="74" in="0" out="431">
-   <filter id="filter39">
+   <filter id="filter42">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -4617,7 +4740,7 @@
     <property name="compositing">0</property>
     <property name="distort">0</property>
    </filter>
-   <filter id="lines">
+   <filter id="filter43">
     <property name="line_width">1</property>
     <property name="num">100</property>
     <property name="darker">100</property>
@@ -4626,210 +4749,210 @@
     <property name="kdenlive_id">lines</property>
     <property name="tag">lines</property>
     <property name="kdenlive_ix">2</property>
-    <property name="line99">1664</property>
+    <property name="line99">1744</property>
     <property name="typeline99">3</property>
-    <property name="line98">1792</property>
+    <property name="line98">1862</property>
     <property name="typeline98">1</property>
-    <property name="line97">135</property>
+    <property name="line97">74</property>
     <property name="typeline97">3</property>
-    <property name="line96">1227</property>
+    <property name="line96">1391</property>
     <property name="typeline96">1</property>
-    <property name="line95">540</property>
+    <property name="line95">577</property>
     <property name="typeline95">3</property>
-    <property name="line94">1081</property>
+    <property name="line94">1185</property>
     <property name="typeline94">1</property>
-    <property name="line93">1883</property>
+    <property name="line93">1734</property>
     <property name="typeline93">3</property>
-    <property name="line92">1651</property>
+    <property name="line92">1592</property>
     <property name="typeline92">3</property>
-    <property name="line91">392</property>
+    <property name="line91">474</property>
     <property name="typeline91">2</property>
-    <property name="line90">303</property>
+    <property name="line90">247</property>
     <property name="typeline90">1</property>
-    <property name="line89">863</property>
+    <property name="line89">906</property>
     <property name="typeline89">3</property>
-    <property name="line88">460</property>
+    <property name="line88">385</property>
     <property name="typeline88">2</property>
-    <property name="line87">1049</property>
+    <property name="line87">1116</property>
     <property name="typeline87">1</property>
-    <property name="line86">13</property>
+    <property name="line86">809</property>
     <property name="typeline86">3</property>
-    <property name="line85">620</property>
+    <property name="line85">606</property>
     <property name="typeline85">3</property>
-    <property name="line84">728</property>
+    <property name="line84">679</property>
     <property name="typeline84">1</property>
-    <property name="line83">345</property>
+    <property name="line83">318</property>
     <property name="typeline83">2</property>
-    <property name="line82">1046</property>
+    <property name="line82">1131</property>
     <property name="typeline82">1</property>
-    <property name="line81">1173</property>
+    <property name="line81">1252</property>
     <property name="typeline81">3</property>
-    <property name="line80">425</property>
+    <property name="line80">363</property>
     <property name="typeline80">3</property>
-    <property name="line79">643</property>
+    <property name="line79">718</property>
     <property name="typeline79">3</property>
-    <property name="line78">355</property>
+    <property name="line78">367</property>
     <property name="typeline78">3</property>
-    <property name="line77">96</property>
+    <property name="line77">1895</property>
     <property name="typeline77">1</property>
-    <property name="line76">962</property>
+    <property name="line76">1014</property>
     <property name="typeline76">2</property>
-    <property name="line75">1771</property>
+    <property name="line75">1820</property>
     <property name="typeline75">2</property>
-    <property name="line74">1598</property>
+    <property name="line74">1707</property>
     <property name="typeline74">1</property>
-    <property name="line73">392</property>
+    <property name="line73">132</property>
     <property name="typeline73">3</property>
-    <property name="line72">568</property>
+    <property name="line72">630</property>
     <property name="typeline72">3</property>
-    <property name="line71">1719</property>
+    <property name="line71">1705</property>
     <property name="typeline71">3</property>
-    <property name="line70">945</property>
+    <property name="line70">1030</property>
     <property name="typeline70">1</property>
-    <property name="line69">444</property>
+    <property name="line69">602</property>
     <property name="typeline69">2</property>
-    <property name="line68">229</property>
+    <property name="line68">263</property>
     <property name="typeline68">2</property>
-    <property name="line67">1195</property>
+    <property name="line67">1273</property>
     <property name="typeline67">3</property>
-    <property name="line66">1290</property>
+    <property name="line66">1325</property>
     <property name="typeline66">1</property>
-    <property name="line65">1773</property>
+    <property name="line65">1867</property>
     <property name="typeline65">3</property>
-    <property name="line64">1520</property>
+    <property name="line64">1541</property>
     <property name="typeline64">2</property>
-    <property name="line63">1386</property>
+    <property name="line63">1458</property>
     <property name="typeline63">2</property>
-    <property name="line62">1117</property>
+    <property name="line62">1140</property>
     <property name="typeline62">3</property>
-    <property name="line61">1614</property>
+    <property name="line61">1559</property>
     <property name="typeline61">2</property>
-    <property name="line60">1254</property>
+    <property name="line60">1164</property>
     <property name="typeline60">2</property>
-    <property name="line59">1431</property>
+    <property name="line59">1388</property>
     <property name="typeline59">1</property>
-    <property name="line58">1551</property>
+    <property name="line58">1646</property>
     <property name="typeline58">2</property>
-    <property name="line57">1220</property>
+    <property name="line57">1346</property>
     <property name="typeline57">2</property>
-    <property name="line56">1377</property>
+    <property name="line56">1523</property>
     <property name="typeline56">2</property>
-    <property name="line55">1800</property>
+    <property name="line55">1842</property>
     <property name="typeline55">1</property>
-    <property name="line54">796</property>
+    <property name="line54">765</property>
     <property name="typeline54">3</property>
-    <property name="line53">1422</property>
+    <property name="line53">1354</property>
     <property name="typeline53">3</property>
-    <property name="line52">1433</property>
+    <property name="line52">1504</property>
     <property name="typeline52">1</property>
-    <property name="line51">900</property>
+    <property name="line51">947</property>
     <property name="typeline51">2</property>
-    <property name="line50">894</property>
+    <property name="line50">977</property>
     <property name="typeline50">2</property>
-    <property name="line49">565</property>
+    <property name="line49">619</property>
     <property name="typeline49">1</property>
-    <property name="line48">205</property>
+    <property name="line48">228</property>
     <property name="typeline48">3</property>
-    <property name="line47">1403</property>
+    <property name="line47">1361</property>
     <property name="typeline47">2</property>
-    <property name="line46">1063</property>
+    <property name="line46">1045</property>
     <property name="typeline46">1</property>
-    <property name="line45">1472</property>
+    <property name="line45">1501</property>
     <property name="typeline45">3</property>
-    <property name="line44">830</property>
+    <property name="line44">863</property>
     <property name="typeline44">2</property>
-    <property name="line43">538</property>
+    <property name="line43">742</property>
     <property name="typeline43">2</property>
-    <property name="line42">943</property>
+    <property name="line42">847</property>
     <property name="typeline42">3</property>
-    <property name="line41">1190</property>
+    <property name="line41">1275</property>
     <property name="typeline41">1</property>
-    <property name="line40">1054</property>
+    <property name="line40">1069</property>
     <property name="typeline40">3</property>
-    <property name="line39">941</property>
+    <property name="line39">1027</property>
     <property name="typeline39">2</property>
-    <property name="line38">1342</property>
+    <property name="line38">1405</property>
     <property name="typeline38">2</property>
-    <property name="line37">1093</property>
+    <property name="line37">1120</property>
     <property name="typeline37">2</property>
-    <property name="line36">1433</property>
+    <property name="line36">1531</property>
     <property name="typeline36">2</property>
-    <property name="line35">204</property>
+    <property name="line35">139</property>
     <property name="typeline35">3</property>
-    <property name="line34">1224</property>
+    <property name="line34">1356</property>
     <property name="typeline34">3</property>
-    <property name="line33">1027</property>
+    <property name="line33">881</property>
     <property name="typeline33">1</property>
-    <property name="line32">1532</property>
+    <property name="line32">1416</property>
     <property name="typeline32">1</property>
-    <property name="line31">1105</property>
+    <property name="line31">1153</property>
     <property name="typeline31">2</property>
-    <property name="line30">1881</property>
+    <property name="line30">1861</property>
     <property name="typeline30">1</property>
-    <property name="line29">1818</property>
+    <property name="line29">1571</property>
     <property name="typeline29">3</property>
-    <property name="line28">1125</property>
+    <property name="line28">1173</property>
     <property name="typeline28">1</property>
-    <property name="line27">449</property>
+    <property name="line27">558</property>
     <property name="typeline27">1</property>
-    <property name="line26">1075</property>
+    <property name="line26">1258</property>
     <property name="typeline26">3</property>
-    <property name="line25">346</property>
+    <property name="line25">356</property>
     <property name="typeline25">3</property>
-    <property name="line24">1488</property>
+    <property name="line24">1573</property>
     <property name="typeline24">1</property>
-    <property name="line23">1474</property>
+    <property name="line23">1483</property>
     <property name="typeline23">1</property>
-    <property name="line22">319</property>
+    <property name="line22">354</property>
     <property name="typeline22">3</property>
-    <property name="line21">920</property>
+    <property name="line21">940</property>
     <property name="typeline21">2</property>
-    <property name="line20">181</property>
+    <property name="line20">265</property>
     <property name="typeline20">2</property>
-    <property name="line19">1003</property>
+    <property name="line19">1067</property>
     <property name="typeline19">2</property>
-    <property name="line18">522</property>
+    <property name="line18">366</property>
     <property name="typeline18">3</property>
-    <property name="line17">1312</property>
+    <property name="line17">1472</property>
     <property name="typeline17">2</property>
-    <property name="line16">145</property>
+    <property name="line16">48</property>
     <property name="typeline16">2</property>
-    <property name="line15">1871</property>
+    <property name="line15">1896</property>
     <property name="typeline15">1</property>
-    <property name="line14">1013</property>
+    <property name="line14">1026</property>
     <property name="typeline14">3</property>
-    <property name="line13">867</property>
+    <property name="line13">978</property>
     <property name="typeline13">1</property>
-    <property name="line12">1688</property>
+    <property name="line12">1590</property>
     <property name="typeline12">2</property>
-    <property name="line11">190</property>
+    <property name="line11">181</property>
     <property name="typeline11">1</property>
-    <property name="line10">972</property>
+    <property name="line10">945</property>
     <property name="typeline10">3</property>
-    <property name="line9">294</property>
+    <property name="line9">407</property>
     <property name="typeline9">3</property>
-    <property name="line8">1871</property>
+    <property name="line8">1841</property>
     <property name="typeline8">3</property>
-    <property name="line7">70</property>
+    <property name="line7">66</property>
     <property name="typeline7">3</property>
-    <property name="line6">1851</property>
+    <property name="line6">1801</property>
     <property name="typeline6">1</property>
-    <property name="line5">158</property>
+    <property name="line5">244</property>
     <property name="typeline5">2</property>
-    <property name="line4">1438</property>
+    <property name="line4">1469</property>
     <property name="typeline4">2</property>
-    <property name="line3">134</property>
+    <property name="line3">148</property>
     <property name="typeline3">3</property>
-    <property name="line2">469</property>
+    <property name="line2">339</property>
     <property name="typeline2">2</property>
-    <property name="line1">54</property>
+    <property name="line1">1508</property>
     <property name="typeline1">2</property>
-    <property name="line0">1536</property>
+    <property name="line0">1788</property>
     <property name="typeline0">2</property>
-    <property name="last_oldfilm_line_pos">0,113426</property>
+    <property name="last_oldfilm_line_pos">0,280093</property>
     <property name="kdenlive_info"/>
    </filter>
-   <filter id="frei0r.glitch0r">
+   <filter id="filter44">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -4903,7 +5026,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter40">
+  <filter id="filter45">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -4914,7 +5037,7 @@
    <property name="Color Temperature">0=0,466667</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter41">
+  <filter id="filter46">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -4947,7 +5070,7 @@
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter42">
+   <filter id="filter47">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.contrast0r</property>
     <property name="kdenlive_id">frei0r.contrast0r</property>
@@ -4959,7 +5082,7 @@
    </filter>
   </entry>
   <entry producer="slowmotion:1:0,5:1:0" in="9034" out="9367">
-   <filter id="filter43">
+   <filter id="filter48">
     <property name="version">0,9</property>
     <property name="mlt_service">frei0r.sigmoidaltransfer</property>
     <property name="kdenlive_id">frei0r.sigmoidaltransfer</property>
@@ -4970,7 +5093,7 @@
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter44">
+   <filter id="filter49">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.contrast0r</property>
     <property name="kdenlive_id">frei0r.contrast0r</property>
@@ -4987,7 +5110,7 @@
   <entry producer="slowmotion:48:0,5:1:0" in="6504" out="6591"/>
   <blank length="335"/>
   <entry producer="slowmotion:1:0,5:1:0" in="11152" out="11359">
-   <filter id="filter45" in="11152" out="11359">
+   <filter id="filter50" in="11152" out="11359">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5002,7 +5125,7 @@
   </entry>
   <blank length="336"/>
   <entry producer="slowmotion:48:0,5:1:0" in="7228" out="7354">
-   <filter id="filter46" in="7228" out="7354">
+   <filter id="filter51" in="7228" out="7354">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -5016,7 +5139,7 @@
   </entry>
   <blank length="69"/>
   <entry producer="73" in="0" out="431">
-   <filter id="filter47">
+   <filter id="filter52">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -5029,7 +5152,7 @@
     <property name="compositing">0</property>
     <property name="distort">0</property>
    </filter>
-   <filter id="filter48">
+   <filter id="filter53">
     <property name="line_width">1</property>
     <property name="num">100</property>
     <property name="darker">100</property>
@@ -5038,210 +5161,210 @@
     <property name="kdenlive_id">lines</property>
     <property name="tag">lines</property>
     <property name="kdenlive_ix">2</property>
-    <property name="line4">1652</property>
+    <property name="line4">1683</property>
     <property name="typeline4">3</property>
-    <property name="line3">1733</property>
+    <property name="line3">1747</property>
     <property name="typeline3">1</property>
-    <property name="line2">78</property>
+    <property name="line2">810</property>
     <property name="typeline2">3</property>
-    <property name="line1">1205</property>
+    <property name="line1">1117</property>
     <property name="typeline1">1</property>
-    <property name="line0">603</property>
+    <property name="line0">855</property>
     <property name="typeline0">3</property>
-    <property name="last_oldfilm_line_pos">0,113426</property>
+    <property name="last_oldfilm_line_pos">0,280093</property>
     <property name="kdenlive_info"/>
-    <property name="line99">1660</property>
+    <property name="line99">1740</property>
     <property name="typeline99">3</property>
-    <property name="line98">456</property>
+    <property name="line98">526</property>
     <property name="typeline98">1</property>
-    <property name="line97">93</property>
+    <property name="line97">32</property>
     <property name="typeline97">2</property>
-    <property name="line96">866</property>
+    <property name="line96">1030</property>
     <property name="typeline96">3</property>
-    <property name="line95">1807</property>
+    <property name="line95">1844</property>
     <property name="typeline95">1</property>
-    <property name="line94">180</property>
+    <property name="line94">284</property>
     <property name="typeline94">1</property>
-    <property name="line93">214</property>
+    <property name="line93">65</property>
     <property name="typeline93">1</property>
-    <property name="line92">1869</property>
+    <property name="line92">1810</property>
     <property name="typeline92">2</property>
-    <property name="line91">1692</property>
+    <property name="line91">1774</property>
     <property name="typeline91">3</property>
-    <property name="line90">303</property>
+    <property name="line90">247</property>
     <property name="typeline90">1</property>
-    <property name="line89">1815</property>
+    <property name="line89">1858</property>
     <property name="typeline89">3</property>
-    <property name="line88">963</property>
+    <property name="line88">888</property>
     <property name="typeline88">3</property>
-    <property name="line87">39</property>
+    <property name="line87">106</property>
     <property name="typeline87">3</property>
-    <property name="line86">196</property>
+    <property name="line86">314</property>
     <property name="typeline86">1</property>
-    <property name="line85">1756</property>
+    <property name="line85">1742</property>
     <property name="typeline85">1</property>
-    <property name="line84">1444</property>
+    <property name="line84">1395</property>
     <property name="typeline84">3</property>
-    <property name="line83">552</property>
+    <property name="line83">525</property>
     <property name="typeline83">3</property>
-    <property name="line82">534</property>
+    <property name="line82">619</property>
     <property name="typeline82">2</property>
-    <property name="line81">1583</property>
+    <property name="line81">1662</property>
     <property name="typeline81">1</property>
-    <property name="line80">1425</property>
+    <property name="line80">1363</property>
     <property name="typeline80">1</property>
-    <property name="line79">699</property>
+    <property name="line79">774</property>
     <property name="typeline79">1</property>
-    <property name="line78">1125</property>
+    <property name="line78">1137</property>
     <property name="typeline78">2</property>
-    <property name="line77">1456</property>
+    <property name="line77">1336</property>
     <property name="typeline77">2</property>
-    <property name="line76">120</property>
+    <property name="line76">172</property>
     <property name="typeline76">3</property>
-    <property name="line75">476</property>
+    <property name="line75">525</property>
     <property name="typeline75">3</property>
-    <property name="line74">1398</property>
+    <property name="line74">1507</property>
     <property name="typeline74">2</property>
-    <property name="line73">399</property>
+    <property name="line73">139</property>
     <property name="typeline73">1</property>
-    <property name="line72">1556</property>
+    <property name="line72">1618</property>
     <property name="typeline72">3</property>
-    <property name="line71">207</property>
+    <property name="line71">193</property>
     <property name="typeline71">1</property>
-    <property name="line70">1845</property>
+    <property name="line70">1930</property>
     <property name="typeline70">2</property>
-    <property name="line69">241</property>
+    <property name="line69">399</property>
     <property name="typeline69">3</property>
-    <property name="line68">1232</property>
+    <property name="line68">1266</property>
     <property name="typeline68">3</property>
-    <property name="line67">1826</property>
+    <property name="line67">1904</property>
     <property name="typeline67">3</property>
-    <property name="line66">1205</property>
+    <property name="line66">1240</property>
     <property name="typeline66">1</property>
-    <property name="line65">1462</property>
+    <property name="line65">1556</property>
     <property name="typeline65">1</property>
-    <property name="line64">856</property>
+    <property name="line64">877</property>
     <property name="typeline64">3</property>
-    <property name="line63">81</property>
+    <property name="line63">153</property>
     <property name="typeline63">2</property>
-    <property name="line62">695</property>
+    <property name="line62">718</property>
     <property name="typeline62">1</property>
-    <property name="line61">538</property>
+    <property name="line61">483</property>
     <property name="typeline61">3</property>
-    <property name="line60">1041</property>
+    <property name="line60">951</property>
     <property name="typeline60">3</property>
-    <property name="line59">1591</property>
+    <property name="line59">1548</property>
     <property name="typeline59">2</property>
-    <property name="line58">1304</property>
+    <property name="line58">1399</property>
     <property name="typeline58">2</property>
-    <property name="line57">1271</property>
+    <property name="line57">1397</property>
     <property name="typeline57">1</property>
-    <property name="line56">558</property>
+    <property name="line56">704</property>
     <property name="typeline56">1</property>
-    <property name="line55">559</property>
+    <property name="line55">601</property>
     <property name="typeline55">1</property>
-    <property name="line54">1484</property>
+    <property name="line54">1453</property>
     <property name="typeline54">1</property>
-    <property name="line53">404</property>
+    <property name="line53">336</property>
     <property name="typeline53">2</property>
-    <property name="line52">1646</property>
+    <property name="line52">1717</property>
     <property name="typeline52">2</property>
-    <property name="line51">1181</property>
+    <property name="line51">1228</property>
     <property name="typeline51">2</property>
-    <property name="line50">148</property>
+    <property name="line50">231</property>
     <property name="typeline50">2</property>
-    <property name="line49">999</property>
+    <property name="line49">1053</property>
     <property name="typeline49">2</property>
-    <property name="line48">1099</property>
+    <property name="line48">1122</property>
     <property name="typeline48">3</property>
-    <property name="line47">340</property>
+    <property name="line47">298</property>
     <property name="typeline47">1</property>
-    <property name="line46">323</property>
+    <property name="line46">305</property>
     <property name="typeline46">1</property>
-    <property name="line45">540</property>
+    <property name="line45">569</property>
     <property name="typeline45">1</property>
-    <property name="line44">1465</property>
+    <property name="line44">1498</property>
     <property name="typeline44">3</property>
-    <property name="line43">1636</property>
+    <property name="line43">1840</property>
     <property name="typeline43">2</property>
-    <property name="line42">1100</property>
+    <property name="line42">1004</property>
     <property name="typeline42">1</property>
-    <property name="line41">1157</property>
+    <property name="line41">1242</property>
     <property name="typeline41">1</property>
-    <property name="line40">73</property>
+    <property name="line40">88</property>
     <property name="typeline40">2</property>
-    <property name="line39">1256</property>
+    <property name="line39">1342</property>
     <property name="typeline39">2</property>
-    <property name="line38">678</property>
+    <property name="line38">741</property>
     <property name="typeline38">2</property>
-    <property name="line37">1736</property>
+    <property name="line37">1763</property>
     <property name="typeline37">2</property>
-    <property name="line36">998</property>
+    <property name="line36">1096</property>
     <property name="typeline36">1</property>
-    <property name="line35">468</property>
+    <property name="line35">403</property>
     <property name="typeline35">2</property>
-    <property name="line34">1520</property>
+    <property name="line34">1652</property>
     <property name="typeline34">2</property>
-    <property name="line33">1543</property>
+    <property name="line33">1397</property>
     <property name="typeline33">1</property>
-    <property name="line32">41</property>
+    <property name="line32">1212</property>
     <property name="typeline32">2</property>
-    <property name="line31">1127</property>
+    <property name="line31">1175</property>
     <property name="typeline31">1</property>
-    <property name="line30">1351</property>
+    <property name="line30">1331</property>
     <property name="typeline30">2</property>
-    <property name="line29">1761</property>
+    <property name="line29">1514</property>
     <property name="typeline29">2</property>
-    <property name="line28">1007</property>
+    <property name="line28">1055</property>
     <property name="typeline28">1</property>
-    <property name="line27">1384</property>
+    <property name="line27">1493</property>
     <property name="typeline27">2</property>
-    <property name="line26">1738</property>
+    <property name="line26">1921</property>
     <property name="typeline26">2</property>
-    <property name="line25">1018</property>
+    <property name="line25">1028</property>
     <property name="typeline25">1</property>
-    <property name="line24">139</property>
+    <property name="line24">224</property>
     <property name="typeline24">3</property>
-    <property name="line23">763</property>
+    <property name="line23">772</property>
     <property name="typeline23">2</property>
-    <property name="line22">471</property>
+    <property name="line22">506</property>
     <property name="typeline22">3</property>
-    <property name="line21">1809</property>
+    <property name="line21">1829</property>
     <property name="typeline21">2</property>
-    <property name="line20">1434</property>
+    <property name="line20">1518</property>
     <property name="typeline20">2</property>
-    <property name="line19">1942</property>
+    <property name="line19">2006</property>
     <property name="typeline19">3</property>
-    <property name="line18">279</property>
+    <property name="line18">123</property>
     <property name="typeline18">2</property>
-    <property name="line17">1071</property>
+    <property name="line17">1231</property>
     <property name="typeline17">1</property>
-    <property name="line16">1543</property>
+    <property name="line16">1446</property>
     <property name="typeline16">1</property>
-    <property name="line15">125</property>
+    <property name="line15">150</property>
     <property name="typeline15">1</property>
-    <property name="line14">1008</property>
+    <property name="line14">1021</property>
     <property name="typeline14">1</property>
-    <property name="line13">1641</property>
+    <property name="line13">1752</property>
     <property name="typeline13">2</property>
-    <property name="line12">815</property>
+    <property name="line12">717</property>
     <property name="typeline12">1</property>
-    <property name="line11">334</property>
+    <property name="line11">325</property>
     <property name="typeline11">3</property>
-    <property name="line10">1831</property>
+    <property name="line10">1804</property>
     <property name="typeline10">3</property>
-    <property name="line9">1363</property>
+    <property name="line9">1476</property>
     <property name="typeline9">1</property>
-    <property name="line8">171</property>
+    <property name="line8">141</property>
     <property name="typeline8">1</property>
-    <property name="line7">644</property>
+    <property name="line7">640</property>
     <property name="typeline7">2</property>
-    <property name="line6">91</property>
+    <property name="line6">41</property>
     <property name="typeline6">3</property>
-    <property name="line5">1411</property>
+    <property name="line5">1497</property>
     <property name="typeline5">2</property>
    </filter>
-   <filter id="filter49">
+   <filter id="filter54">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -5317,7 +5440,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter50">
+  <filter id="filter55">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5327,7 +5450,7 @@
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,55</property>
   </filter>
-  <filter id="filter51">
+  <filter id="filter56">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5360,7 +5483,7 @@
   <entry producer="30" in="35" out="117"/>
   <blank length="247"/>
   <entry producer="3_playlist10" in="3278" out="3279">
-   <filter id="filter52">
+   <filter id="filter57">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -5656,7 +5779,7 @@
 ]
 </property>
    </filter>
-   <filter id="filter53">
+   <filter id="filter58">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -5672,7 +5795,7 @@
   </entry>
   <blank length="2"/>
   <entry producer="3_playlist10" in="3278" out="3279">
-   <filter id="filter54">
+   <filter id="filter59">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -5971,7 +6094,7 @@
   </entry>
   <blank length="2"/>
   <entry producer="3_playlist10" in="3278" out="3279">
-   <filter id="filter55">
+   <filter id="filter60">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -6270,7 +6393,7 @@
   </entry>
   <blank length="1"/>
   <entry producer="3_playlist10" in="11246" out="11247">
-   <filter id="filter56">
+   <filter id="filter61">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -6750,7 +6873,7 @@
    </filter>
   </entry>
   <entry producer="3_playlist10" in="11248" out="11249">
-   <filter id="filter57">
+   <filter id="filter62">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -7228,7 +7351,7 @@
 ]
 </property>
    </filter>
-   <filter id="filter58">
+   <filter id="filter63">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -7969,7 +8092,7 @@
     <property name="kdenlive_info">0/-1/</property>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter59">
+   <filter id="filter64">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.contrast0r</property>
     <property name="kdenlive_id">frei0r.contrast0r</property>
@@ -7979,7 +8102,7 @@
     <property name="disable">0</property>
     <property name="Contrast">6504=0,098</property>
    </filter>
-   <filter id="filter60">
+   <filter id="filter65">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
@@ -8000,6 +8123,58 @@
     <property name="2">0,499</property>
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
+   </filter>
+  </entry>
+  <blank length="1075"/>
+  <entry producer="76" in="0" out="431">
+   <filter id="filter66">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="rect">0=-325 -326 2496 1404 1;430=-94 -435 2112 1188 1</property>
+    <property name="rotation">0=0;430=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+   </filter>
+   <filter id="invert">
+    <property name="mlt_service">invert</property>
+    <property name="kdenlive_id">invert</property>
+    <property name="tag">invert</property>
+    <property name="kdenlive_ix">2</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist18">
+  <property name="kdenlive:track_name">Video 1</property>
+  <blank length="2368"/>
+  <entry producer="78" in="0" out="431">
+   <filter id="filter67">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="tag">qtblend</property>
+    <property name="kdenlive_info"/>
+    <property name="kdenlive_ix">1</property>
+    <property name="disable">0</property>
+    <property name="rect">0=-898 -554 3427 1928 0,34;431=-839 -545 3235 1820 0,35</property>
+    <property name="rotation">0=0;431=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+   </filter>
+   <filter id="filter68">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.colorize</property>
+    <property name="kdenlive_id">frei0r.colorize</property>
+    <property name="tag">frei0r.colorize</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="0">0,138</property>
+    <property name="1">1</property>
+    <property name="2">0,366</property>
+    <property name="kdenlive_info"/>
    </filter>
   </entry>
  </playlist>
@@ -8278,7 +8453,7 @@
   <entry producer="36_playlist13" in="72" out="136"/>
   <entry producer="36_playlist13" in="119" out="221"/>
   <entry producer="36_playlist13" in="153" out="250"/>
-  <filter id="filter61">
+  <filter id="filter69">
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.brightness</property>
    <property name="kdenlive_id">frei0r.brightness</property>
@@ -8293,7 +8468,7 @@
   <property name="kdenlive:track_name">Vidéo 16</property>
   <blank length="2368"/>
   <entry producer="65" in="18" out="449">
-   <filter id="filter62" in="18" out="449">
+   <filter id="filter70" in="18" out="449">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -8311,7 +8486,7 @@
   <property name="kdenlive:track_name">Vidéo 12</property>
   <blank length="2368"/>
   <entry producer="47" in="18" out="449">
-   <filter id="filter63">
+   <filter id="filter71">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -8388,7 +8563,7 @@
   <property name="kdenlive:track_name">Vidéo 14</property>
   <blank length="2361"/>
   <entry producer="68_playlist17" in="5161" out="5599">
-   <filter id="frei0r.saturat0r">
+   <filter id="filter72">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.saturat0r</property>
     <property name="kdenlive_id">frei0r.saturat0r</property>
@@ -8398,7 +8573,7 @@
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter64">
+   <filter id="filter73">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
@@ -8408,7 +8583,7 @@
     <property name="kdenlive_info"/>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter65" in="5161" out="5599">
+   <filter id="filter74" in="5161" out="5599">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -8437,11 +8612,22 @@
   <track hide="audio" producer="playlist9"/>
   <track hide="audio" producer="playlist8"/>
   <track hide="audio" producer="playlist10"/>
+  <track producer="playlist18"/>
   <track hide="audio" producer="playlist13"/>
   <track producer="playlist19"/>
   <track producer="playlist14"/>
   <track hide="audio" producer="playlist16"/>
   <track producer="playlist17"/>
+  <transition id="transition16" in="2360" out="2375">
+   <property name="a_track">18</property>
+   <property name="b_track">19</property>
+   <property name="factory">loader</property>
+   <property name="mlt_service">luma</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+   <property name="automatic">0</property>
+  </transition>
   <transition id="transition0">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
@@ -8570,7 +8756,7 @@
    <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition26">
+  <transition id="transition17">
    <property name="a_track">0</property>
    <property name="b_track">17</property>
    <property name="mlt_service">mix</property>
@@ -8578,7 +8764,7 @@
    <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition27">
+  <transition id="transition18">
    <property name="a_track">0</property>
    <property name="b_track">18</property>
    <property name="mlt_service">mix</property>
@@ -8586,7 +8772,7 @@
    <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition28">
+  <transition id="transition19">
    <property name="a_track">0</property>
    <property name="b_track">19</property>
    <property name="mlt_service">mix</property>
@@ -8594,17 +8780,15 @@
    <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition16" in="2360" out="2375">
-   <property name="a_track">17</property>
-   <property name="b_track">18</property>
-   <property name="factory">loader</property>
-   <property name="mlt_service">luma</property>
-   <property name="kdenlive_id">dissolve</property>
-   <property name="force_track">0</property>
-   <property name="reverse">1</property>
-   <property name="automatic">0</property>
+  <transition id="transition20">
+   <property name="a_track">0</property>
+   <property name="b_track">20</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="sum">1</property>
+   <property name="internal_added">237</property>
   </transition>
-  <transition id="transition17" in="400" out="458">
+  <transition id="transition21" in="400" out="458">
    <property name="a_track">13</property>
    <property name="b_track">14</property>
    <property name="factory">loader</property>
@@ -8613,7 +8797,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition id="transition18" in="206" out="237">
+  <transition id="transition22" in="206" out="237">
    <property name="a_track">13</property>
    <property name="b_track">14</property>
    <property name="factory">loader</property>
@@ -8622,7 +8806,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition id="transition22" in="331" out="361">
+  <transition id="transition23" in="331" out="361">
    <property name="a_track">13</property>
    <property name="b_track">14</property>
    <property name="factory">loader</property>
@@ -8631,7 +8815,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition id="transition23" in="268" out="299">
+  <transition id="transition24" in="268" out="299">
    <property name="a_track">13</property>
    <property name="b_track">14</property>
    <property name="factory">loader</property>
@@ -8640,7 +8824,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition id="transition24" in="143" out="174">
+  <transition id="transition25" in="143" out="174">
    <property name="a_track">13</property>
    <property name="b_track">14</property>
    <property name="factory">loader</property>
@@ -8649,7 +8833,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition id="transition25" in="81" out="112">
+  <transition id="transition26" in="81" out="112">
    <property name="a_track">13</property>
    <property name="b_track">14</property>
    <property name="factory">loader</property>
@@ -8658,7 +8842,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition id="transition19" in="1205" out="1292">
+  <transition id="transition27" in="1205" out="1292">
    <property name="a_track">13</property>
    <property name="b_track">14</property>
    <property name="start">0/0:100%x100%</property>
@@ -8728,86 +8912,9 @@
    <property name="force_track">1</property>
    <property name="rotation">0=1;1=1;2=1;3=1</property>
   </transition>
-  <transition id="transition20" in="2356" out="2367">
+  <transition id="transition28" in="2356" out="2367">
    <property name="a_track">12</property>
-   <property name="b_track">19</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.grain_merge</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition21" in="2368" out="2799">
-   <property name="a_track">9</property>
-   <property name="b_track">10</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">slide</property>
-   <property name="force_track">1</property>
-   <property name="deinterlace">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
-   <property name="invert">0</property>
-  </transition>
-  <transition id="transition29" in="2368" out="2799">
-   <property name="a_track">9</property>
-   <property name="b_track">11</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">slide</property>
-   <property name="force_track">1</property>
-   <property name="deinterlace">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
-   <property name="invert">0</property>
-  </transition>
-  <transition id="transition34" in="2368" out="2799">
-   <property name="a_track">9</property>
-   <property name="b_track">12</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">slide</property>
-   <property name="force_track">1</property>
-   <property name="deinterlace">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
-   <property name="invert">0</property>
-  </transition>
-  <transition id="transition35" in="2368" out="2799">
-   <property name="a_track">9</property>
-   <property name="b_track">13</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">slide</property>
-   <property name="force_track">1</property>
-   <property name="deinterlace">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
-   <property name="invert">0</property>
-  </transition>
-  <transition id="transition36" in="2299" out="2799">
-   <property name="a_track">9</property>
-   <property name="b_track">16</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition37" in="2299" out="2799">
-   <property name="a_track">9</property>
-   <property name="b_track">17</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition38" in="2368" out="2799">
-   <property name="a_track">9</property>
-   <property name="b_track">19</property>
+   <property name="b_track">20</property>
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.grain_merge</property>
    <property name="force_track">1</property>
@@ -8898,13 +9005,134 @@
    <property name="softness">0</property>
    <property name="valign">middle</property>
   </transition>
-  <transition id="transition41" in="187" out="2799">
+  <transition id="transition41" in="187" out="2367">
    <property name="a_track">8</property>
-   <property name="b_track">15</property>
+   <property name="b_track">16</property>
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.addition_alpha</property>
    <property name="force_track">1</property>
    <property name="automatic">0</property>
+  </transition>
+  <transition id="transition38" in="2299" out="2799">
+   <property name="a_track">8</property>
+   <property name="b_track">17</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition42" in="2299" out="2799">
+   <property name="a_track">8</property>
+   <property name="b_track">18</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition45" in="2368" out="2799">
+   <property name="a_track">8</property>
+   <property name="b_track">20</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.grain_merge</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition29" in="2368" out="2799">
+   <property name="a_track">7</property>
+   <property name="b_track">9</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">slide</property>
+   <property name="force_track">1</property>
+   <property name="deinterlace">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
+   <property name="invert">0</property>
+  </transition>
+  <transition id="transition34" in="2368" out="2799">
+   <property name="a_track">7</property>
+   <property name="b_track">10</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">slide</property>
+   <property name="force_track">1</property>
+   <property name="deinterlace">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
+   <property name="invert">0</property>
+  </transition>
+  <transition id="transition35" in="2368" out="2799">
+   <property name="a_track">7</property>
+   <property name="b_track">11</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">slide</property>
+   <property name="force_track">1</property>
+   <property name="deinterlace">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
+   <property name="invert">0</property>
+   <property name="automatic">0</property>
+  </transition>
+  <transition id="transition36" in="2368" out="2799">
+   <property name="a_track">7</property>
+   <property name="b_track">12</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">slide</property>
+   <property name="force_track">1</property>
+   <property name="deinterlace">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
+   <property name="invert">0</property>
+   <property name="automatic">0</property>
+  </transition>
+  <transition id="transition37" in="2368" out="2799">
+   <property name="a_track">7</property>
+   <property name="b_track">13</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">slide</property>
+   <property name="force_track">1</property>
+   <property name="deinterlace">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
+   <property name="invert">0</property>
+  </transition>
+  <transition id="transition46" in="2368" out="2799">
+   <property name="a_track">7</property>
+   <property name="b_track">14</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">slide</property>
+   <property name="force_track">1</property>
+   <property name="deinterlace">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
+   <property name="invert">0</property>
+  </transition>
+  <transition id="transition47" in="2368" out="2799">
+   <property name="a_track">7</property>
+   <property name="b_track">15</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">slide</property>
+   <property name="force_track">1</property>
+   <property name="deinterlace">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:100</property>
+   <property name="invert">0</property>
   </transition>
  </tractor>
 </mlt>
