@@ -1,17 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mlt title="Anonymous Submission" LC_NUMERIC="fr_FR.UTF-8" producer="main bin" version="6.13.0" root="/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Video">
  <profile frame_rate_num="50" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 50 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
- <producer title="Anonymous Submission" id="29" in="0" out="49055">
-  <property name="length">00:16:21:06</property>
-  <property name="eof">pause</property>
-  <property name="resource">01_Le5.kdenlive</property>
-  <property name="mlt_service">xml</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">485979</property>
-  <property name="kdenlive:file_hash">cdcaad09925e9bf0397abe3a9964f1e5</property>
- </producer>
  <producer title="Anonymous Submission" id="28" in="0" out="114270">
   <property name="length">00:38:05:21</property>
   <property name="eof">pause</property>
@@ -186,6 +175,40 @@
   <property name="kdenlive:file_hash">30a067bbfc9642db96df21e0922c6f06</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="41" in="0" out="68212">
+  <property name="length">00:22:44:13</property>
+  <property name="eof">pause</property>
+  <property name="resource">01b_Le5_MontageBis.kdenlive</property>
+  <property name="mlt_service">xml</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">249770</property>
+  <property name="kdenlive:file_hash">55bf1bf4efe0bc9332b60ab3e74cd1b3</property>
+ </producer>
+ <producer title="Anonymous Submission" id="42" in="0" out="23437">
+  <property name="length">00:07:48:38</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-2_r1.ogg</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">vorbis</property>
+  <property name="meta.media.0.codec.long_name">Vorbis</property>
+  <property name="meta.media.0.codec.bit_rate">128000</property>
+  <property name="meta.attr.0.stream.disc.markup">0</property>
+  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:file_size">6122194</property>
+  <property name="kdenlive:file_hash">df9aa9dd771d7abbcc4a5132bde79bec</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -196,7 +219,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">45703</property>
+  <property name="kdenlive:docproperties.position">6361</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -235,7 +258,6 @@
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="kdenlive:guide.312,2">00:05:12:10</property>
   <property name="xml_retain">1</property>
-  <entry producer="29" in="0" out="49055"/>
   <entry producer="28" in="0" out="114270"/>
   <entry producer="31" in="0" out="58"/>
   <entry producer="32" in="0" out="38"/>
@@ -246,6 +268,8 @@
   <entry producer="38" in="0" out="249"/>
   <entry producer="39" in="0" out="47607"/>
   <entry producer="40" in="0" out="9961"/>
+  <entry producer="41" in="0" out="68212"/>
+  <entry producer="42" in="0" out="23437"/>
  </playlist>
  <producer id="black" in="0" out="162176">
   <property name="length">162177</property>
@@ -302,6 +326,30 @@
   <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
   <property name="meta.media.0.codec.bit_rate">2304000</property>
  </producer>
+ <producer title="Anonymous Submission" id="42_playlist1" in="0" out="23437">
+  <property name="length">00:07:48:38</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-2_r1.ogg</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">6122194</property>
+  <property name="kdenlive:file_hash">df9aa9dd771d7abbcc4a5132bde79bec</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">vorbis</property>
+  <property name="meta.media.0.codec.long_name">Vorbis</property>
+  <property name="meta.media.0.codec.bit_rate">128000</property>
+  <property name="meta.attr.0.stream.disc.markup">0</property>
+  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
+ </producer>
  <playlist id="playlist1">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 2</property>
@@ -331,6 +379,29 @@
     <property name="kdenlive_ix">1</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
+   </filter>
+  </entry>
+  <blank length="1717"/>
+  <entry producer="42_playlist1" in="0" out="8609">
+   <filter id="fadeout" in="8094" out="8609">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadeout</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">1</property>
+    <property name="end">0</property>
+   </filter>
+   <filter id="fadein" out="1">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
    </filter>
   </entry>
  </playlist>
@@ -476,16 +547,16 @@
   <property name="kdenlive:file_size">286174</property>
   <property name="kdenlive:file_hash">0c76646757af9f65571b8e091e4fb017</property>
  </producer>
- <producer title="Anonymous Submission" id="29_playlist5" in="0" out="49055">
-  <property name="length">00:16:21:06</property>
+ <producer title="Anonymous Submission" id="41_playlist5" in="0" out="68212">
+  <property name="length">00:22:44:13</property>
   <property name="eof">pause</property>
-  <property name="resource">01_Le5.kdenlive</property>
+  <property name="resource">01b_Le5_MontageBis.kdenlive</property>
   <property name="mlt_service">xml</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="seekable">1</property>
-  <property name="kdenlive:file_size">485979</property>
-  <property name="kdenlive:file_hash">cdcaad09925e9bf0397abe3a9964f1e5</property>
+  <property name="kdenlive:file_size">249770</property>
+  <property name="kdenlive:file_hash">55bf1bf4efe0bc9332b60ab3e74cd1b3</property>
  </producer>
  <producer title="Anonymous Submission" id="33_playlist5" in="0" out="20554">
   <property name="length">00:06:51:05</property>
@@ -576,34 +647,34 @@
    </filter>
   </entry>
   <blank length="1770"/>
-  <entry producer="29_playlist5" in="1" out="234">
-   <filter id="filter13">
+  <entry producer="41_playlist5" in="18" out="251">
+   <filter id="filter3">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.c0rners</property>
     <property name="kdenlive_id">frei0r.c0rners</property>
     <property name="tag">frei0r.c0rners</property>
-    <property name="kdenlive_ix">1</property>
     <property name="kdenlive_info">0/-1/</property>
+    <property name="kdenlive_ix">1</property>
     <property name="disable">0</property>
-    <property name="Corner 1 X">1=0,359;220=0,359;234=0,333333</property>
-    <property name="Corner 1 Y">1=0,3925;220=0,3925;234=0,333333</property>
-    <property name="Corner 2 X">1=0,426;220=0,426;234=0,666667</property>
-    <property name="Corner 2 Y">1=0,4015;220=0,4015;234=0,333333</property>
-    <property name="Corner 3 X">1=0,425667;220=0,425667;234=0,666667</property>
-    <property name="Corner 3 Y">1=0,4725;220=0,4725;234=0,666667</property>
-    <property name="Corner 4 X">1=0,359;220=0,359;234=0,333333</property>
-    <property name="Corner 4 Y">1=0,476833;220=0,476833;234=0,666667</property>
-    <property name="Stretch X">1=0,5;220=0,5;234=0,5</property>
-    <property name="Stretch Y">1=0,5;220=0,5;234=0,5</property>
-    <property name="Feather Alpha">1=0,02;220=0,02;234=0,02</property>
+    <property name="Corner 1 X">18=0,359;237=0,359;251=0,333333</property>
+    <property name="Corner 1 Y">18=0,3925;237=0,3925;251=0,333333</property>
+    <property name="Corner 2 X">18=0,426;237=0,426;251=0,666667</property>
+    <property name="Corner 2 Y">18=0,4015;237=0,4015;251=0,333333</property>
+    <property name="Corner 3 X">18=0,425667;237=0,425667;251=0,666667</property>
+    <property name="Corner 3 Y">18=0,4725;237=0,4725;251=0,666667</property>
+    <property name="Corner 4 X">18=0,359;237=0,359;251=0,333333</property>
+    <property name="Corner 4 Y">18=0,476833;237=0,476833;251=0,666667</property>
+    <property name="Stretch X">18=0,5;237=0,5;251=0,5</property>
+    <property name="Stretch Y">18=0,5;237=0,5;251=0,5</property>
+    <property name="Feather Alpha">18=0,02;237=0,02;251=0,02</property>
     <property name="Enable Stretch">0</property>
     <property name="Interpolator">0,166</property>
     <property name="Transparent Background">1</property>
     <property name="Alpha operation">0,0</property>
    </filter>
   </entry>
-  <entry producer="29_playlist5" in="235" out="7606"/>
-  <blank length="3311"/>
+  <entry producer="41_playlist5" in="252" out="7693"/>
+  <blank length="3241"/>
   <entry producer="33_playlist5" in="6" out="14239"/>
   <blank length="2130"/>
   <entry producer="35_playlist5" in="14750" out="21619"/>
@@ -620,16 +691,16 @@
   <property name="kdenlive:file_size">286174</property>
   <property name="kdenlive:file_hash">0c76646757af9f65571b8e091e4fb017</property>
  </producer>
- <producer title="Anonymous Submission" id="29_playlist0" in="0" out="49055">
-  <property name="length">00:16:21:06</property>
+ <producer title="Anonymous Submission" id="41_playlist0" in="0" out="68212">
+  <property name="length">00:22:44:13</property>
   <property name="eof">pause</property>
-  <property name="resource">01_Le5.kdenlive</property>
+  <property name="resource">01b_Le5_MontageBis.kdenlive</property>
   <property name="mlt_service">xml</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="seekable">1</property>
-  <property name="kdenlive:file_size">485979</property>
-  <property name="kdenlive:file_hash">cdcaad09925e9bf0397abe3a9964f1e5</property>
+  <property name="kdenlive:file_size">249770</property>
+  <property name="kdenlive:file_hash">55bf1bf4efe0bc9332b60ab3e74cd1b3</property>
  </producer>
  <producer title="Anonymous Submission" id="33_playlist0" in="0" out="20554">
   <property name="length">00:06:51:05</property>
@@ -683,33 +754,33 @@
    </filter>
   </entry>
   <blank length="2131"/>
-  <entry producer="29_playlist0" in="1" out="234">
-   <filter id="filter15">
+  <entry producer="41_playlist0" in="18" out="251">
+   <filter id="filter6">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.c0rners</property>
     <property name="kdenlive_id">frei0r.c0rners</property>
     <property name="tag">frei0r.c0rners</property>
-    <property name="kdenlive_info">0/-1/</property>
     <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info">0/-1/</property>
     <property name="disable">0</property>
-    <property name="Corner 1 X">1=0,359;220=0,359;234=0,333333</property>
-    <property name="Corner 1 Y">1=0,3925;220=0,3925;234=0,333333</property>
-    <property name="Corner 2 X">1=0,426;220=0,426;234=0,666667</property>
-    <property name="Corner 2 Y">1=0,4015;220=0,4015;234=0,333333</property>
-    <property name="Corner 3 X">1=0,425667;220=0,425667;234=0,666667</property>
-    <property name="Corner 3 Y">1=0,4725;220=0,4725;234=0,666667</property>
-    <property name="Corner 4 X">1=0,359;220=0,359;234=0,333333</property>
-    <property name="Corner 4 Y">1=0,476833;220=0,476833;234=0,666667</property>
-    <property name="Stretch X">1=0,5;220=0,5;234=0,5</property>
-    <property name="Stretch Y">1=0,5;220=0,5;234=0,5</property>
-    <property name="Feather Alpha">1=0,02;220=0,02;234=0,02</property>
+    <property name="Corner 1 X">18=0,359;237=0,359;251=0,333333</property>
+    <property name="Corner 1 Y">18=0,3925;237=0,3925;251=0,333333</property>
+    <property name="Corner 2 X">18=0,426;237=0,426;251=0,666667</property>
+    <property name="Corner 2 Y">18=0,4015;237=0,4015;251=0,333333</property>
+    <property name="Corner 3 X">18=0,425667;237=0,425667;251=0,666667</property>
+    <property name="Corner 3 Y">18=0,4725;237=0,4725;251=0,666667</property>
+    <property name="Corner 4 X">18=0,359;237=0,359;251=0,333333</property>
+    <property name="Corner 4 Y">18=0,476833;237=0,476833;251=0,666667</property>
+    <property name="Stretch X">18=0,5;237=0,5;251=0,5</property>
+    <property name="Stretch Y">18=0,5;237=0,5;251=0,5</property>
+    <property name="Feather Alpha">18=0,02;237=0,02;251=0,02</property>
     <property name="Enable Stretch">0</property>
     <property name="Interpolator">0,166</property>
     <property name="Transparent Background">1</property>
     <property name="Alpha operation">0,0</property>
    </filter>
   </entry>
-  <entry producer="29_playlist0" in="235" out="7606"/>
+  <entry producer="41_playlist0" in="252" out="7623"/>
   <blank length="3311"/>
   <entry producer="33_playlist0" in="6" out="14239"/>
   <blank length="2130"/>
@@ -741,7 +812,7 @@
   <property name="kdenlive:track_name">Video 2</property>
   <blank length="2724"/>
   <entry producer="28_playlist7" in="2721" out="2725">
-   <filter id="filter6">
+   <filter id="filter7">
     <property name="mlt_service">avfilter.lut3d</property>
     <property name="kdenlive_id">avfilter.lut3d</property>
     <property name="tag">avfilter.lut3d</property>
@@ -751,7 +822,7 @@
     <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
     <property name="av.interp">tetrahedral </property>
    </filter>
-   <filter id="filter7">
+   <filter id="filter8">
     <property name="version">0,9</property>
     <property name="mlt_service">frei0r.softglow</property>
     <property name="kdenlive_id">frei0r.softglow</property>
@@ -764,7 +835,7 @@
     <property name="2">0,1</property>
     <property name="3">0</property>
    </filter>
-   <filter id="filter8">
+   <filter id="filter9">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.vignette</property>
     <property name="kdenlive_id">frei0r.vignette</property>
@@ -816,7 +887,7 @@
   <track producer="playlist3"/>
   <track hide="audio" producer="playlist4"/>
   <track producer="playlist6"/>
-  <track producer="playlist5"/>
+  <track hide="audio" producer="playlist5"/>
   <track hide="audio" producer="playlist0"/>
   <track producer="playlist7"/>
   <track producer="playlist8"/>
@@ -943,13 +1014,6 @@
    <property name="automatic">0</property>
    <property name="luma"/>
   </transition>
-  <transition id="transition13" in="8521" out="9464">
-   <property name="a_track">5</property>
-   <property name="b_track">6</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.multiply</property>
-   <property name="force_track">1</property>
-  </transition>
   <transition id="transition14" out="47920">
    <property name="a_track">3</property>
    <property name="b_track">4</property>
@@ -1025,7 +1089,7 @@
    <property name="fill">1</property>
    <property name="geometry">0=0/0:1920x1080:0;35=0/0:1920x1080:30;113=0/0:1920x1080:100</property>
    <property name="halign">centre</property>
-   <property name="luma">/tmp/.mount_kdenliN13myF/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
+   <property name="luma">/tmp/.mount_kdenlinVNyqo/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0,04</property>

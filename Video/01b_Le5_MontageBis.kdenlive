@@ -3187,6 +3187,29 @@
   <property name="kdenlive:file_size">723688</property>
   <property name="kdenlive:file_hash">53d20e518e6997061c63962e9459944a</property>
  </producer>
+ <producer title="Anonymous Submission" id="75" in="0" out="23437">
+  <property name="length">00:07:48:38</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-2_r1.ogg</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">fltp</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">vorbis</property>
+  <property name="meta.media.0.codec.long_name">Vorbis</property>
+  <property name="meta.media.0.codec.bit_rate">128000</property>
+  <property name="meta.attr.0.stream.disc.markup">0</property>
+  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">6122194</property>
+  <property name="kdenlive:file_hash">df9aa9dd771d7abbcc4a5132bde79bec</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -3197,7 +3220,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">4443</property>
+  <property name="kdenlive:docproperties.position">329</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3211,7 +3234,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">952</property>
   <property name="kdenlive:docproperties.zoneout">2195</property>
-  <property name="kdenlive:docproperties.zoom">12</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -3246,58 +3269,27 @@
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="kdenlive:folder.-1.16">Colors</property>
   <property name="kdenlive:customeffects">&lt;customeffects>
- &lt;effect type="custom" tag="frei0r.sopsat" id="RLPP - Violet Degueux" LC_NUMERIC="C" effectcolor="#9d72f5" version="0.2">
-  &lt;name>RLPP - Violet Degueux&lt;/name>
-  &lt;description>Changes Slope, Offset, and Power of the color components, and the overall Saturation, according to the ASC CDL (Color Decision List).&lt;/description>
-  &lt;author>Simon A. Eugster (Granjow)&lt;/author>
-  &lt;parameter type="simplekeyframe" name="rSlope" intimeline="1" factor="2000" keyframes="0=211" min="0" max="1000" default="100">
-   &lt;name>Slope Red&lt;/name>
-   &lt;comment>&lt;![CDATA[Changing the slope means multiplying the pixel value with a constant value. Black pixels will remain black, whileas brighter ones will be changed.&lt;br/>
-                All effects can be observed well when applied on a greyscale gradient and looking at the RGB Parade monitor.]]&gt;&lt;/comment>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" name="gSlope" factor="2000" keyframes="0=100" min="0" max="1000" default="100">
-   &lt;name>Slope Green&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" name="bSlope" factor="2000" keyframes="0=176" min="0" max="1000" default="100">
-   &lt;name>Slope Blue&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" name="aSlope" factor="2000" keyframes="0=100" min="0" max="1000" default="100">
-   &lt;name>Slope Alpha&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" offset="-1024" name="rOffset" factor="2048" keyframes="0=-91" min="-1024" max="1024" default="0">
-   &lt;name>Offset Red&lt;/name>
-   &lt;comment>Changing the offset lifts (or lowers) the brightness of each pixel by the given value.&lt;/comment>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" offset="-1024" name="gOffset" factor="2048" keyframes="0=-538" min="-1024" max="1024" default="0">
-   &lt;name>Offset Green&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" offset="-1024" name="bOffset" factor="2048" keyframes="0=0" min="-1024" max="1024" default="0">
-   &lt;name>Offset Blue&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" offset="-1024" name="aOffset" factor="2048" keyframes="0=0" min="-1024" max="1024" default="0">
-   &lt;name>Offset Alpha&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" name="rPower" factor="2000" keyframes="0=50" min="1" max="1000" default="100">
-   &lt;name>Power Red&lt;/name>
-   &lt;comment>&lt;![CDATA[Changes the Gamma value for the selected channel. Black and white pixel values will not be affected, but everything between.&lt;br/>
-                Mathematically, what happens is an exponentiation of the pixel brightness on &lt;code>[0,1]&lt;/code> by the gamma value.]]&gt;&lt;/comment>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" name="gPower" factor="2000" keyframes="0=105" min="1" max="1000" default="100">
-   &lt;name>Power Green&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" name="bPower" factor="2000" keyframes="0=131" min="1" max="1000" default="100">
-   &lt;name>Power Blue&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" name="aPower" factor="2000" keyframes="0=100" min="1" max="1000" default="100">
-   &lt;name>Power Alpha&lt;/name>
-  &lt;/parameter>
-  &lt;parameter type="simplekeyframe" name="saturation" factor="1000" keyframes="0=100" min="0" max="500" default="100">
-   &lt;name>Overall Saturation&lt;/name>
-   &lt;comment>The overall saturation will be changed in the last step of this filter.&lt;/comment>
-  &lt;/parameter>
-  &lt;version>0,3&lt;/version>
-  &lt;version>0,3&lt;/version>
- &lt;/effect>
+ &lt;effectgroup type="custom" name="Effect Group" id="Effect Group" effectcolor="#9963f7">
+  &lt;effect type="video" unique="1" tag="lines" id="lines" kdenlive_info="0/-1/Effect Group" effectcolor="#9e2513" disable="0">
+   &lt;name>Scratchlines&lt;/name>
+   &lt;description>Scratchlines over the picture&lt;/description>
+   &lt;author>Marco Gittler&lt;/author>
+   &lt;parameter type="double" name="line_width" max="100" min="0" value="9" default="2">
+    &lt;name>Width of line&lt;/name>
+   &lt;/parameter>
+   &lt;parameter type="double" name="num" max="100" min="0" value="100" default="5">
+    &lt;name>Max number of lines&lt;/name>
+   &lt;/parameter>
+   &lt;parameter type="double" name="darker" max="100" min="0" value="0" default="40">
+    &lt;name>Max darker&lt;/name>
+   &lt;/parameter>
+   &lt;parameter type="double" name="lighter" max="100" min="0" value="100" default="40">
+    &lt;name>Max lighter&lt;/name>
+   &lt;/parameter>
+   &lt;version>0,2&lt;/version>
+   &lt;version>0,2&lt;/version>
+  &lt;/effect>
+ &lt;/effectgroup>
 &lt;/customeffects>
 </property>
   <property name="kdenlive:folder.-1.17">Logo</property>
@@ -3364,6 +3356,7 @@
   <entry producer="65" in="0" out="451"/>
   <entry producer="73" in="0" out="4343"/>
   <entry producer="74" in="0" out="68146"/>
+  <entry producer="75" in="0" out="23437"/>
  </playlist>
  <producer id="black" in="0" out="114270">
   <property name="length">114271</property>
@@ -3374,24 +3367,19 @@
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry producer="black" in="0" out="68212"/>
+  <entry producer="black" in="0" out="8276"/>
  </playlist>
- <playlist id="playlist1">
-  <property name="kdenlive:audio_track">1</property>
-  <property name="kdenlive:track_name">Audio 2</property>
-  <property name="kdenlive:locked_track">0</property>
- </playlist>
- <producer title="Anonymous Submission" id="73_playlist2" in="0" out="4343">
-  <property name="length">00:01:26:44</property>
+ <producer title="Anonymous Submission" id="75_playlist1" in="0" out="23437">
+  <property name="length">00:07:48:38</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-Couplet1Refrain1_r1.ogg</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-2_r1.ogg</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
-  <property name="kdenlive:file_size">1262407</property>
-  <property name="kdenlive:file_hash">d81388a0072b69b18a1a90b7310cda2e</property>
+  <property name="kdenlive:file_size">6122194</property>
+  <property name="kdenlive:file_hash">df9aa9dd771d7abbcc4a5132bde79bec</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">1</property>
@@ -3405,11 +3393,33 @@
   <property name="meta.attr.0.stream.disc.markup">0</property>
   <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
  </producer>
+ <playlist id="playlist1">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:track_name">Audio 2</property>
+  <property name="kdenlive:locked_track">0</property>
+  <blank length="18"/>
+  <entry producer="75_playlist1" in="0" out="8257"/>
+ </playlist>
+ <producer title="Anonymous Submission" id="producer0" in="0" out="4343">
+  <property name="length">00:01:26:44</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-Couplet1Refrain1_r1.ogg</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">1262407</property>
+  <property name="kdenlive:file_hash">d81388a0072b69b18a1a90b7310cda2e</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="kdenlive:clipstate">0</property>
+ </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 1</property>
   <property name="kdenlive:locked_track">0</property>
-  <entry producer="73_playlist2" in="183" out="4343"/>
+  <entry producer="producer0" in="183" out="4343"/>
  </playlist>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Vidéo 1</property>
@@ -3457,7 +3467,7 @@
   <blank length="1156"/>
   <entry producer="74_playlist6" in="1167" out="1376"/>
   <blank length="89"/>
-  <entry producer="74_playlist6" in="1390" out="68146"/>
+  <entry producer="74_playlist6" in="1390" out="8210"/>
  </playlist>
  <producer title="Anonymous Submission" id="17_playlist8" in="0" out="2706">
   <property name="length">00:00:54:07</property>
@@ -3750,8 +3760,8 @@
  </playlist>
  <playlist id="playlist7">
   <property name="kdenlive:track_name">Video 6</property>
-  <blank length="1469"/>
-  <entry producer="slowmotion:17:1,5:1:0" in="1009" out="1011">
+  <blank length="1464"/>
+  <entry producer="slowmotion:17:1,5:1:0" in="1004" out="1011">
    <filter id="RLPP - Violet Degueux">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.sopsat</property>
@@ -3773,40 +3783,20 @@
     <property name="saturation">1009=0,1</property>
     <property name="kdenlive_info">1/-1/</property>
    </filter>
-   <filter id="frei0r.hqdn3d">
-    <property name="version">0,1</property>
-    <property name="mlt_service">frei0r.hqdn3d</property>
-    <property name="kdenlive_id">frei0r.hqdn3d</property>
-    <property name="tag">frei0r.hqdn3d</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="kdenlive_info">0/-1/</property>
-    <property name="Spatial">1009=1</property>
-    <property name="Temporal">1009=0,06</property>
-   </filter>
    <filter id="filter8">
-    <property name="background">colour:0x00000000</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">pan_zoom</property>
-    <property name="tag">affine</property>
-    <property name="kdenlive_ix">3</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-    <property name="transition.geometry">0=0/0:1920x1080:100;11=0/0:1920x1080:100;16=-310/-31:2496x1404:100</property>
-    <property name="transition.distort">0</property>
-   </filter>
-   <filter id="filter9">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.sopsat</property>
     <property name="kdenlive_id">RLPP - Violet Degueux</property>
     <property name="tag">frei0r.sopsat</property>
-    <property name="kdenlive_ix">4</property>
+    <property name="kdenlive_ix">2</property>
     <property name="kdenlive_info">1/-1/</property>
+    <property name="disable"/>
     <property name="rSlope">1009=0,1055</property>
     <property name="gSlope">1009=0,05</property>
     <property name="bSlope">1009=0,088</property>
     <property name="aSlope">1009=0,05</property>
-    <property name="rOffset">1009=0,455566</property>
-    <property name="gOffset">1009=0,237305</property>
+    <property name="rOffset">1009=0,456055</property>
+    <property name="gOffset">1009=0,237793</property>
     <property name="bOffset">1009=0,5</property>
     <property name="aOffset">1009=0,5</property>
     <property name="rPower">1009=0,025</property>
@@ -3815,11 +3805,77 @@
     <property name="aPower">1009=0,05</property>
     <property name="saturation">1009=0,1</property>
    </filter>
+   <filter id="filter9">
+    <property name="version">0,3</property>
+    <property name="mlt_service">frei0r.sopsat</property>
+    <property name="kdenlive_id">RLPP - Violet Degueux</property>
+    <property name="tag">frei0r.sopsat</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="kdenlive_info">1/-1/</property>
+    <property name="disable"/>
+    <property name="rSlope">1004=0,1055</property>
+    <property name="gSlope">1004=0,05</property>
+    <property name="bSlope">1004=0,088</property>
+    <property name="aSlope">1004=0,05</property>
+    <property name="rOffset">1004=0,456543</property>
+    <property name="gOffset">1004=0,238281</property>
+    <property name="bOffset">1004=0,5</property>
+    <property name="aOffset">1004=0,5</property>
+    <property name="rPower">1004=0,025</property>
+    <property name="gPower">1004=0,0525</property>
+    <property name="bPower">1004=0,0655</property>
+    <property name="aPower">1004=0,05</property>
+    <property name="saturation">1004=0,1</property>
+   </filter>
+   <filter id="frei0r.hqdn3d">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.hqdn3d</property>
+    <property name="kdenlive_id">frei0r.hqdn3d</property>
+    <property name="tag">frei0r.hqdn3d</property>
+    <property name="kdenlive_ix">4</property>
+    <property name="kdenlive_info">0/-1/</property>
+    <property name="disable"/>
+    <property name="Spatial">1004=1</property>
+    <property name="Temporal">1004=0,06</property>
+   </filter>
+   <filter id="filter10">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">5</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+    <property name="transition.geometry">0=0/0:1920x1080:100;11=0/0:1920x1080:100;16=-310/-31:2496x1404:100</property>
+    <property name="transition.distort">0</property>
+   </filter>
+   <filter id="filter11">
+    <property name="version">0,3</property>
+    <property name="mlt_service">frei0r.sopsat</property>
+    <property name="kdenlive_id">RLPP - Violet Degueux</property>
+    <property name="tag">frei0r.sopsat</property>
+    <property name="kdenlive_ix">6</property>
+    <property name="kdenlive_info">1/-1/</property>
+    <property name="disable"/>
+    <property name="rSlope">1004=0,1055</property>
+    <property name="gSlope">1004=0,05</property>
+    <property name="bSlope">1004=0,088</property>
+    <property name="aSlope">1004=0,05</property>
+    <property name="rOffset">1004=0,456543</property>
+    <property name="gOffset">1004=0,238281</property>
+    <property name="bOffset">1004=0,5</property>
+    <property name="aOffset">1004=0,5</property>
+    <property name="rPower">1004=0,025</property>
+    <property name="gPower">1004=0,0525</property>
+    <property name="bPower">1004=0,0655</property>
+    <property name="aPower">1004=0,05</property>
+    <property name="saturation">1004=0,1</property>
+   </filter>
   </entry>
  </playlist>
- <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="68212">
+ <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="8276">
   <track producer="black_track"/>
-  <track hide="video" producer="playlist1"/>
+  <track hide="both" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
   <track producer="playlist3"/>
   <track producer="playlist4"/>
@@ -3900,7 +3956,7 @@
    <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition9" in="1467" out="1471">
+  <transition id="transition9" in="1464" out="1471">
    <property name="a_track">8</property>
    <property name="b_track">9</property>
    <property name="version">0,9</property>
