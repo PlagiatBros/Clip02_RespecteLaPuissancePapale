@@ -3625,6 +3625,8 @@
   <property name="kdenlive:duration">250</property>
   <property name="kdenlive:file_size">135113</property>
   <property name="kdenlive:file_hash">23ec0d2793f6aed43a4fddbe8298770f</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">188</property>
   <filter id="avfilter.lut3d">
    <property name="mlt_service">avfilter.lut3d</property>
    <property name="kdenlive_id">avfilter.lut3d</property>
@@ -3633,6 +3635,7 @@
    <property name="kdenlive_info"/>
    <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
    <property name="av.interp">tetrahedral </property>
+   <property name="disable">0</property>
   </filter>
  </producer>
  <producer title="Anonymous Submission" id="87" in="0" out="1999">
@@ -4758,7 +4761,7 @@ COPYLEFT: THIS IS FREE ART FEEL FREE TO USE  IT
   <property name="force_reload">0</property>
   <property name="global_feed">1</property>
   <property name="kdenlive:zone_in">0</property>
-  <property name="kdenlive:zone_out">2000</property>
+  <property name="kdenlive:zone_out">253</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
@@ -4834,10 +4837,15 @@ COPYLEFT: THIS IS FREE ART FEEL FREE TO USE  IT
   <property name="kdenlive:folderid">26</property>
   <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
  &lt;item type="QGraphicsTextItem" z-index="1">
-  &lt;position x="890" y="456">
+  &lt;position x="890" y="372">
    &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
   &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="140.406" font-color="255,255,255,255">
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="336" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="140.406" font-color="39,39,39,255">
+
+
+
+
+
 
 FSF.ORG&lt;/content>
  &lt;/item>
@@ -4849,8 +4857,8 @@ FSF.ORG&lt;/content>
   <property name="kdenlive:duration">150</property>
   <property name="force_reload">0</property>
   <property name="global_feed">1</property>
-  <property name="kdenlive:zone_in">0</property>
-  <property name="kdenlive:zone_out">2000</property>
+  <property name="kdenlive:zone_in">59</property>
+  <property name="kdenlive:zone_out">156</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
@@ -5118,6 +5126,486 @@ FSF.ORG&lt;/content>
    <property name="Hue">0=0,0194444</property>
   </filter>
  </producer>
+ <producer title="Anonymous Submission" id="130" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">ardour</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="883" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="153.203" font-color="255,255,255,255">
+
+ARDOUR&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="131" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">deb</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="788" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="343.531" font-color="255,255,255,255">
+
+DEBIAN GNU/LINUX&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="132" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">kdenlive</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="874" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="172.734" font-color="255,255,255,255">
+
+KDENLIVE&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="133" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">ink</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="874" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="172.266" font-color="255,255,255,255">
+
+INKSCAPE&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="134" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">gimp</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="914" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="92" font-color="255,255,255,255">
+
+GIMP&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="135" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">plug</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="671" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="578.297" font-color="255,255,255,255">
+
+SWH/MDA/TAP/C*/CALF PLUGINS&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="136" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">tapeuta</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="861" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="198.203" font-color="255,255,255,255">
+
+TAPEUTAPE&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="137" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">glad</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="874" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="171.547" font-color="255,255,255,255">
+
+(G)LADISH&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="138" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">zyn</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="828" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="264.016" font-color="255,255,255,255">
+
+ZYNADDSUBFX&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="139" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">at1</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="862" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="195.188" font-color="255,255,255,255">
+
+ZITA-[F]AT1&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="140" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">seq24</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="906" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="108" font-color="255,255,255,255">
+
+SEQ24&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="141" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">bitrot</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="896" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="127.359" font-color="255,255,255,255">
+
+BITROT&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="142" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">sooperlooper</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="896" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="127.359" font-color="255,255,255,255">
+
+BITROT&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="143" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">non</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="856" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="208.609" font-color="255,255,255,255">
+
+NON-MIXER&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer title="Anonymous Submission" id="144" in="0" out="149">
+  <property name="length">250</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">etc</property>
+  <property name="kdenlive:folderid">27</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="928" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="126" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="63.7031" font-color="255,255,255,255">
+
+ETC&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">2000</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -5128,7 +5616,7 @@ FSF.ORG&lt;/content>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">16322</property>
+  <property name="kdenlive:docproperties.position">10166</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -5140,9 +5628,9 @@ FSF.ORG&lt;/content>
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">0</property>
-  <property name="kdenlive:docproperties.zoneout">2004</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.zonein">15964</property>
+  <property name="kdenlive:docproperties.zoneout">16606</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -5219,6 +5707,7 @@ FSF.ORG&lt;/content>
   <property name="kdenlive:folder.-1.25">CREDITS</property>
   <property name="kdenlive:folder.25.23">Starring</property>
   <property name="kdenlive:folder.25.26">DIVERS</property>
+  <property name="kdenlive:folder.25.27">fsf</property>
   <property name="xml_retain">1</property>
   <entry producer="1" in="0" out="14561"/>
   <entry producer="5" in="0" out="19246"/>
@@ -5337,6 +5826,21 @@ FSF.ORG&lt;/content>
   <blank length="17047"/>
   <entry producer="128" in="0" out="3901"/>
   <entry producer="129" in="0" out="2020"/>
+  <entry producer="130" in="0" out="149"/>
+  <entry producer="131" in="0" out="149"/>
+  <entry producer="132" in="0" out="149"/>
+  <entry producer="133" in="0" out="149"/>
+  <entry producer="134" in="0" out="149"/>
+  <entry producer="135" in="0" out="149"/>
+  <entry producer="136" in="0" out="149"/>
+  <entry producer="137" in="0" out="149"/>
+  <entry producer="138" in="0" out="149"/>
+  <entry producer="139" in="0" out="149"/>
+  <entry producer="140" in="0" out="149"/>
+  <entry producer="141" in="0" out="149"/>
+  <entry producer="142" in="0" out="149"/>
+  <entry producer="143" in="0" out="149"/>
+  <entry producer="144" in="0" out="149"/>
  </playlist>
  <producer id="black" in="0" out="114270">
   <property name="length">114271</property>
@@ -9728,7 +10232,7 @@ FSF.ORG&lt;/content>
   <property name="meta.media.0.codec.color_trc">1</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">1392636</property>
+  <property name="meta.media.0.codec.bit_rate">5305242</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -10484,7 +10988,8 @@ FSF.ORG&lt;/content>
   <entry producer="95" in="0" out="249"/>
   <entry producer="96" in="0" out="249"/>
   <entry producer="97" in="0" out="149"/>
-  <blank length="347"/>
+  <blank length="250"/>
+  <entry producer="124" in="59" out="155"/>
   <entry producer="121" in="0" out="252"/>
  </playlist>
  <playlist id="playlist13">
@@ -10505,7 +11010,33 @@ FSF.ORG&lt;/content>
   <entry producer="116" in="0" out="56"/>
   <entry producer="111" in="0" out="123"/>
   <entry producer="118" in="8" out="133"/>
-  <entry producer="124" in="59" out="155"/>
+  <entry producer="130" in="142" out="148"/>
+  <entry producer="138" in="2" out="8"/>
+  <entry producer="136" in="0" out="6"/>
+  <entry producer="135" in="0" out="6"/>
+  <entry producer="132" in="0" out="6"/>
+  <entry producer="134" in="0" out="6"/>
+  <entry producer="139" in="0" out="6"/>
+  <entry producer="133" in="0" out="6"/>
+  <entry producer="131" in="0" out="6"/>
+  <entry producer="137" in="0" out="6"/>
+  <entry producer="140" in="0" out="6"/>
+  <entry producer="141" in="0" out="6"/>
+  <entry producer="143" in="0" out="6"/>
+  <entry producer="144" in="0" out="5">
+   <filter id="frei0r.glitch0r">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="0">1</property>
+    <property name="1">0,053</property>
+    <property name="2">0,008</property>
+    <property name="3">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
   <filter id="filter83">
    <property name="background">colour:0x00000000</property>
    <property name="mlt_service">affine</property>

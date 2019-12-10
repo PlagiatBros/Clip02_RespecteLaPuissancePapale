@@ -219,7 +219,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">23785</property>
+  <property name="kdenlive:docproperties.position">15580</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -231,9 +231,9 @@
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">0</property>
-  <property name="kdenlive:docproperties.zoneout">47949</property>
-  <property name="kdenlive:docproperties.zoom">14</property>
+  <property name="kdenlive:docproperties.zonein">15467</property>
+  <property name="kdenlive:docproperties.zoneout">18438</property>
+  <property name="kdenlive:docproperties.zoom">7</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:docproperties.renderaudioquality">320</property>
@@ -254,9 +254,10 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Rendus/2019-12-07-RLPP-Master.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Rendus/2019-12-10-RLPP-ballade-test.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="kdenlive:guide.312,2">00:05:12:10</property>
+  <property name="kdenlive:guide.119,02">oups</property>
   <property name="xml_retain">1</property>
   <entry producer="28" in="0" out="114270"/>
   <entry producer="31" in="0" out="58"/>
@@ -326,30 +327,6 @@
   <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
   <property name="meta.media.0.codec.bit_rate">2304000</property>
  </producer>
- <producer title="Anonymous Submission" id="42_playlist1" in="0" out="23437">
-  <property name="length">00:07:48:38</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-2_r1.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">6122194</property>
-  <property name="kdenlive:file_hash">df9aa9dd771d7abbcc4a5132bde79bec</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
- </producer>
  <playlist id="playlist1">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 2</property>
@@ -379,29 +356,6 @@
     <property name="kdenlive_ix">1</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
-   </filter>
-  </entry>
-  <blank length="1717"/>
-  <entry producer="42_playlist1" in="0" out="8609">
-   <filter id="fadeout" in="8094" out="8609">
-    <property name="window">75</property>
-    <property name="max_gain">20dB</property>
-    <property name="mlt_service">volume</property>
-    <property name="kdenlive_id">fadeout</property>
-    <property name="tag">volume</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="gain">1</property>
-    <property name="end">0</property>
-   </filter>
-   <filter id="fadein" out="1">
-    <property name="window">75</property>
-    <property name="max_gain">20dB</property>
-    <property name="mlt_service">volume</property>
-    <property name="kdenlive_id">fadein</property>
-    <property name="tag">volume</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="gain">0</property>
-    <property name="end">1</property>
    </filter>
   </entry>
  </playlist>
@@ -674,18 +628,7 @@
     <property name="Alpha operation">0,0</property>
    </filter>
   </entry>
-  <entry producer="43_playlist5" in="234" out="7653">
-   <filter id="filter4">
-    <property name="window">75</property>
-    <property name="max_gain">20dB</property>
-    <property name="level">234=-60</property>
-    <property name="mlt_service">volume</property>
-    <property name="kdenlive_id">volume</property>
-    <property name="tag">volume</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="kdenlive_info"/>
-   </filter>
-  </entry>
+  <entry producer="43_playlist5" in="234" out="7653"/>
   <blank length="3308"/>
   <entry producer="33_playlist5" in="6" out="14239"/>
   <blank length="2130"/>
@@ -988,12 +931,14 @@
    <property name="deinterlace">0</property>
    <property name="distort">0</property>
    <property name="fill">1</property>
-   <property name="geometry">0/0:1920x1080:40</property>
+   <property name="geometry">0/0:1920x1080:45</property>
    <property name="halign">centre</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0</property>
    <property name="valign">middle</property>
+   <property name="automatic">0</property>
+   <property name="luma"/>
   </transition>
   <transition id="transition10" in="2724" out="2728">
    <property name="a_track">6</property>
@@ -1115,7 +1060,7 @@
    <property name="fill">1</property>
    <property name="geometry">0=0/0:1920x1080:0;35=0/0:1920x1080:30;113=0/0:1920x1080:100</property>
    <property name="halign">centre</property>
-   <property name="luma">/tmp/.mount_kdenliToFs8t/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
+   <property name="luma">/tmp/.mount_kdenliaPaksL/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0,04</property>
