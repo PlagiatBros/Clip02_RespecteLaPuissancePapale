@@ -219,7 +219,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">31845</property>
+  <property name="kdenlive:docproperties.position">35974</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -231,26 +231,26 @@
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">4499</property>
-  <property name="kdenlive:docproperties.zoneout">12545</property>
+  <property name="kdenlive:docproperties.zonein">0</property>
+  <property name="kdenlive:docproperties.zoneout">47921</property>
   <property name="kdenlive:docproperties.zoom">11</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups">&lt;groups>
  &lt;group>
-  &lt;clipitem position="15461" track="6"/>
   &lt;clipitem position="15461" track="2"/>
+  &lt;clipitem position="15461" track="6"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="31825" track="6"/>
   &lt;clipitem position="31825" track="2"/>
+  &lt;clipitem position="31825" track="6"/>
  &lt;/group>
  &lt;group>
   &lt;clipitem position="38695" track="6"/>
   &lt;clipitem position="38695" track="2"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="0" track="6"/>
   &lt;clipitem position="0" track="2"/>
+  &lt;clipitem position="0" track="6"/>
  &lt;/group>
  &lt;group>
   &lt;clipitem position="2368" track="6"/>
@@ -1212,7 +1212,7 @@
    <property name="fill">1</property>
    <property name="geometry">0=0/0:1920x1080:0;35=0/0:1920x1080:30;113=0/0:1920x1080:100</property>
    <property name="halign">centre</property>
-   <property name="luma">/tmp/.mount_kdenlincE8tX/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
+   <property name="luma">/tmp/.mount_kdenlirVWYyz/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0,04</property>
