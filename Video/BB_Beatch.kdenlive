@@ -3762,7 +3762,7 @@
   &lt;position x="1961" y="41">
    &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
   &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="42" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="1" font-weight="50" box-width="14652.9" font-color="255,255,255,255">NICE. THE ARCHBISHOP OF THE LOCAL CHELSEA LEAGUE HAD TO LEAVE EARLY TO CATCH HIS TRAIN, LEAVING ME ON ME OWN TO FINISH THE JOB.                                           JUST.                                      GREAT.                                           #PREVIOUSLY, CINTREUSE (LA KESH) AND BARBAPAPA (LORD MENDICITABLE) BEHAVED.  BUT NOW, IT APPEARS VERY CLEARLY THAT CENTOS (MISS KASCH) AND BARBARELLA (LORDY) WANT MORE AND AIN'T GETTING ENOUGH. BA BA BA BA BYE, THEY BE WANTING RED UNDER THEM HEELS YOU KNOW. IN FINE, THE OPUS TITLUM SURPRISINGLY MAKES SENSE AND THE CREDITS ARE DISPLAYED. BLA BLA BLA STARRING A BUNCH OF GOOD BENEVOLENT PALS, BLA BLA BLA FREE STUFFS AND SO ON. CALL ME IF YOU NEED SOMEONE FOR A TRANSLATION JOB, OR FOR ANY KIND OF JOB, I JUST REALLY NEED TO TALK TO SOMEONE, CALL ME PLZ +33 7 20 2&lt;/content>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="42" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="1" font-weight="50" box-width="14673.2" font-color="255,255,255,255">NICE. THE ARCHBISHOP OF THE LOCAL CHELSEA LEAGUE HAD TO LEAVE EARLY TO CATCH HIS TRAIN, LEAVING ME ON ME OWN TO FINISH THE JOB.                                           JUST.                                      GREAT.                                           #PREVIOUSLY, CINTREUSE (LA KESH) AND BARBAPAPA (LORD MENDICITABLE) BEHAVED.  BUT NOW, IT APPEARS VERY CLEARLY THAT CENTOS (MISS KASCH) AND BARBARELLA (LORDY) WANT MORE AND AIN'T GETTING ENOUGH. BA BA BA BA BYE, THEY BE WANTING RED UNDER THEM HEELS YOU KNOW. IN FINE, THE OPUS TITLUM SURPRISINGLY MAKES SENSE AND THE CREDITS ARE DISPLAYED. BLA BLA BLA STARRING A BUNCH OF GOOD BENEVOLENT PALS, BLA BLA BLA FREE STUFFS AND SO ON. CALL ME IF YOU NEED SOMEONE FOR A TRANSLATION JOB, OR FOR ANY KIND OF JOB, I JUST REALLY NEED TO TALK TO SOMEONE, CALL ME PLZ +33 6 30 55&lt;/content>
  &lt;/item>
  &lt;item type="QGraphicsRectItem" z-index="0">
   &lt;position x="-6" y="0">
@@ -3771,7 +3771,7 @@
   &lt;content brushcolor="1,1,255,55" pencolor="0,0,0,255" penwidth="0" rect="0,0,17819,116"/>
  &lt;/item>
  &lt;startviewport rect="0,0,1920,1080"/>
- &lt;endviewport rect="14657.1,0.5,1920,1080"/>
+ &lt;endviewport rect="14706.5,0.5,1920,1080"/>
  &lt;background color="0,0,0,255"/>
 &lt;/kdenlivetitle>
 </property>
@@ -5616,7 +5616,7 @@ ETC&lt;/content>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">10166</property>
+  <property name="kdenlive:docproperties.position">4479</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -5630,7 +5630,7 @@ ETC&lt;/content>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">15964</property>
   <property name="kdenlive:docproperties.zoneout">16606</property>
-  <property name="kdenlive:docproperties.zoom">8</property>
+  <property name="kdenlive:docproperties.zoom">9</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -10232,7 +10232,7 @@ ETC&lt;/content>
   <property name="meta.media.0.codec.color_trc">1</property>
   <property name="meta.media.0.codec.name">h264</property>
   <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
-  <property name="meta.media.0.codec.bit_rate">5305242</property>
+  <property name="meta.media.0.codec.bit_rate">4563261</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -10700,8 +10700,8 @@ ETC&lt;/content>
  <playlist id="playlist15">
   <property name="kdenlive:track_name">Video 5</property>
   <blank length="9337"/>
-  <entry producer="128_playlist15" in="560" out="790">
-   <filter id="filter72">
+  <entry producer="128_playlist15" in="560" out="787">
+   <filter id="filter0">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -10712,7 +10712,7 @@ ETC&lt;/content>
     <property name="transition.geometry">760/206:1152x648:100</property>
     <property name="transition.distort">0</property>
    </filter>
-   <filter id="filter73">
+   <filter id="filter1">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.alphaspot</property>
     <property name="kdenlive_id">frei0r.alphaspot</property>
@@ -10740,8 +10740,97 @@ ETC&lt;/content>
     <property name="end">1</property>
    </filter>
   </entry>
-  <entry producer="128_playlist15" in="1144" out="1608">
-   <filter id="filter75" in="1144" out="1608">
+  <entry producer="128_playlist15" in="788" out="790">
+   <filter id="frei0r.glitch0r">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="0">1</property>
+    <property name="1">0,056</property>
+    <property name="2">0,012</property>
+    <property name="3">0</property>
+    <property name="kdenlive_info">0/0/Effect Group</property>
+   </filter>
+   <filter id="filter31">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info">1/0/Effect Group</property>
+    <property name="disable">0</property>
+    <property name="transition.geometry">760/206:1152x648:100</property>
+    <property name="transition.distort">0</property>
+   </filter>
+   <filter id="filter32">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.alphaspot</property>
+    <property name="kdenlive_id">frei0r.alphaspot</property>
+    <property name="tag">frei0r.alphaspot</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="kdenlive_info">1/0/Effect Group</property>
+    <property name="disable">0</property>
+    <property name="Shape">0,38</property>
+    <property name="Position X">560=0,702</property>
+    <property name="Position Y">560=0,49</property>
+    <property name="Size X">560=0,139</property>
+    <property name="Size Y">560=0,294</property>
+    <property name="Tilt">560=0,5</property>
+    <property name="Transition width">560=0,04</property>
+    <property name="Min">560=0</property>
+    <property name="Max">560=1</property>
+    <property name="Operation">0,0</property>
+   </filter>
+  </entry>
+  <entry producer="128_playlist15" in="1144" out="1145">
+   <filter id="filter33">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_info">0/0/Effect Group</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="0">1</property>
+    <property name="1">0,056</property>
+    <property name="2">0,012</property>
+    <property name="3">0</property>
+   </filter>
+   <filter id="filter75" in="1144" out="1145">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info">1/0/Effect Group</property>
+    <property name="disable">0</property>
+    <property name="transition.geometry">760/206:1152x648:100</property>
+    <property name="transition.distort">0</property>
+   </filter>
+   <filter id="filter76">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.alphaspot</property>
+    <property name="kdenlive_id">frei0r.alphaspot</property>
+    <property name="tag">frei0r.alphaspot</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="kdenlive_info">1/0/Effect Group</property>
+    <property name="disable">0</property>
+    <property name="Shape">0,38</property>
+    <property name="Position X">584=0,702</property>
+    <property name="Position Y">584=0,49</property>
+    <property name="Size X">584=0,139</property>
+    <property name="Size Y">584=0,294</property>
+    <property name="Tilt">584=0,5</property>
+    <property name="Transition width">584=0,04</property>
+    <property name="Min">584=0</property>
+    <property name="Max">584=1</property>
+    <property name="Operation">0,0</property>
+   </filter>
+  </entry>
+  <entry producer="128_playlist15" in="1146" out="1608">
+   <filter id="filter34" in="1146" out="1608">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -10753,7 +10842,7 @@ ETC&lt;/content>
     <property name="transition.geometry">760/206:1152x648:100</property>
     <property name="transition.distort">0</property>
    </filter>
-   <filter id="filter76">
+   <filter id="filter35">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.alphaspot</property>
     <property name="kdenlive_id">frei0r.alphaspot</property>
@@ -11024,7 +11113,7 @@ ETC&lt;/content>
   <entry producer="141" in="0" out="6"/>
   <entry producer="143" in="0" out="6"/>
   <entry producer="144" in="0" out="5">
-   <filter id="frei0r.glitch0r">
+   <filter id="filter36">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>

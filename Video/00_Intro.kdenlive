@@ -3578,6 +3578,27 @@
   <property name="kdenlive:file_hash">a78f9de7f5bcdc4b7ffe09976d46d060</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="79" in="0" out="50404">
+  <property name="length">00:16:48:05</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/zadok.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">1411200</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:file_size">177827560</property>
+  <property name="kdenlive:file_hash">23a9fb2b1e65d1cfa033b6494e13d239</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -3588,7 +3609,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">2583</property>
+  <property name="kdenlive:docproperties.position">2067</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3602,7 +3623,7 @@
   <property name="kdenlive:docproperties.videotargettrack">5</property>
   <property name="kdenlive:docproperties.zonein">483</property>
   <property name="kdenlive:docproperties.zoneout">4554</property>
-  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:docproperties.zoom">6</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -3747,6 +3768,7 @@
   <entry producer="76" in="0" out="435"/>
   <entry producer="75" in="0" out="432"/>
   <entry producer="78" in="0" out="432"/>
+  <entry producer="79" in="0" out="50404"/>
  </playlist>
  <producer id="black" in="0" out="114270">
   <property name="length">114271</property>
@@ -3757,11 +3779,46 @@
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry producer="black" in="0" out="2800"/>
+  <entry producer="black" in="0" out="2874"/>
  </playlist>
+ <producer title="Anonymous Submission" id="79_playlist1" in="0" out="50404">
+  <property name="length">00:16:48:05</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/zadok.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">177827560</property>
+  <property name="kdenlive:file_hash">23a9fb2b1e65d1cfa033b6494e13d239</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">1411200</property>
+ </producer>
  <playlist id="playlist1">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 2</property>
+  <blank length="1829"/>
+  <entry producer="79_playlist1" in="39870" out="40914">
+   <filter id="fadein" in="39870" out="39873">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+   </filter>
+  </entry>
  </playlist>
  <producer title="Anonymous Submission" id="41_playlist2" in="0" out="497">
   <property name="length">00:00:09:48</property>
@@ -3787,12 +3844,34 @@
   <property name="meta.attr.artist.markup">Mike Koenig</property>
   <property name="meta.attr.title.markup">Slow HeartBeat</property>
  </producer>
+ <producer title="Anonymous Submission" id="79_playlist2" in="0" out="50404">
+  <property name="length">00:16:48:05</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/zadok.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:file_size">177827560</property>
+  <property name="kdenlive:file_hash">23a9fb2b1e65d1cfa033b6494e13d239</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">44100</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">1411200</property>
+ </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 1</property>
   <blank length="55"/>
   <entry producer="41_playlist2" in="367" out="491">
-   <filter id="fadein" in="367" out="368">
+   <filter id="filter11" in="367" out="368">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3818,7 +3897,7 @@
    </filter>
   </entry>
   <entry producer="41_playlist2" in="367" out="495">
-   <filter id="filter11" in="367" out="368">
+   <filter id="filter12" in="367" out="368">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3830,7 +3909,7 @@
     <property name="gain">0</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter12" in="494" out="495">
+   <filter id="filter13" in="494" out="495">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3842,7 +3921,7 @@
    </filter>
   </entry>
   <entry producer="41_playlist2" in="122" out="181">
-   <filter id="filter13" in="122" out="123">
+   <filter id="filter14" in="122" out="123">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3852,7 +3931,7 @@
     <property name="gain">0</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter14" in="180" out="181">
+   <filter id="filter15" in="180" out="181">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3864,7 +3943,7 @@
    </filter>
   </entry>
   <entry producer="41_playlist2" in="122" out="140">
-   <filter id="filter15" in="122" out="123">
+   <filter id="filter16" in="122" out="123">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3875,7 +3954,7 @@
     <property name="gain">0</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter16" in="136" out="140">
+   <filter id="filter17" in="136" out="140">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3888,7 +3967,7 @@
   </entry>
   <blank length="6"/>
   <entry producer="41_playlist2" in="138" out="181">
-   <filter id="filter17" in="175" out="182">
+   <filter id="filter18" in="175" out="182">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3900,7 +3979,7 @@
     <property name="gain">1</property>
     <property name="end">0</property>
    </filter>
-   <filter id="filter18" in="138" out="141">
+   <filter id="filter19" in="138" out="141">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3912,6 +3991,8 @@
     <property name="end">1</property>
    </filter>
   </entry>
+  <blank length="11"/>
+  <entry producer="79_playlist2" in="38467" out="39869"/>
  </playlist>
  <producer title="Anonymous Submission" id="37_playlist11" in="0" out="44957">
   <property name="length">00:14:59:08</property>
@@ -3945,7 +4026,7 @@
   <property name="kdenlive:audio_track">1</property>
   <blank length="1829"/>
   <entry producer="37_playlist11" in="34527" out="35478">
-   <filter id="filter19" in="34527" out="34529">
+   <filter id="filter20" in="34527" out="34529">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3957,7 +4038,7 @@
     <property name="gain">0</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter20" in="35410" out="35478">
+   <filter id="filter21" in="35410" out="35478">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -3999,9 +4080,9 @@
  <playlist id="playlist15">
   <property name="kdenlive:track_name">Audio 4</property>
   <property name="kdenlive:audio_track">1</property>
-  <blank length="477"/>
-  <entry producer="37_playlist15" in="33152" out="34526">
-   <filter id="filter21" in="33152" out="33154">
+  <blank length="459"/>
+  <entry producer="37_playlist15" in="33134" out="34526">
+   <filter id="filter22" in="33134" out="33136">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -4013,7 +4094,7 @@
     <property name="gain">0</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter22" in="34522" out="34526">
+   <filter id="filter23" in="34522" out="34526">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -4060,7 +4141,7 @@
   <property name="kdenlive:locked_track">0</property>
   <blank length="2368"/>
   <entry producer="75" in="0" out="431">
-   <filter id="filter23">
+   <filter id="filter24">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -4682,207 +4763,207 @@
     <property name="kdenlive_id">lines</property>
     <property name="tag">lines</property>
     <property name="kdenlive_ix">2</property>
-    <property name="line99">1763</property>
+    <property name="line99">1767</property>
     <property name="typeline99">3</property>
-    <property name="line98">1876</property>
+    <property name="line98">1872</property>
     <property name="typeline98">1</property>
-    <property name="line97">107</property>
+    <property name="line97">94</property>
     <property name="typeline97">3</property>
-    <property name="line96">1372</property>
+    <property name="line96">1380</property>
     <property name="typeline96">1</property>
-    <property name="line95">654</property>
+    <property name="line95">661</property>
     <property name="typeline95">3</property>
-    <property name="line94">1145</property>
+    <property name="line94">1156</property>
     <property name="typeline94">1</property>
-    <property name="line93">1760</property>
+    <property name="line93">1773</property>
     <property name="typeline93">3</property>
-    <property name="line92">1551</property>
+    <property name="line92">1542</property>
     <property name="typeline92">3</property>
-    <property name="line91">491</property>
+    <property name="line91">504</property>
     <property name="typeline91">2</property>
-    <property name="line90">275</property>
+    <property name="line90">269</property>
     <property name="typeline90">1</property>
-    <property name="line89">899</property>
+    <property name="line89">908</property>
     <property name="typeline89">3</property>
-    <property name="line88">400</property>
+    <property name="line88">404</property>
     <property name="typeline88">2</property>
-    <property name="line87">1140</property>
+    <property name="line87">1145</property>
     <property name="typeline87">1</property>
-    <property name="line86">768</property>
+    <property name="line86">766</property>
     <property name="typeline86">3</property>
-    <property name="line85">607</property>
+    <property name="line85">606</property>
     <property name="typeline85">3</property>
-    <property name="line84">662</property>
+    <property name="line84">658</property>
     <property name="typeline84">1</property>
-    <property name="line83">270</property>
+    <property name="line83">254</property>
     <property name="typeline83">2</property>
     <property name="line82">1188</property>
     <property name="typeline82">1</property>
-    <property name="line81">1342</property>
+    <property name="line81">1350</property>
     <property name="typeline81">3</property>
-    <property name="line80">297</property>
+    <property name="line80">294</property>
     <property name="typeline80">3</property>
-    <property name="line79">735</property>
+    <property name="line79">746</property>
     <property name="typeline79">3</property>
-    <property name="line78">342</property>
+    <property name="line78">337</property>
     <property name="typeline78">3</property>
-    <property name="line77">1849</property>
+    <property name="line77">1842</property>
     <property name="typeline77">1</property>
-    <property name="line76">1050</property>
+    <property name="line76">1056</property>
     <property name="typeline76">2</property>
-    <property name="line75">1847</property>
+    <property name="line75">1835</property>
     <property name="typeline75">2</property>
-    <property name="line74">1729</property>
+    <property name="line74">1726</property>
     <property name="typeline74">1</property>
-    <property name="line73">86</property>
+    <property name="line73">81</property>
     <property name="typeline73">3</property>
-    <property name="line72">639</property>
+    <property name="line72">647</property>
     <property name="typeline72">3</property>
-    <property name="line71">1717</property>
+    <property name="line71">1727</property>
     <property name="typeline71">3</property>
-    <property name="line70">1066</property>
+    <property name="line70">1064</property>
     <property name="typeline70">1</property>
-    <property name="line69">586</property>
+    <property name="line69">585</property>
     <property name="typeline69">2</property>
-    <property name="line68">285</property>
+    <property name="line68">289</property>
     <property name="typeline68">2</property>
-    <property name="line67">1247</property>
+    <property name="line67">1240</property>
     <property name="typeline67">3</property>
-    <property name="line66">1332</property>
+    <property name="line66">1333</property>
     <property name="typeline66">1</property>
-    <property name="line65">1899</property>
+    <property name="line65">1912</property>
     <property name="typeline65">3</property>
-    <property name="line64">1591</property>
+    <property name="line64">1595</property>
     <property name="typeline64">2</property>
     <property name="line63">1538</property>
     <property name="typeline63">2</property>
-    <property name="line62">1184</property>
+    <property name="line62">1181</property>
     <property name="typeline62">3</property>
-    <property name="line61">1538</property>
+    <property name="line61">1531</property>
     <property name="typeline61">2</property>
-    <property name="line60">1140</property>
+    <property name="line60">1139</property>
     <property name="typeline60">2</property>
-    <property name="line59">1397</property>
+    <property name="line59">1396</property>
     <property name="typeline59">1</property>
-    <property name="line58">1720</property>
+    <property name="line58">1722</property>
     <property name="typeline58">2</property>
-    <property name="line57">1383</property>
+    <property name="line57">1386</property>
     <property name="typeline57">2</property>
-    <property name="line56">1538</property>
+    <property name="line56">1534</property>
     <property name="typeline56">2</property>
-    <property name="line55">1809</property>
+    <property name="line55">1804</property>
     <property name="typeline55">1</property>
-    <property name="line54">754</property>
+    <property name="line54">759</property>
     <property name="typeline54">3</property>
-    <property name="line53">1326</property>
+    <property name="line53">1314</property>
     <property name="typeline53">3</property>
     <property name="line52">1513</property>
     <property name="typeline52">1</property>
-    <property name="line51">972</property>
+    <property name="line51">989</property>
     <property name="typeline51">2</property>
-    <property name="line50">992</property>
+    <property name="line50">1000</property>
     <property name="typeline50">2</property>
     <property name="line49">639</property>
     <property name="typeline49">1</property>
-    <property name="line48">266</property>
+    <property name="line48">265</property>
     <property name="typeline48">3</property>
-    <property name="line47">1362</property>
+    <property name="line47">1371</property>
     <property name="typeline47">2</property>
-    <property name="line46">1045</property>
+    <property name="line46">1028</property>
     <property name="typeline46">1</property>
-    <property name="line45">1528</property>
+    <property name="line45">1524</property>
     <property name="typeline45">3</property>
-    <property name="line44">834</property>
+    <property name="line44">828</property>
     <property name="typeline44">2</property>
-    <property name="line43">800</property>
+    <property name="line43">808</property>
     <property name="typeline43">2</property>
-    <property name="line42">794</property>
+    <property name="line42">773</property>
     <property name="typeline42">3</property>
-    <property name="line41">1296</property>
+    <property name="line41">1300</property>
     <property name="typeline41">1</property>
-    <property name="line40">1025</property>
+    <property name="line40">1023</property>
     <property name="typeline40">3</property>
-    <property name="line39">1037</property>
+    <property name="line39">1035</property>
     <property name="typeline39">2</property>
-    <property name="line38">1425</property>
+    <property name="line38">1426</property>
     <property name="typeline38">2</property>
-    <property name="line37">1133</property>
+    <property name="line37">1126</property>
     <property name="typeline37">2</property>
-    <property name="line36">1585</property>
+    <property name="line36">1583</property>
     <property name="typeline36">2</property>
-    <property name="line35">104</property>
+    <property name="line35">94</property>
     <property name="typeline35">3</property>
-    <property name="line34">1363</property>
+    <property name="line34">1373</property>
     <property name="typeline34">3</property>
-    <property name="line33">871</property>
+    <property name="line33">870</property>
     <property name="typeline33">1</property>
-    <property name="line32">1421</property>
+    <property name="line32">1420</property>
     <property name="typeline32">1</property>
-    <property name="line31">1137</property>
+    <property name="line31">1134</property>
     <property name="typeline31">2</property>
-    <property name="line30">1857</property>
+    <property name="line30">1847</property>
     <property name="typeline30">1</property>
-    <property name="line29">1535</property>
+    <property name="line29">1526</property>
     <property name="typeline29">3</property>
-    <property name="line28">1173</property>
+    <property name="line28">1161</property>
     <property name="typeline28">1</property>
-    <property name="line27">626</property>
+    <property name="line27">620</property>
     <property name="typeline27">1</property>
-    <property name="line26">1304</property>
+    <property name="line26">1320</property>
     <property name="typeline26">3</property>
-    <property name="line25">315</property>
+    <property name="line25">307</property>
     <property name="typeline25">3</property>
-    <property name="line24">1635</property>
+    <property name="line24">1643</property>
     <property name="typeline24">1</property>
-    <property name="line23">1411</property>
+    <property name="line23">1408</property>
     <property name="typeline23">1</property>
-    <property name="line22">364</property>
+    <property name="line22">370</property>
     <property name="typeline22">3</property>
-    <property name="line21">919</property>
+    <property name="line21">916</property>
     <property name="typeline21">2</property>
-    <property name="line20">295</property>
+    <property name="line20">306</property>
     <property name="typeline20">2</property>
-    <property name="line19">1096</property>
+    <property name="line19">1092</property>
     <property name="typeline19">2</property>
-    <property name="line18">379</property>
+    <property name="line18">362</property>
     <property name="typeline18">3</property>
-    <property name="line17">1538</property>
+    <property name="line17">1548</property>
     <property name="typeline17">2</property>
-    <property name="line16">24</property>
+    <property name="line16">30</property>
     <property name="typeline16">2</property>
-    <property name="line15">1885</property>
+    <property name="line15">1892</property>
     <property name="typeline15">1</property>
-    <property name="line14">1006</property>
+    <property name="line14">1001</property>
     <property name="typeline14">3</property>
-    <property name="line13">991</property>
+    <property name="line13">988</property>
     <property name="typeline13">1</property>
-    <property name="line12">1596</property>
+    <property name="line12">1605</property>
     <property name="typeline12">2</property>
-    <property name="line11">185</property>
+    <property name="line11">187</property>
     <property name="typeline11">1</property>
-    <property name="line10">906</property>
+    <property name="line10">918</property>
     <property name="typeline10">3</property>
-    <property name="line9">397</property>
+    <property name="line9">399</property>
     <property name="typeline9">3</property>
-    <property name="line8">1801</property>
+    <property name="line8">1805</property>
     <property name="typeline8">3</property>
-    <property name="line7">21</property>
+    <property name="line7">18</property>
     <property name="typeline7">3</property>
-    <property name="line6">1796</property>
+    <property name="line6">1786</property>
     <property name="typeline6">1</property>
     <property name="line5">241</property>
     <property name="typeline5">2</property>
-    <property name="line4">1491</property>
+    <property name="line4">1498</property>
     <property name="typeline4">2</property>
-    <property name="line3">110</property>
+    <property name="line3">116</property>
     <property name="typeline3">3</property>
-    <property name="line2">340</property>
+    <property name="line2">337</property>
     <property name="typeline2">2</property>
-    <property name="line1">1528</property>
+    <property name="line1">1526</property>
     <property name="typeline1">2</property>
-    <property name="line0">1762</property>
+    <property name="line0">1771</property>
     <property name="typeline0">2</property>
-    <property name="last_oldfilm_line_pos">0,497685</property>
+    <property name="last_oldfilm_line_pos">0,0324074</property>
     <property name="kdenlive_info"/>
    </filter>
    <filter id="filter44">
@@ -5094,205 +5175,205 @@
     <property name="kdenlive_id">lines</property>
     <property name="tag">lines</property>
     <property name="kdenlive_ix">2</property>
-    <property name="line4">1705</property>
+    <property name="line4">1712</property>
     <property name="typeline4">3</property>
-    <property name="line3">1709</property>
+    <property name="line3">1715</property>
     <property name="typeline3">1</property>
-    <property name="line2">811</property>
+    <property name="line2">808</property>
     <property name="typeline2">3</property>
-    <property name="line1">1137</property>
+    <property name="line1">1135</property>
     <property name="typeline1">1</property>
-    <property name="line0">829</property>
+    <property name="line0">838</property>
     <property name="typeline0">3</property>
-    <property name="last_oldfilm_line_pos">0,497685</property>
+    <property name="last_oldfilm_line_pos">0,0324074</property>
     <property name="kdenlive_info"/>
-    <property name="line99">1759</property>
+    <property name="line99">1763</property>
     <property name="typeline99">3</property>
-    <property name="line98">540</property>
+    <property name="line98">536</property>
     <property name="typeline98">1</property>
-    <property name="line97">65</property>
+    <property name="line97">52</property>
     <property name="typeline97">2</property>
-    <property name="line96">1011</property>
+    <property name="line96">1019</property>
     <property name="typeline96">3</property>
-    <property name="line95">1921</property>
+    <property name="line95">1928</property>
     <property name="typeline95">1</property>
-    <property name="line94">244</property>
+    <property name="line94">255</property>
     <property name="typeline94">1</property>
-    <property name="line93">91</property>
+    <property name="line93">104</property>
     <property name="typeline93">1</property>
-    <property name="line92">1769</property>
+    <property name="line92">1760</property>
     <property name="typeline92">2</property>
-    <property name="line91">1791</property>
+    <property name="line91">1804</property>
     <property name="typeline91">3</property>
-    <property name="line90">275</property>
+    <property name="line90">269</property>
     <property name="typeline90">1</property>
-    <property name="line89">1851</property>
+    <property name="line89">1860</property>
     <property name="typeline89">3</property>
-    <property name="line88">903</property>
+    <property name="line88">907</property>
     <property name="typeline88">3</property>
-    <property name="line87">130</property>
+    <property name="line87">135</property>
     <property name="typeline87">3</property>
-    <property name="line86">273</property>
+    <property name="line86">271</property>
     <property name="typeline86">1</property>
-    <property name="line85">1743</property>
+    <property name="line85">1742</property>
     <property name="typeline85">1</property>
-    <property name="line84">1378</property>
+    <property name="line84">1374</property>
     <property name="typeline84">3</property>
-    <property name="line83">477</property>
+    <property name="line83">461</property>
     <property name="typeline83">3</property>
     <property name="line82">676</property>
     <property name="typeline82">2</property>
-    <property name="line81">1752</property>
+    <property name="line81">1760</property>
     <property name="typeline81">1</property>
-    <property name="line80">1297</property>
+    <property name="line80">1294</property>
     <property name="typeline80">1</property>
-    <property name="line79">791</property>
+    <property name="line79">802</property>
     <property name="typeline79">1</property>
-    <property name="line78">1112</property>
+    <property name="line78">1107</property>
     <property name="typeline78">2</property>
-    <property name="line77">1290</property>
+    <property name="line77">1283</property>
     <property name="typeline77">2</property>
-    <property name="line76">208</property>
+    <property name="line76">214</property>
     <property name="typeline76">3</property>
-    <property name="line75">552</property>
+    <property name="line75">540</property>
     <property name="typeline75">3</property>
-    <property name="line74">1529</property>
+    <property name="line74">1526</property>
     <property name="typeline74">2</property>
-    <property name="line73">93</property>
+    <property name="line73">88</property>
     <property name="typeline73">1</property>
-    <property name="line72">1627</property>
+    <property name="line72">1635</property>
     <property name="typeline72">3</property>
-    <property name="line71">205</property>
+    <property name="line71">215</property>
     <property name="typeline71">1</property>
-    <property name="line70">1966</property>
+    <property name="line70">1964</property>
     <property name="typeline70">2</property>
-    <property name="line69">383</property>
+    <property name="line69">382</property>
     <property name="typeline69">3</property>
-    <property name="line68">1288</property>
+    <property name="line68">1292</property>
     <property name="typeline68">3</property>
-    <property name="line67">1878</property>
+    <property name="line67">1871</property>
     <property name="typeline67">3</property>
-    <property name="line66">1247</property>
+    <property name="line66">1248</property>
     <property name="typeline66">1</property>
-    <property name="line65">1588</property>
+    <property name="line65">1601</property>
     <property name="typeline65">1</property>
-    <property name="line64">927</property>
+    <property name="line64">931</property>
     <property name="typeline64">3</property>
     <property name="line63">233</property>
     <property name="typeline63">2</property>
-    <property name="line62">762</property>
+    <property name="line62">759</property>
     <property name="typeline62">1</property>
-    <property name="line61">462</property>
+    <property name="line61">455</property>
     <property name="typeline61">3</property>
-    <property name="line60">927</property>
+    <property name="line60">926</property>
     <property name="typeline60">3</property>
-    <property name="line59">1557</property>
+    <property name="line59">1556</property>
     <property name="typeline59">2</property>
-    <property name="line58">1473</property>
+    <property name="line58">1475</property>
     <property name="typeline58">2</property>
-    <property name="line57">1434</property>
+    <property name="line57">1437</property>
     <property name="typeline57">1</property>
-    <property name="line56">719</property>
+    <property name="line56">715</property>
     <property name="typeline56">1</property>
-    <property name="line55">568</property>
+    <property name="line55">563</property>
     <property name="typeline55">1</property>
-    <property name="line54">1442</property>
+    <property name="line54">1447</property>
     <property name="typeline54">1</property>
-    <property name="line53">308</property>
+    <property name="line53">296</property>
     <property name="typeline53">2</property>
     <property name="line52">1726</property>
     <property name="typeline52">2</property>
-    <property name="line51">1253</property>
+    <property name="line51">1270</property>
     <property name="typeline51">2</property>
-    <property name="line50">246</property>
+    <property name="line50">254</property>
     <property name="typeline50">2</property>
     <property name="line49">1073</property>
     <property name="typeline49">2</property>
-    <property name="line48">1160</property>
+    <property name="line48">1159</property>
     <property name="typeline48">3</property>
-    <property name="line47">299</property>
+    <property name="line47">308</property>
     <property name="typeline47">1</property>
-    <property name="line46">305</property>
+    <property name="line46">288</property>
     <property name="typeline46">1</property>
-    <property name="line45">596</property>
+    <property name="line45">592</property>
     <property name="typeline45">1</property>
-    <property name="line44">1469</property>
+    <property name="line44">1463</property>
     <property name="typeline44">3</property>
-    <property name="line43">1898</property>
+    <property name="line43">1906</property>
     <property name="typeline43">2</property>
-    <property name="line42">951</property>
+    <property name="line42">930</property>
     <property name="typeline42">1</property>
-    <property name="line41">1263</property>
+    <property name="line41">1267</property>
     <property name="typeline41">1</property>
-    <property name="line40">44</property>
+    <property name="line40">42</property>
     <property name="typeline40">2</property>
-    <property name="line39">1352</property>
+    <property name="line39">1350</property>
     <property name="typeline39">2</property>
-    <property name="line38">761</property>
+    <property name="line38">762</property>
     <property name="typeline38">2</property>
-    <property name="line37">1776</property>
+    <property name="line37">1769</property>
     <property name="typeline37">2</property>
-    <property name="line36">1150</property>
+    <property name="line36">1148</property>
     <property name="typeline36">1</property>
-    <property name="line35">368</property>
+    <property name="line35">358</property>
     <property name="typeline35">2</property>
-    <property name="line34">1659</property>
+    <property name="line34">1669</property>
     <property name="typeline34">2</property>
-    <property name="line33">1387</property>
+    <property name="line33">1386</property>
     <property name="typeline33">1</property>
-    <property name="line32">1217</property>
+    <property name="line32">1216</property>
     <property name="typeline32">2</property>
-    <property name="line31">1159</property>
+    <property name="line31">1156</property>
     <property name="typeline31">1</property>
-    <property name="line30">1327</property>
+    <property name="line30">1317</property>
     <property name="typeline30">2</property>
-    <property name="line29">1478</property>
+    <property name="line29">1469</property>
     <property name="typeline29">2</property>
-    <property name="line28">1055</property>
+    <property name="line28">1043</property>
     <property name="typeline28">1</property>
-    <property name="line27">1561</property>
+    <property name="line27">1555</property>
     <property name="typeline27">2</property>
-    <property name="line26">1967</property>
+    <property name="line26">1983</property>
     <property name="typeline26">2</property>
-    <property name="line25">987</property>
+    <property name="line25">979</property>
     <property name="typeline25">1</property>
-    <property name="line24">286</property>
+    <property name="line24">294</property>
     <property name="typeline24">3</property>
-    <property name="line23">700</property>
+    <property name="line23">697</property>
     <property name="typeline23">2</property>
-    <property name="line22">516</property>
+    <property name="line22">522</property>
     <property name="typeline22">3</property>
-    <property name="line21">1808</property>
+    <property name="line21">1805</property>
     <property name="typeline21">2</property>
-    <property name="line20">1548</property>
+    <property name="line20">1559</property>
     <property name="typeline20">2</property>
-    <property name="line19">2035</property>
+    <property name="line19">2031</property>
     <property name="typeline19">3</property>
-    <property name="line18">136</property>
+    <property name="line18">119</property>
     <property name="typeline18">2</property>
-    <property name="line17">1297</property>
+    <property name="line17">1307</property>
     <property name="typeline17">1</property>
-    <property name="line16">1422</property>
+    <property name="line16">1428</property>
     <property name="typeline16">1</property>
-    <property name="line15">139</property>
+    <property name="line15">146</property>
     <property name="typeline15">1</property>
-    <property name="line14">1001</property>
+    <property name="line14">996</property>
     <property name="typeline14">1</property>
-    <property name="line13">1765</property>
+    <property name="line13">1762</property>
     <property name="typeline13">2</property>
-    <property name="line12">723</property>
+    <property name="line12">732</property>
     <property name="typeline12">1</property>
-    <property name="line11">329</property>
+    <property name="line11">331</property>
     <property name="typeline11">3</property>
-    <property name="line10">1765</property>
+    <property name="line10">1777</property>
     <property name="typeline10">3</property>
-    <property name="line9">1466</property>
+    <property name="line9">1468</property>
     <property name="typeline9">1</property>
-    <property name="line8">101</property>
+    <property name="line8">105</property>
     <property name="typeline8">1</property>
-    <property name="line7">595</property>
+    <property name="line7">592</property>
     <property name="typeline7">2</property>
-    <property name="line6">36</property>
+    <property name="line6">26</property>
     <property name="typeline6">3</property>
     <property name="line5">1494</property>
     <property name="typeline5">2</property>
@@ -8540,12 +8621,12 @@
    </filter>
   </entry>
  </playlist>
- <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="2800">
+ <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="2874">
   <track producer="black_track"/>
   <track hide="video" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
-  <track hide="video" producer="playlist11"/>
-  <track hide="video" producer="playlist15"/>
+  <track hide="both" producer="playlist11"/>
+  <track hide="both" producer="playlist15"/>
   <track hide="audio" producer="playlist3"/>
   <track producer="playlist12"/>
   <track hide="audio" producer="playlist4"/>

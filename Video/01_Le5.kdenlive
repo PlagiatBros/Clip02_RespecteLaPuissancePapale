@@ -3551,6 +3551,45 @@
   <property name="kdenlive:file_hash">36b8d4e3db83868af800de5d7d81f84a</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="57" in="0" out="489">
+  <property name="length">00:00:09:40</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/part1_transition__glitch.avi</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">25</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">25</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">mjpeg</property>
+  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.0.codec.bit_rate">19825748</property>
+  <property name="meta.attr.encoder.markup">Lavf58.29.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.frame_rate_num">25</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:file_size">24217962</property>
+  <property name="kdenlive:file_hash">22a875fbd20710ba8a6d661715148181</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -3561,7 +3600,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">5875</property>
+  <property name="kdenlive:docproperties.position">6089</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3575,7 +3614,7 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">5568</property>
   <property name="kdenlive:docproperties.zoneout">6072</property>
-  <property name="kdenlive:docproperties.zoom">2</property>
+  <property name="kdenlive:docproperties.zoom">3</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -3592,11 +3631,11 @@
   <property name="kdenlive:docproperties.renderaudioquality">320</property>
   <property name="kdenlive:docproperties.rendercategory">Personnalisé</property>
   <property name="kdenlive:docproperties.renderendguide">0</property>
-  <property name="kdenlive:docproperties.renderexportaudio">0</property>
+  <property name="kdenlive:docproperties.renderexportaudio">1</property>
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4HD</property>
-  <property name="kdenlive:docproperties.renderquality">18</property>
+  <property name="kdenlive:docproperties.renderquality">10</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
   <property name="kdenlive:docproperties.renderrescale">0</property>
   <property name="kdenlive:docproperties.renderrescaleheight">720</property>
@@ -3607,7 +3646,7 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Rendus/2019-12-02_RLPP_part1-test.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Rendus/2019-12-16_RLPP_part1-glitch.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="kdenlive:folder.-1.16">Colors</property>
   <property name="kdenlive:customeffects">&lt;customeffects>
@@ -3715,6 +3754,7 @@
   <entry producer="54" in="0" out="249"/>
   <entry producer="55" in="0" out="3901"/>
   <entry producer="56" in="0" out="31499"/>
+  <entry producer="57" in="0" out="489"/>
  </playlist>
  <producer id="black" in="0" out="132681">
   <property name="length">132682</property>
@@ -13528,6 +13568,7 @@
     <property name="kdenlive_ix">2</property>
     <property name="0">0,036</property>
     <property name="kdenlive_info">0/-1/</property>
+    <property name="disable">1</property>
    </filter>
    <filter id="filter227">
     <property name="version">0,3</property>
@@ -13544,7 +13585,7 @@
     <property name="Aspect type">0</property>
     <property name="Manual Aspect">0,5</property>
     <property name="kdenlive_info"/>
-    <property name="disable">0</property>
+    <property name="disable">1</property>
    </filter>
    <filter id="frei0r.sigmoidaltransfer">
     <property name="version">0,9</property>
@@ -13555,6 +13596,7 @@
     <property name="0">1</property>
     <property name="1">0,178</property>
     <property name="kdenlive_info"/>
+    <property name="disable">1</property>
    </filter>
   </entry>
   <blank length="475"/>
@@ -15487,6 +15529,46 @@
    <property name="disable">0</property>
   </filter>
  </producer>
+ <producer title="Anonymous Submission" id="57_playlist19" in="0" out="489">
+  <property name="length">00:00:09:40</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/part1_transition__glitch.avi</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">24217962</property>
+  <property name="kdenlive:file_hash">22a875fbd20710ba8a6d661715148181</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">50</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">50</property>
+  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.name">mjpeg</property>
+  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.0.codec.bit_rate">39267931</property>
+  <property name="meta.attr.encoder.markup">Lavf58.29.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">50</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.color_trc">2</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
  <playlist id="playlist19">
   <property name="kdenlive:track_name">Video 2</property>
   <blank length="1830"/>
@@ -15701,6 +15783,16 @@
   <entry producer="slowmotion:7:0,5:1:0" in="14316" out="14333"/>
   <entry producer="slowmotion:6:0,5:1:0" in="7319" out="7333"/>
   <entry producer="slowmotion:7:0,8:1:0" in="8991" out="9013"/>
+  <blank length="1384"/>
+  <entry producer="57_playlist19" in="68" out="186"/>
+  <blank length="46"/>
+  <entry producer="57_playlist19" in="233" out="260"/>
+  <blank length="54"/>
+  <entry producer="57_playlist19" in="315" out="336"/>
+  <blank length="52"/>
+  <entry producer="57_playlist19" in="389" out="397"/>
+  <blank length="56"/>
+  <entry producer="57_playlist19" in="454" out="473"/>
  </playlist>
  <producer title="Anonymous Submission" id="6_playlist20" in="0" out="4178">
   <property name="length">00:01:23:29</property>
