@@ -284,7 +284,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">33274</property>
+  <property name="kdenlive:docproperties.position">32904</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -298,28 +298,28 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">49015</property>
-  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:docproperties.zoom">4</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups">&lt;groups>
  &lt;group>
-  &lt;clipitem position="15461" track="3"/>
   &lt;clipitem position="15461" track="7"/>
+  &lt;clipitem position="15461" track="3"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="0" track="7"/>
   &lt;clipitem position="0" track="3"/>
+  &lt;clipitem position="0" track="7"/>
  &lt;/group>
  &lt;group>
   &lt;clipitem position="2368" track="7"/>
   &lt;clipitem position="2368" track="3"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="4499" track="3"/>
   &lt;clipitem position="4499" track="7"/>
+  &lt;clipitem position="4499" track="3"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="31825" track="9"/>
   &lt;clipitem position="31825" track="2"/>
+  &lt;clipitem position="31825" track="9"/>
  &lt;/group>
  &lt;group>
   &lt;clipitem position="31984" track="9"/>
@@ -330,24 +330,20 @@
   &lt;clipitem position="32115" track="9"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="32549" track="2"/>
   &lt;clipitem position="32549" track="9"/>
+  &lt;clipitem position="32549" track="2"/>
  &lt;/group>
  &lt;group>
   &lt;clipitem position="32674" track="9"/>
   &lt;clipitem position="32674" track="2"/>
  &lt;/group>
  &lt;group>
+  &lt;clipitem position="39760" track="3"/>
+  &lt;clipitem position="39760" track="7"/>
+ &lt;/group>
+ &lt;group>
   &lt;clipitem position="32890" track="7"/>
   &lt;clipitem position="32890" track="3"/>
- &lt;/group>
- &lt;group>
-  &lt;clipitem position="33138" track="3"/>
-  &lt;clipitem position="33138" track="7"/>
- &lt;/group>
- &lt;group>
-  &lt;clipitem position="39760" track="7"/>
-  &lt;clipitem position="39760" track="3"/>
  &lt;/group>
 &lt;/groups>
 </property>
@@ -534,7 +530,18 @@
   <entry producer="44_playlist1_audio" in="7159" out="7283"/>
   <entry producer="44_playlist1_audio" in="5363" out="5565"/>
   <entry producer="44_playlist1_audio" in="4677" out="4689"/>
-  <entry producer="44_playlist1_audio" in="4722" out="4969"/>
+  <entry producer="44_playlist1_audio" in="4722" out="4969">
+   <filter id="volume">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="level">4722=-12</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">volume</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
   <filter id="audiopan">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -544,7 +551,7 @@
    <property name="kdenlive_info"/>
    <property name="start">0,5</property>
   </filter>
-  <filter id="volume">
+  <filter id="filter2">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="level">0=-12</property>
@@ -553,6 +560,7 @@
    <property name="tag">volume</property>
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
+   <property name="disable">0</property>
   </filter>
  </playlist>
  <producer title="Anonymous Submission" id="28_playlist2_audio" in="0" out="114270">
@@ -650,8 +658,7 @@
   <blank length="2916"/>
   <entry producer="33_playlist2_audio" in="6" out="14239"/>
   <blank length="3195"/>
-  <entry producer="35_playlist2_audio" in="14750" out="14997"/>
-  <entry producer="35_playlist2_audio" in="14998" out="21619"/>
+  <entry producer="35_playlist2_audio" in="14750" out="21619"/>
   <entry producer="36_playlist2_audio" in="21621" out="30875"/>
  </playlist>
  <producer title="Anonymous Submission" id="39_playlist3" in="0" out="47607">
@@ -669,7 +676,7 @@
   <property name="kdenlive:track_name">Vidéo 1</property>
   <blank length="2729"/>
   <entry producer="39_playlist3" in="0" out="2003">
-   <filter id="filter2">
+   <filter id="filter3">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="level">0=0;1769=1,81818;1775=-60;2003=-60;2004=</property>
@@ -683,7 +690,7 @@
   </entry>
   <blank length="6618"/>
   <entry producer="39_playlist3" in="1963" out="6607">
-   <filter id="filter3">
+   <filter id="filter4">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="level">2761=-60;2766=-1,81818;6163=0;6193=-60</property>
@@ -899,7 +906,7 @@
   </entry>
   <blank length="1770"/>
   <entry producer="43_video" in="0" out="233">
-   <filter id="filter4">
+   <filter id="filter7">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.c0rners</property>
     <property name="kdenlive_id">frei0r.c0rners</property>
@@ -928,8 +935,7 @@
   <blank length="3308"/>
   <entry producer="33_video" in="6" out="14239"/>
   <blank length="3195"/>
-  <entry producer="35_video" in="14750" out="14997"/>
-  <entry producer="35_video" in="14998" out="21619"/>
+  <entry producer="35_video" in="14750" out="21619"/>
   <entry producer="36_video" in="21621" out="30875"/>
  </playlist>
  <producer title="Anonymous Submission" id="28_playlist0" in="0" out="114270">
@@ -1007,7 +1013,7 @@
   </entry>
   <blank length="2131"/>
   <entry producer="43_playlist0" in="0" out="233">
-   <filter id="filter7">
+   <filter id="filter8">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.c0rners</property>
     <property name="kdenlive_id">frei0r.c0rners</property>
@@ -1036,8 +1042,7 @@
   <blank length="3308"/>
   <entry producer="33_playlist0" in="6" out="14239"/>
   <blank length="3195"/>
-  <entry producer="35_playlist0" in="14750" out="14997"/>
-  <entry producer="35_playlist0" in="14998" out="21619"/>
+  <entry producer="35_playlist0" in="14750" out="21619"/>
   <entry producer="36_playlist0" in="21621" out="30875">
    <filter id="frei0r.levels">
     <property name="version">0,3</property>
@@ -1067,7 +1072,7 @@
    <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
    <property name="av.interp">tetrahedral </property>
   </filter>
-  <filter id="filter8">
+  <filter id="filter9">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -1084,7 +1089,7 @@
    <property name="Histogram position">0,3</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter9">
+  <filter id="filter10">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.saturat0r</property>
    <property name="kdenlive_id">frei0r.saturat0r</property>
@@ -1165,7 +1170,7 @@
   <property name="kdenlive:track_name">Video 2</property>
   <blank length="2724"/>
   <entry producer="28_playlist7" in="2721" out="2725">
-   <filter id="filter10">
+   <filter id="filter11">
     <property name="mlt_service">avfilter.lut3d</property>
     <property name="kdenlive_id">avfilter.lut3d</property>
     <property name="tag">avfilter.lut3d</property>
@@ -1175,7 +1180,7 @@
     <property name="av.file">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/LUT/test.CUBE</property>
     <property name="av.interp">tetrahedral </property>
    </filter>
-   <filter id="filter11">
+   <filter id="filter12">
     <property name="version">0,9</property>
     <property name="mlt_service">frei0r.softglow</property>
     <property name="kdenlive_id">frei0r.softglow</property>
@@ -1188,7 +1193,7 @@
     <property name="2">0,1</property>
     <property name="3">0</property>
    </filter>
-   <filter id="filter12">
+   <filter id="filter13">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.vignette</property>
     <property name="kdenlive_id">frei0r.vignette</property>
@@ -1211,7 +1216,7 @@
     <property name="Zoomrate">2721=0,208;2725=0,23</property>
     <property name="disable"/>
    </filter>
-   <filter id="filter13">
+   <filter id="filter14">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.levels</property>
     <property name="kdenlive_id">frei0r.levels</property>
@@ -1246,12 +1251,12 @@
   <track hide="video" producer="playlist9"/>
   <track hide="video" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
-  <track producer="playlist3"/>
-  <track hide="audio" producer="playlist4"/>
+  <track hide="video" producer="playlist3"/>
+  <track hide="both" producer="playlist4"/>
   <track hide="audio" producer="playlist6"/>
   <track hide="both" producer="playlist5"/>
   <track hide="both" producer="playlist0"/>
-  <track hide="audio" producer="playlist7"/>
+  <track hide="both" producer="playlist7"/>
   <track hide="audio" producer="playlist8"/>
   <transition id="transition10" out="48969">
    <property name="a_track">7</property>
@@ -1361,7 +1366,7 @@
    <property name="fill">1</property>
    <property name="geometry">0=0/0:1920x1080:0;35=0/0:1920x1080:30;113=0/0:1920x1080:100</property>
    <property name="halign">centre</property>
-   <property name="luma">/tmp/.mount_kdenlizKTNzq/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
+   <property name="luma">/tmp/.mount_kdenliuqnDlx/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0,04</property>
