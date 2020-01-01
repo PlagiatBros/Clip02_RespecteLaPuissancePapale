@@ -3828,7 +3828,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">6811</property>
+  <property name="kdenlive:docproperties.position">31</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3842,7 +3842,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">4255</property>
   <property name="kdenlive:docproperties.zoneout">5013</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.zoom">1</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -4029,7 +4029,18 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 2</property>
   <property name="kdenlive:locked_track">0</property>
-  <entry producer="63_playlist1" in="183" out="42397"/>
+  <entry producer="63_playlist1" in="183" out="42397">
+   <filter id="fadein" in="183" out="187">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+   </filter>
+  </entry>
  </playlist>
  <producer title="Anonymous Submission" id="62_playlist2" in="0" out="42397">
   <property name="length">00:14:07:48</property>
@@ -4057,7 +4068,18 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 1</property>
   <property name="kdenlive:locked_track">0</property>
-  <entry producer="62_playlist2" in="183" out="42397"/>
+  <entry producer="62_playlist2" in="183" out="42397">
+   <filter id="filter32" in="183" out="186">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+   </filter>
+  </entry>
  </playlist>
  <producer title="Anonymous Submission" id="6_playlist11" in="0" out="4178">
   <property name="length">00:01:23:29</property>
@@ -4941,7 +4963,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="slowmotion:4:3:1:0" in="3052" out="3181">
-   <filter id="filter32">
+   <filter id="filter55">
     <property name="mirror">flip</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -5014,7 +5036,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter55">
+  <filter id="filter56">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5024,7 +5046,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter56">
+  <filter id="filter57">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5104,7 +5126,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter57">
+  <filter id="filter58">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5114,7 +5136,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter58">
+  <filter id="filter59">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5285,7 +5307,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter59">
+  <filter id="filter60">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5295,7 +5317,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter60">
+  <filter id="filter61">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5372,7 +5394,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter61">
+  <filter id="filter62">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5382,7 +5404,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter62">
+  <filter id="filter63">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5459,7 +5481,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter63">
+  <filter id="filter64">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5469,7 +5491,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter64">
+  <filter id="filter65">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5549,7 +5571,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter65">
+  <filter id="filter66">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5560,7 +5582,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,5</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter66">
+  <filter id="filter67">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5725,7 +5747,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter67">
+  <filter id="filter68">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5735,7 +5757,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter68">
+  <filter id="filter69">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5812,7 +5834,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter69">
+  <filter id="filter70">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5822,7 +5844,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter70">
+  <filter id="filter71">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5899,7 +5921,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter71">
+  <filter id="filter72">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5909,7 +5931,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter72">
+  <filter id="filter73">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -5986,7 +6008,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter73">
+  <filter id="filter74">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -5996,7 +6018,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter74">
+  <filter id="filter75">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -6073,7 +6095,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter75">
+  <filter id="filter76">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -6083,7 +6105,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter76">
+  <filter id="filter77">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -6160,7 +6182,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter77">
+  <filter id="filter78">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -6170,7 +6192,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter78">
+  <filter id="filter81">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -6250,7 +6272,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="6_playlist0" in="3523" out="3541">
-   <filter id="filter81">
+   <filter id="filter82">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -6278,7 +6300,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="slowmotion:4:1:1:0" in="5303" out="5354"/>
   <blank length="3"/>
   <entry producer="slowmotion:4:1,3:1:0" in="4126" out="4197">
-   <filter id="filter82" in="4126" out="4197">
+   <filter id="filter83" in="4126" out="4197">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6297,7 +6319,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <blank length="128"/>
   <entry producer="slowmotion:4:1:1:0" in="9545" out="9567"/>
   <entry producer="slowmotion:4:0,5:1:0" in="19136" out="19181">
-   <filter id="filter83" in="19136" out="19183">
+   <filter id="filter84" in="19136" out="19183">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6311,7 +6333,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="slowmotion:4:1,5:1:0" in="6395" out="6444">
-   <filter id="filter84" in="6395" out="6444">
+   <filter id="filter85" in="6395" out="6444">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6325,7 +6347,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="slowmotion:4:1,5:1:0" in="6445" out="6515">
-   <filter id="filter85" in="6445" out="6515">
+   <filter id="filter86" in="6445" out="6515">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6402,7 +6424,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter86">
+  <filter id="filter87">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -6412,7 +6434,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter87">
+  <filter id="filter88">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -6493,7 +6515,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter88">
+  <filter id="filter89">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -6503,7 +6525,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter89">
+  <filter id="filter90">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -6583,7 +6605,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter90">
+  <filter id="filter91">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -6594,7 +6616,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,5</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter91">
+  <filter id="filter94">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -6688,7 +6710,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter94">
+  <filter id="filter95">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -6698,7 +6720,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter95">
+  <filter id="filter96">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -6779,7 +6801,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter96">
+  <filter id="filter97">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -6789,7 +6811,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter97">
+  <filter id="filter98">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -6818,7 +6840,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="7_playlist6" in="4358" out="4410"/>
   <blank length="200"/>
   <entry producer="6_playlist6" in="1096" out="1223">
-   <filter id="filter98" in="1096" out="1223">
+   <filter id="filter99" in="1096" out="1223">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6832,7 +6854,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <blank length="885"/>
   <entry producer="5_playlist6" in="17062" out="17123">
-   <filter id="filter99">
+   <filter id="filter100">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6871,7 +6893,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="7_playlist6" in="6792" out="6799"/>
   <entry producer="7_playlist6" in="6800" out="6850"/>
   <entry producer="7_playlist6" in="6851" out="6883">
-   <filter id="filter100" in="6851" out="6883">
+   <filter id="filter101" in="6851" out="6883">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6892,7 +6914,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="4_playlist6" in="8613" out="8664"/>
   <blank length="47"/>
   <entry producer="slowmotion:4:2:1:0" in="4417" out="4449">
-   <filter id="filter101" in="4417" out="4449">
+   <filter id="filter102" in="4417" out="4449">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -6970,7 +6992,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter102">
+  <filter id="filter103">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -6981,7 +7003,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,5</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter103">
+  <filter id="filter104">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7061,7 +7083,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter104">
+  <filter id="filter105">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7071,7 +7093,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter105">
+  <filter id="filter106">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7148,7 +7170,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter106">
+  <filter id="filter107">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7158,7 +7180,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter107">
+  <filter id="filter108">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7238,7 +7260,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter108">
+  <filter id="filter109">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7248,7 +7270,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter109">
+  <filter id="filter110">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7344,7 +7366,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter110">
+  <filter id="filter111">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7355,7 +7377,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter111">
+  <filter id="filter112">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7438,7 +7460,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter112">
+  <filter id="filter113">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7449,7 +7471,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter113">
+  <filter id="filter114">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7495,7 +7517,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="6_playlist7" in="2742" out="2767"/>
   <blank length="46"/>
   <entry producer="6_playlist7" in="2865" out="2906">
-   <filter id="filter114" in="2865" out="2906">
+   <filter id="filter115" in="2865" out="2906">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -7516,7 +7538,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="producer0" in="3239" out="3285"/>
   <blank length="84"/>
   <entry producer="5_playlist7" in="16962" out="17048">
-   <filter id="filter115">
+   <filter id="filter116">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -7533,7 +7555,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="19_playlist7" in="2425" out="2433"/>
   <entry producer="19_playlist7" in="2434" out="2440"/>
   <entry producer="19_playlist7" in="2441" out="2449">
-   <filter id="filter116" in="2441" out="2449">
+   <filter id="filter117" in="2441" out="2449">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -7612,7 +7634,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter117">
+  <filter id="filter118">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7622,7 +7644,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter118">
+  <filter id="filter119">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7702,7 +7724,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter119">
+  <filter id="filter120">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7713,7 +7735,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter120">
+  <filter id="filter121">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7791,7 +7813,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter121">
+  <filter id="filter122">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7802,7 +7824,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter122">
+  <filter id="filter123">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -7880,7 +7902,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter123">
+  <filter id="filter124">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -7891,7 +7913,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter124">
+  <filter id="filter125">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -8247,7 +8269,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="slowmotion:19:0,4:1:0" in="2505" out="2544"/>
   <blank length="439"/>
   <entry producer="19_playlist9" in="1941" out="1951">
-   <filter id="filter125" in="1941" out="1951">
+   <filter id="filter126" in="1941" out="1951">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -8260,7 +8282,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="19_playlist9" in="1951" out="1970">
-   <filter id="filter126" in="1958" out="1970">
+   <filter id="filter137" in="1958" out="1970">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -8274,7 +8296,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="slowmotion:19:0,5:1:0" in="3952" out="3996">
-   <filter id="filter137" in="3952" out="3996">
+   <filter id="filter138" in="3952" out="3996">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -8289,7 +8311,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <blank length="498"/>
   <entry producer="slowmotion:14:0,9:1:0" in="2779" out="2900">
-   <filter id="filter138" in="2779" out="2900">
+   <filter id="filter139" in="2779" out="2900">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -8565,7 +8587,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter139">
+  <filter id="filter145">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -8576,7 +8598,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter145">
+  <filter id="filter146">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -10968,7 +10990,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="19_playlist8" in="640" out="684">
-   <filter id="filter146">
+   <filter id="filter170">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -11098,7 +11120,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="slowmotion:19:0,5:1:0" in="1370" out="1396">
-   <filter id="filter170">
+   <filter id="filter171">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -11226,7 +11248,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
 ]
 </property>
    </filter>
-   <filter id="filter171">
+   <filter id="filter172">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -11358,7 +11380,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <blank length="58"/>
   <entry producer="18_playlist8" in="836" out="853"/>
   <entry producer="18_playlist8" in="854" out="867">
-   <filter id="filter172" in="854" out="867">
+   <filter id="filter173" in="854" out="867">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -11373,7 +11395,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <blank length="15"/>
   <entry producer="18_playlist8" in="883" out="949"/>
   <entry producer="producer9" in="737" out="773">
-   <filter id="filter173">
+   <filter id="filter174">
     <property name="mirror">flip</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -11383,7 +11405,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="disable"/>
     <property name="reverse">0</property>
    </filter>
-   <filter id="filter174">
+   <filter id="filter175">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -11738,7 +11760,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <entry producer="18_playlist8" in="987" out="1021"/>
   <entry producer="slowmotion:19:0,5:1:0" in="1720" out="1776">
-   <filter id="filter175">
+   <filter id="filter176">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -11869,7 +11891,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <entry producer="18_playlist8" in="1079" out="1154"/>
   <entry producer="18_playlist8" in="1155" out="1169">
-   <filter id="filter176" in="1155" out="1169">
+   <filter id="filter177" in="1155" out="1169">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -11901,7 +11923,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="kdenlive_ix">2</property>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter177" in="2778" out="2810">
+   <filter id="filter178" in="2778" out="2810">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -11923,7 +11945,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <blank length="35"/>
   <entry producer="15_playlist8" in="905" out="946"/>
   <entry producer="15_playlist8" in="947" out="1045">
-   <filter id="filter178" in="947" out="1045">
+   <filter id="filter179" in="947" out="1045">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -11946,7 +11968,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="15_playlist8" in="713" out="756"/>
   <blank length="95"/>
   <entry producer="14_playlist8" in="1763" out="1883">
-   <filter id="filter179" in="1763" out="1893">
+   <filter id="filter180" in="1763" out="1893">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -12025,7 +12047,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter180">
+  <filter id="filter181">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12035,7 +12057,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter181">
+  <filter id="filter182">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12069,7 +12091,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="xml">was here</property>
   <property name="kdenlive:binid">7</property>
   <property name="kdenlive:clipstate">0</property>
-  <filter id="filter182">
+  <filter id="filter183">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12079,7 +12101,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter183">
+  <filter id="filter184">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12116,7 +12138,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="xml">was here</property>
   <property name="kdenlive:binid">19</property>
   <property name="kdenlive:clipstate">0</property>
-  <filter id="filter184">
+  <filter id="filter185">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12127,7 +12149,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter185">
+  <filter id="filter186">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12208,7 +12230,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter186">
+  <filter id="filter187">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12218,7 +12240,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter187">
+  <filter id="filter188">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12299,7 +12321,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter188">
+  <filter id="filter189">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12310,7 +12332,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter189">
+  <filter id="filter190">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12388,7 +12410,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter190">
+  <filter id="filter191">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12399,7 +12421,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter191">
+  <filter id="filter192">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12498,7 +12520,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter192">
+  <filter id="filter193">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12508,7 +12530,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,523333</property>
   </filter>
-  <filter id="filter193">
+  <filter id="filter194">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12529,7 +12551,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="kdenlive:track_name">Vidéo 9</property>
   <blank length="3378"/>
   <entry producer="6_playlist10" in="2869" out="2906">
-   <filter id="filter194">
+   <filter id="filter195">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -12556,7 +12578,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="15_playlist10" in="2578" out="2612"/>
   <blank length="137"/>
   <entry producer="15_playlist10" in="2871" out="2946">
-   <filter id="filter195">
+   <filter id="filter196">
     <property name="mirror">flip</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -12567,7 +12589,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="slowmotion:15:2:1:0" in="1474" out="1491">
-   <filter id="filter196">
+   <filter id="filter197">
     <property name="mirror">flip</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -12601,7 +12623,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="producer13" in="3085" out="3122"/>
   <blank length="59"/>
   <entry producer="14_playlist10" in="2797" out="2873">
-   <filter id="filter197" in="2797" out="2873">
+   <filter id="filter198" in="2797" out="2873">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -12615,7 +12637,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="14_playlist10" in="2874" out="2952">
-   <filter id="filter198" in="2874" out="2952">
+   <filter id="filter199" in="2874" out="2952">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -12692,7 +12714,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter199">
+  <filter id="filter200">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12702,7 +12724,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter200">
+  <filter id="filter201">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12784,7 +12806,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter201">
+  <filter id="filter202">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.sopsat</property>
    <property name="kdenlive_id">frei0r.sopsat</property>
@@ -12806,7 +12828,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="saturation">0=0,1</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter202">
+  <filter id="filter203">
    <property name="gamma">0=1,3</property>
    <property name="mlt_service">gamma</property>
    <property name="kdenlive_id">gamma</property>
@@ -12815,7 +12837,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="kdenlive_info"/>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter203">
+  <filter id="filter204">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.sopsat</property>
    <property name="kdenlive_id">RLPP - Violet Degueux</property>
@@ -12901,7 +12923,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter204">
+  <filter id="filter205">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -12911,7 +12933,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,523333</property>
   </filter>
-  <filter id="filter205">
+  <filter id="filter206">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -12991,7 +13013,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter206">
+  <filter id="filter207">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -13002,7 +13024,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,5</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter207">
+  <filter id="filter208">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -13082,7 +13104,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter208">
+  <filter id="filter209">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -13092,7 +13114,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,523333</property>
   </filter>
-  <filter id="filter209">
+  <filter id="filter210">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -13172,7 +13194,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.1.codec.color_trc">1</property>
-  <filter id="filter210">
+  <filter id="filter211">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -13183,7 +13205,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter211">
+  <filter id="filter212">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -13266,7 +13288,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter212">
+  <filter id="filter213">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -13276,7 +13298,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Neutral Color">0x7f7f7fff</property>
    <property name="Color Temperature">0=0,5</property>
   </filter>
-  <filter id="filter213">
+  <filter id="filter214">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -13297,7 +13319,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="kdenlive:track_name">Vidéo 11</property>
   <blank length="3416"/>
   <entry producer="6_playlist13" in="2769" out="2819">
-   <filter id="filter214">
+   <filter id="filter215">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -13311,7 +13333,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <blank length="801"/>
   <entry producer="24_playlist13" in="1584" out="1585">
-   <filter id="filter215">
+   <filter id="filter216">
     <property name="mirror">flip</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -13324,7 +13346,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <blank length="1"/>
   <entry producer="24_playlist13" in="1584" out="1585">
-   <filter id="filter216">
+   <filter id="filter217">
     <property name="mirror">flip</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -13337,7 +13359,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <blank length="39"/>
   <entry producer="20_playlist13" in="41" out="52">
-   <filter id="filter217">
+   <filter id="filter218">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -13350,7 +13372,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="kdenlive_info">0/-1/</property>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter218">
+   <filter id="filter219">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -13476,7 +13498,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="20_playlist13" in="53" out="100">
-   <filter id="filter219">
+   <filter id="filter220">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -13590,7 +13612,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="kdenlive_info"/>
     <property name="disable"/>
    </filter>
-   <filter id="filter220">
+   <filter id="filter221">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
@@ -13601,7 +13623,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
   <entry producer="20_playlist13" in="101" out="111">
-   <filter id="filter221">
+   <filter id="filter222">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -13613,7 +13635,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="2">0,006</property>
     <property name="3">0</property>
    </filter>
-   <filter id="filter222">
+   <filter id="filter223">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -13727,7 +13749,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="kdenlive_info"/>
     <property name="disable"/>
    </filter>
-   <filter id="filter223">
+   <filter id="filter224">
     <property name="version">0,2</property>
     <property name="mlt_service">frei0r.brightness</property>
     <property name="kdenlive_id">frei0r.brightness</property>
@@ -13751,7 +13773,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="24_playlist13" in="1229" out="1230"/>
   <blank length="99"/>
   <entry producer="21_playlist13" in="4333" out="4390">
-   <filter id="filter224" in="4333" out="4390">
+   <filter id="filter225" in="4333" out="4390">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -13766,7 +13788,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <blank length="1404"/>
   <entry producer="slowmotion:14:0,9:1:0" in="2795" out="2796">
-   <filter id="filter225">
+   <filter id="filter226">
     <property name="delta">15</property>
     <property name="every">100</property>
     <property name="brightnessdelta_up">0</property>
@@ -13782,7 +13804,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="kdenlive_info">0/-1/</property>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter226">
+   <filter id="filter227">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -13793,7 +13815,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="transition.geometry">-96/-54:2112x1188:100</property>
     <property name="transition.distort">0</property>
    </filter>
-   <filter id="filter227">
+   <filter id="filter228">
     <property name="mlt_service">invert</property>
     <property name="kdenlive_id">invert</property>
     <property name="tag">invert</property>
@@ -13802,7 +13824,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <blank length="283"/>
   <entry producer="14_playlist13" in="2792" out="2825">
-   <filter id="filter228" in="2792" out="2825">
+   <filter id="filter229" in="2792" out="2825">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -13818,7 +13840,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="15_playlist13" in="2745" out="2829"/>
   <blank length="248"/>
   <entry producer="4_playlist13" in="18520" out="18577">
-   <filter id="filter229" in="18520" out="18577">
+   <filter id="filter230" in="18520" out="18577">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -13840,7 +13862,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
     <property name="kdenlive_info">0/-1/</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter230">
+   <filter id="filter231">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.defish0r</property>
     <property name="kdenlive_id">frei0r.defish0r</property>
@@ -13935,7 +13957,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter231">
+  <filter id="filter232">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -13946,7 +13968,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter232">
+  <filter id="filter233">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14024,7 +14046,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter233">
+  <filter id="filter234">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -14035,7 +14057,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter234">
+  <filter id="filter235">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14113,7 +14135,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter235">
+  <filter id="filter236">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.colgate</property>
    <property name="kdenlive_id">frei0r.colgate</property>
@@ -14124,7 +14146,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Color Temperature">0=0,523333</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter236">
+  <filter id="filter237">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14207,7 +14229,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter237">
+  <filter id="filter238">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14231,7 +14253,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="17_playlist14" in="1445" out="1462"/>
   <entry producer="slowmotion:17:0,5:1:0" in="2926" out="2997"/>
   <entry producer="slowmotion:17:1,5:1:0" in="999" out="1014">
-   <filter id="filter238" in="999" out="1014">
+   <filter id="filter239" in="999" out="1014">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -14245,7 +14267,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   </entry>
   <blank length="976"/>
   <entry producer="48_playlist14" in="4917" out="5067">
-   <filter id="filter239">
+   <filter id="filter240">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -14323,7 +14345,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter240">
+  <filter id="filter241">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14404,7 +14426,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter241">
+  <filter id="filter242">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14441,7 +14463,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="xml">was here</property>
   <property name="kdenlive:binid">35</property>
   <property name="kdenlive:clipstate">0</property>
-  <filter id="filter242">
+  <filter id="filter243">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14519,7 +14541,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter243">
+  <filter id="filter244">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14536,7 +14558,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="Histogram position">0,3</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter244" in="6336" out="6364">
+  <filter id="filter245" in="6336" out="6364">
    <property name="background">colour:0x00000000</property>
    <property name="mlt_service">affine</property>
    <property name="kdenlive_id">pan_zoom</property>
@@ -14608,7 +14630,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter245">
+  <filter id="filter246">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -14691,7 +14713,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter246">
+  <filter id="filter247">
    <property name="gamma">0=1,12</property>
    <property name="mlt_service">gamma</property>
    <property name="kdenlive_id">gamma</property>
@@ -14700,7 +14722,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="kdenlive_info"/>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter247">
+  <filter id="filter248">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.sopsat</property>
    <property name="kdenlive_id">RLPP - Violet Degueux</property>
@@ -14742,7 +14764,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="xml">was here</property>
   <property name="kdenlive:binid">35</property>
   <property name="kdenlive:clipstate">0</property>
-  <filter id="filter248">
+  <filter id="filter250">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -19749,7 +19771,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    <property name="kdenlive_info">1/-1/CAM</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter250">
+  <filter id="filter337">
    <property name="version">0,1</property>
    <property name="mlt_service">frei0r.glitch0r</property>
    <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -19808,8 +19830,8 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <track hide="audio" producer="playlist25"/>
   <track hide="audio" producer="playlist27"/>
   <track hide="audio" producer="playlist28"/>
-  <track producer="playlist29"/>
-  <track producer="playlist30"/>
+  <track hide="audio" producer="playlist29"/>
+  <track hide="audio" producer="playlist30"/>
   <transition id="transition29" in="1456" out="1833">
    <property name="a_track">28</property>
    <property name="b_track">29</property>

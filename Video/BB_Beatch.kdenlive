@@ -4747,9 +4747,9 @@ BOOMTRAPPED&lt;/content>
   &lt;position x="547" y="456">
    &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
   &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="168" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="826.969" font-color="255,255,255,255">© PLAGIAT BROS 2018 - 2019
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="168" font-outline-color="0,0,0,255" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" font-outline="0" box-width="826.141" font-color="255,255,255,255">© PLAGIAT BROS 2018 - 2019
 
-COPYLEFT: THIS IS FREE ART FEEL FREE TO USE  IT
+COPYLEFT: THIS IS FREE ART, FEEL FREE TO USE IT
 &lt;/content>
  &lt;/item>
  &lt;startviewport rect="0,0,1920,1080"/>
@@ -5728,6 +5728,10 @@ MC FLEURY MICHTO&lt;/content>
   <property name="length">00:01:14:14</property>
   <property name="eof">pause</property>
   <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/alain.mp4</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">25</property>
@@ -5752,10 +5756,6 @@ MC FLEURY MICHTO&lt;/content>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.frame_rate_num">25</property>
   <property name="meta.media.frame_rate_den">1</property>
   <property name="meta.media.colorspace">709</property>
@@ -5768,6 +5768,51 @@ MC FLEURY MICHTO&lt;/content>
   <property name="kdenlive:file_hash">1442becadfe2de2e08514d7ac2bb3e9b</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="151" in="0" out="253">
+  <property name="length">254</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">COPY FART</property>
+  <property name="kdenlive:folderid">26</property>
+  <property name="xmldata">&lt;kdenlivetitle duration="150" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="150">
+ &lt;item type="QGraphicsTextItem" z-index="3">
+  &lt;position x="863" y="685">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="36" font="Lato Black" letter-spacing="0" font-pixel-size="30" font-italic="0" alignment="1" font-weight="50" box-width="194.125" font-color="39,39,39,255">PLAGIAT.ORG&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsTextItem" z-index="2">
+  &lt;position x="546" y="594">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="38" font="Lato Black" letter-spacing="0" font-pixel-size="32" font-italic="0" alignment="1" font-weight="50" box-width="830.359" font-color="255,255,255,255">FOLLOWING THE STERM OF TEN 40CC.-ABY-S LICHESE&lt;/content>
+ &lt;/item>
+ &lt;item type="QGraphicsTextItem" z-index="1">
+  &lt;position x="547" y="456">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="168" font="Lato Black" letter-spacing="0" font-pixel-size="35" font-italic="0" alignment="4" font-weight="50" box-width="825.484" font-color="255,255,255,255">© PLAGIAT BROS 2018 - 2019
+
+CLOPYTEF: TIS HIS REE FART, LEEF TREE TO SUE IF
+&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,255"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="kdenlive:duration">150</property>
+  <property name="force_reload">0</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:zone_in">0</property>
+  <property name="kdenlive:zone_out">253</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -5778,7 +5823,7 @@ MC FLEURY MICHTO&lt;/content>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">4018</property>
+  <property name="kdenlive:docproperties.position">1929</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -5792,7 +5837,7 @@ MC FLEURY MICHTO&lt;/content>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">16290</property>
   <property name="kdenlive:docproperties.zoneout">19914</property>
-  <property name="kdenlive:docproperties.zoom">10</property>
+  <property name="kdenlive:docproperties.zoom">7</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -6007,6 +6052,7 @@ MC FLEURY MICHTO&lt;/content>
   <entry producer="146" in="0" out="149"/>
   <entry producer="149" in="0" out="600"/>
   <entry producer="150" in="0" out="3713"/>
+  <entry producer="151" in="0" out="253"/>
  </playlist>
  <producer id="black" in="0" out="114270">
   <property name="length">114271</property>
@@ -11438,7 +11484,7 @@ MC FLEURY MICHTO&lt;/content>
   <blank length="2604"/>
   <entry producer="89" in="0" out="2149"/>
   <blank length="3664"/>
-  <entry producer="90" in="0" out="1999"/>
+  <entry producer="90" in="0" out="2000"/>
  </playlist>
  <playlist id="playlist12">
   <property name="kdenlive:track_name">Video 4</property>
@@ -11523,7 +11569,39 @@ MC FLEURY MICHTO&lt;/content>
   <entry producer="125" in="47" out="48"/>
   <entry producer="149" in="4" out="25"/>
   <entry producer="124" in="59" out="155"/>
-  <entry producer="121" in="0" out="252"/>
+  <entry producer="151" in="4" out="133"/>
+  <entry producer="151" in="0" out="3">
+   <filter id="filter83">
+    <property name="mirror">flip</property>
+    <property name="mlt_service">mirror</property>
+    <property name="kdenlive_id">mirror</property>
+    <property name="tag">mirror</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="reverse">0</property>
+    <property name="kdenlive_info">0/-1/</property>
+   </filter>
+   <filter id="filter84">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="0">0,45</property>
+    <property name="1">0,099</property>
+    <property name="2">0,023</property>
+    <property name="3">0</property>
+   </filter>
+   <filter id="filter85">
+    <property name="mirror">flip</property>
+    <property name="mlt_service">mirror</property>
+    <property name="kdenlive_id">mirror</property>
+    <property name="tag">mirror</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="reverse">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+  <entry producer="121" in="11" out="129"/>
  </playlist>
  <playlist id="playlist13">
   <property name="kdenlive:track_name">crédits 1</property>
@@ -11558,7 +11636,7 @@ MC FLEURY MICHTO&lt;/content>
   <entry producer="141" in="0" out="6"/>
   <entry producer="143" in="0" out="6"/>
   <entry producer="144" in="0" out="5">
-   <filter id="filter83">
+   <filter id="filter87">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -11571,7 +11649,7 @@ MC FLEURY MICHTO&lt;/content>
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <filter id="filter84">
+  <filter id="filter88">
    <property name="background">colour:0x00000000</property>
    <property name="mlt_service">affine</property>
    <property name="kdenlive_id">pan_zoom</property>
@@ -11592,7 +11670,7 @@ MC FLEURY MICHTO&lt;/content>
   <entry producer="110" in="0" out="123"/>
   <entry producer="117" in="8" out="133"/>
   <entry producer="122" in="59" out="155"/>
-  <filter id="filter85">
+  <filter id="filter89">
    <property name="background">colour:0x00000000</property>
    <property name="mlt_service">affine</property>
    <property name="kdenlive_id">pan_zoom</property>
@@ -11608,7 +11686,7 @@ MC FLEURY MICHTO&lt;/content>
   <track hide="video" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
   <track hide="audio" producer="playlist3"/>
-  <track producer="playlist4"/>
+  <track hide="audio" producer="playlist4"/>
   <track hide="audio" producer="playlist5"/>
   <track hide="audio" producer="playlist0"/>
   <track hide="audio" producer="playlist6"/>
