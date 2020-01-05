@@ -163,29 +163,6 @@
   <property name="kdenlive:file_hash">30a067bbfc9642db96df21e0922c6f06</property>
   <property name="global_feed">1</property>
  </producer>
- <producer title="Anonymous Submission" id="42" in="0" out="23437">
-  <property name="length">00:07:48:38</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-2_r1.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">6122194</property>
-  <property name="kdenlive:file_hash">df9aa9dd771d7abbcc4a5132bde79bec</property>
-  <property name="global_feed">1</property>
- </producer>
  <producer title="Anonymous Submission" id="43" in="0" out="17395">
   <property name="length">00:05:47:46</property>
   <property name="eof">pause</property>
@@ -200,7 +177,7 @@
  <producer title="Anonymous Submission" id="44" in="0" out="10290">
   <property name="length">00:03:25:41</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/extra_youtube/Random Channel Change TV (1999).mp4</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/Random Channel Change TV (1999).mp4</property>
   <property name="audio_index">1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
@@ -251,17 +228,6 @@
   <property name="kdenlive:file_hash">390906dad956f91b5038cd48f8eb7438</property>
   <property name="global_feed">1</property>
  </producer>
- <producer title="Anonymous Submission" id="45" in="0" out="249">
-  <property name="length">00:00:05:00</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/noise.mlt</property>
-  <property name="mlt_service">xml</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">810</property>
-  <property name="kdenlive:file_hash">f6a7c4b8bf450787b4bdf5698ae21e0b</property>
- </producer>
  <producer title="Anonymous Submission" id="35" in="0" out="51107">
   <property name="length">00:17:02:08</property>
   <property name="eof">pause</property>
@@ -284,7 +250,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">1548</property>
+  <property name="kdenlive:docproperties.position">0</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -298,12 +264,12 @@
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">49061</property>
-  <property name="kdenlive:docproperties.zoom">10</property>
+  <property name="kdenlive:docproperties.zoom">9</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups">&lt;groups>
  &lt;group>
-  &lt;clipitem position="0" track="7"/>
   &lt;clipitem position="0" track="3"/>
+  &lt;clipitem position="0" track="7"/>
  &lt;/group>
  &lt;group>
   &lt;clipitem position="2368" track="7"/>
@@ -318,20 +284,20 @@
   &lt;clipitem position="39806" track="3"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="32936" track="7"/>
   &lt;clipitem position="32936" track="3"/>
+  &lt;clipitem position="32936" track="7"/>
  &lt;/group>
  &lt;group>
   &lt;clipitem position="32595" track="2"/>
   &lt;clipitem position="32595" track="9"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="32030" track="9"/>
   &lt;clipitem position="32030" track="2"/>
+  &lt;clipitem position="32030" track="9"/>
  &lt;/group>
  &lt;group>
-  &lt;clipitem position="32161" track="9"/>
   &lt;clipitem position="32161" track="2"/>
+  &lt;clipitem position="32161" track="9"/>
  &lt;/group>
 &lt;/groups>
 </property>
@@ -367,10 +333,8 @@
   <entry producer="38" in="0" out="249"/>
   <entry producer="39" in="0" out="47607"/>
   <entry producer="40" in="0" out="9961"/>
-  <entry producer="42" in="0" out="23437"/>
   <entry producer="43" in="0" out="17395"/>
   <entry producer="44" in="0" out="10290"/>
-  <entry producer="45" in="0" out="249"/>
   <entry producer="35" in="0" out="51107"/>
  </playlist>
  <producer id="black" in="0" out="162176">
@@ -463,7 +427,7 @@
  <producer title="Anonymous Submission" id="44_playlist1_audio" in="0" out="10290">
   <property name="length">00:03:25:41</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/extra_youtube/Random Channel Change TV (1999).mp4</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/Random Channel Change TV (1999).mp4</property>
   <property name="audio_index">1</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -1132,7 +1096,7 @@
  <producer title="Anonymous Submission" id="44_video" in="0" out="10290">
   <property name="length">00:03:25:41</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/extra_youtube/Random Channel Change TV (1999).mp4</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/Random Channel Change TV (1999).mp4</property>
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
@@ -1392,7 +1356,7 @@
    <property name="fill">1</property>
    <property name="geometry">0=0/0:1920x1080:0;35=0/0:1920x1080:30;113=0/0:1920x1080:100</property>
    <property name="halign">centre</property>
-   <property name="luma">/tmp/.mount_kdenliHXf1uN/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
+   <property name="luma">/tmp/.mount_kdenliRDJiNr/usr/share/kdenlive/lumas/HD/linear_x.pgm</property>
    <property name="luma_invert">0</property>
    <property name="operator">over</property>
    <property name="softness">0,04</property>

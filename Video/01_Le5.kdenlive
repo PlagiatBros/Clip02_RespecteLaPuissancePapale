@@ -2105,52 +2105,6 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer title="Anonymous Submission" id="27" in="0" out="7640">
-  <property name="length">00:02:32:41</property>
-  <property name="eof">pause</property>
-  <property name="resource">/home/bordun/scp/2018-12-06_RespecteLaPuissancePapale_Clip_part1.wav</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s16</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">pcm_s16le</property>
-  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.0.codec.bit_rate">1536000</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">29340044</property>
-  <property name="kdenlive:file_hash">7d93ed9df433504c583e8f008ae3ee69</property>
-  <property name="global_feed">1</property>
- </producer>
- <producer title="Anonymous Submission" id="28" in="0" out="7733">
-  <property name="length">00:02:34:34</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1_OLD.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">2263496</property>
-  <property name="kdenlive:file_hash">1137434253767f92924bc94a8dcad7c3</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:zone_in">0</property>
-  <property name="kdenlive:zone_out">7734</property>
- </producer>
  <producer title="Anonymous Submission" id="29" in="0" out="386">
   <property name="length">387</property>
   <property name="eof">pause</property>
@@ -2174,103 +2128,10 @@
   <property name="kdenlive:duration">250</property>
   <property name="kdenlive:file_hash">9196813120dc5c505072516b15baf414</property>
  </producer>
- <producer title="Anonymous Submission" id="31" in="0" out="9374">
-  <property name="length">00:03:07:25</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">2248940</property>
-  <property name="kdenlive:file_hash">36d235cf32170d398007c5f515b1017f</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:zone_in">187</property>
-  <property name="kdenlive:zone_out">4168</property>
- </producer>
- <producer id="32" in="0" out="9374">
-  <property name="length">00:03:07:25</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">2248940</property>
-  <property name="kdenlive:file_hash">36d235cf32170d398007c5f515b1017f</property>
- </producer>
- <producer title="Anonymous Submission" id="33" in="0" out="9374">
-  <property name="length">00:03:07:25</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">2248940</property>
-  <property name="kdenlive:file_hash">36d235cf32170d398007c5f515b1017f</property>
-  <property name="global_feed">1</property>
- </producer>
- <producer title="Anonymous Submission" id="34" in="0" out="7733">
-  <property name="length">00:02:34:34</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_part1_OLD.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">2263496</property>
-  <property name="kdenlive:file_hash">1137434253767f92924bc94a8dcad7c3</property>
-  <property name="global_feed">1</property>
- </producer>
  <producer title="Anonymous Submission" id="35" in="0" out="43907">
   <property name="length">00:14:38:08</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0407_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2352,7 +2213,7 @@
  <producer id="36" in="0" out="3983">
   <property name="length">00:01:19:34</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0918_C0009.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0918_C0009.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2414,7 +2275,7 @@
  <producer id="37" in="0" out="5323">
   <property name="length">00:01:46:24</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0915_C0008.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0915_C0008.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2476,7 +2337,7 @@
  <producer id="38" in="0" out="9041">
   <property name="length">00:03:00:42</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0910_C0007.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0910_C0007.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2538,7 +2399,7 @@
  <producer id="39" in="0" out="3953">
   <property name="length">00:01:19:04</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0902_C0006.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0902_C0006.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2600,7 +2461,7 @@
  <producer id="40" in="0" out="5863">
   <property name="length">00:01:57:14</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0853_C0005.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0853_C0005.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2662,7 +2523,7 @@
  <producer id="41" in="0" out="6601">
   <property name="length">00:02:12:02</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0616_C0002.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0616_C0002.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2724,7 +2585,7 @@
  <producer id="42" in="0" out="10077">
   <property name="length">00:03:21:28</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0612_C0001.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0612_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2786,7 +2647,7 @@
  <producer title="Anonymous Submission" id="43" in="0" out="10454">
   <property name="length">00:03:29:05</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0557_C0004.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0557_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2849,7 +2710,7 @@
  <producer id="44" in="0" out="19885">
   <property name="length">00:06:37:36</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0544_C0003.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0544_C0003.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2928,7 +2789,7 @@
  <producer id="45" in="0" out="9289">
   <property name="length">00:03:05:40</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0517_C0001.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0517_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2990,7 +2851,7 @@
  <producer id="46" in="0" out="10702">
   <property name="length">00:03:34:03</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0511_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0511_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3052,7 +2913,7 @@
  <producer title="Anonymous Submission" id="47" in="0" out="11268">
   <property name="length">00:03:45:19</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0525_C0002.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0525_C0002.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3148,7 +3009,7 @@
  <producer title="Anonymous Submission" id="48" in="0" out="42317">
   <property name="length">00:14:06:18</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3230,7 +3091,7 @@
  <producer id="49" in="0" out="1689">
   <property name="length">00:00:33:40</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0607_C0006.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0607_C0006.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3292,7 +3153,7 @@
  <producer id="50" in="0" out="3049">
   <property name="length">00:01:01:00</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0605_C0005.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0605_C0005.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3404,68 +3265,6 @@
   <property name="kdenlive:file_hash">30a067bbfc9642db96df21e0922c6f06</property>
   <property name="global_feed">1</property>
  </producer>
- <producer title="Anonymous Submission" id="52" in="0" out="4343">
-  <property name="length">00:01:26:44</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-Couplet1Refrain1_r1.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">1262407</property>
-  <property name="kdenlive:file_hash">d81388a0072b69b18a1a90b7310cda2e</property>
-  <property name="global_feed">1</property>
- </producer>
- <producer title="Anonymous Submission" id="53" in="0" out="23437">
-  <property name="length">00:07:48:38</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-2_r1.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">6122194</property>
-  <property name="kdenlive:file_hash">df9aa9dd771d7abbcc4a5132bde79bec</property>
-  <property name="global_feed">1</property>
- </producer>
- <producer title="Anonymous Submission" id="54" in="0" out="249">
-  <property name="length">250</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/mute.png</property>
-  <property name="ttl">25</property>
-  <property name="aspect_ratio">1</property>
-  <property name="progressive">1</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.width">956</property>
-  <property name="meta.media.height">956</property>
-  <property name="mlt_service">qimage</property>
-  <property name="kdenlive:duration">250</property>
-  <property name="kdenlive:file_hash">5bb4c588da9d7b8d1a38d6ef4b32740a</property>
-  <property name="kdenlive:file_size">35966</property>
-  <property name="global_feed">1</property>
- </producer>
  <producer title="Anonymous Submission" id="55" in="0" out="3901">
   <property name="length">00:01:18:02</property>
   <property name="eof">pause</property>
@@ -3528,33 +3327,10 @@
   <property name="kdenlive:file_hash">272c3d2831d97e2b8d84194981e707ca</property>
   <property name="global_feed">1</property>
  </producer>
- <producer title="Anonymous Submission" id="56" in="0" out="31499">
-  <property name="length">00:10:30:00</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Part1-2-3_r1.ogg</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">fltp</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">vorbis</property>
-  <property name="meta.media.0.codec.long_name">Vorbis</property>
-  <property name="meta.media.0.codec.bit_rate">128000</property>
-  <property name="meta.attr.0.stream.disc.markup">0</property>
-  <property name="meta.attr.0.stream.ENCODER.markup">libsndfile</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">8150534</property>
-  <property name="kdenlive:file_hash">36b8d4e3db83868af800de5d7d81f84a</property>
-  <property name="global_feed">1</property>
- </producer>
  <producer title="Anonymous Submission" id="57" in="0" out="489">
   <property name="length">00:00:09:40</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/part1_transition__glitch.avi</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/part1_transition__glitch.avi</property>
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
@@ -3677,31 +3453,10 @@
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer title="Anonymous Submission" id="62" in="0" out="42397">
-  <property name="length">00:14:07:48</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_r3.wav</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s32</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">pcm_s32le</property>
-  <property name="meta.media.0.codec.long_name">PCM signed 32-bit little-endian</property>
-  <property name="meta.media.0.codec.bit_rate">3072000</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">325620404</property>
-  <property name="kdenlive:file_hash">4f754e9ac5d7a0f505b5d99b5d296523</property>
-  <property name="global_feed">1</property>
- </producer>
  <producer title="Anonymous Submission" id="63" in="0" out="42397">
   <property name="length">00:14:07:48</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Master.wav</property>
+  <property name="resource">/media/bordun/plagiat/2019-12-21_Plagiat_RespecteLaPuissancePapale_extra/2018-12-06_RespecteLaPuissancePapale_Clip_Master.wav</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -3828,7 +3583,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.12.1</property>
-  <property name="kdenlive:docproperties.position">31</property>
+  <property name="kdenlive:docproperties.position">0</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=50 s=1920x1080 vb=72M threads=0 vcodec=dnxhd</property>
@@ -3842,7 +3597,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="kdenlive:docproperties.videotargettrack">4</property>
   <property name="kdenlive:docproperties.zonein">4255</property>
   <property name="kdenlive:docproperties.zoneout">5013</property>
-  <property name="kdenlive:docproperties.zoom">1</property>
+  <property name="kdenlive:docproperties.zoom">10</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:clipgroups"/>
   <property name="kdenlive:folder.-1.5">Part I - Le5</property>
@@ -3951,14 +3706,8 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="26" in="0" out="2406"/>
   <entry producer="13" in="0" out="4748"/>
   <entry producer="12" in="0" out="23600"/>
-  <entry producer="27" in="0" out="7640"/>
-  <entry producer="28" in="0" out="7733"/>
   <entry producer="29" in="0" out="249"/>
   <entry producer="30" in="0" out="249"/>
-  <entry producer="31" in="0" out="9374"/>
-  <entry producer="32" in="0" out="9374"/>
-  <entry producer="33" in="0" out="9374"/>
-  <entry producer="34" in="0" out="7733"/>
   <entry producer="35" in="0" out="43907"/>
   <entry producer="36" in="0" out="3983"/>
   <entry producer="37" in="0" out="5323"/>
@@ -3976,17 +3725,12 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <entry producer="49" in="0" out="1689"/>
   <entry producer="50" in="0" out="3049"/>
   <entry producer="51" in="0" out="9961"/>
-  <entry producer="52" in="0" out="4343"/>
   <blank length="249"/>
-  <entry producer="53" in="0" out="23437"/>
-  <entry producer="54" in="0" out="249"/>
   <entry producer="55" in="0" out="3901"/>
-  <entry producer="56" in="0" out="31499"/>
   <entry producer="57" in="0" out="489"/>
   <entry producer="58" in="0" out="249"/>
   <entry producer="59" in="0" out="378"/>
   <entry producer="60" in="0" out="378"/>
-  <entry producer="62" in="0" out="42397"/>
   <entry producer="63" in="0" out="42397"/>
   <entry producer="64" in="0" out="378"/>
   <entry producer="65" in="0" out="378"/>
@@ -4006,7 +3750,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="63_playlist1" in="0" out="42397">
   <property name="length">00:14:07:48</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_Master.wav</property>
+  <property name="resource">/media/bordun/plagiat/2019-12-21_Plagiat_RespecteLaPuissancePapale_extra/2018-12-06_RespecteLaPuissancePapale_Clip_Master.wav</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -4042,44 +3786,10 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
    </filter>
   </entry>
  </playlist>
- <producer title="Anonymous Submission" id="62_playlist2" in="0" out="42397">
-  <property name="length">00:14:07:48</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Audio/2018-12-06_RespecteLaPuissancePapale_Clip_r3.wav</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:file_size">325620404</property>
-  <property name="kdenlive:file_hash">4f754e9ac5d7a0f505b5d99b5d296523</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s32</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">pcm_s32le</property>
-  <property name="meta.media.0.codec.long_name">PCM signed 32-bit little-endian</property>
-  <property name="meta.media.0.codec.bit_rate">3072000</property>
- </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 1</property>
   <property name="kdenlive:locked_track">0</property>
-  <entry producer="62_playlist2" in="183" out="42397">
-   <filter id="filter32" in="183" out="186">
-    <property name="window">75</property>
-    <property name="max_gain">20dB</property>
-    <property name="mlt_service">volume</property>
-    <property name="kdenlive_id">fadein</property>
-    <property name="tag">volume</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="gain">0</property>
-    <property name="end">1</property>
-   </filter>
-  </entry>
  </playlist>
  <producer title="Anonymous Submission" id="6_playlist11" in="0" out="4178">
   <property name="length">00:01:23:29</property>
@@ -8740,7 +8450,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="48_playlist8" in="0" out="42317">
   <property name="length">00:14:06:18</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -14167,7 +13877,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="48_playlist14" in="0" out="42317">
   <property name="length">00:14:06:18</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -14285,7 +13995,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="48_playlist15" in="0" out="42317">
   <property name="length">00:14:06:18</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -14366,7 +14076,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="35_playlist15" in="0" out="43907">
   <property name="length">00:14:38:08</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0407_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -14447,7 +14157,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="producer8" in="0" out="43907">
   <property name="length">00:14:38:08</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0407_C0000.mov</property>
   <property name="audio_index">-1</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -14484,7 +14194,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer id="slowmotion:48:0,7:1:0" in="0" out="60453">
   <property name="length">60454</property>
   <property name="eof">pause</property>
-  <property name="resource">0,7:/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="resource">0,7:/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -14531,7 +14241,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">0,7</property>
-  <property name="warp_resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="warp_resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">50</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -14573,7 +14283,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer id="slowmotion:48:1,5:1:0" in="0" out="28211">
   <property name="length">28212</property>
   <property name="eof">pause</property>
-  <property name="resource">1,5:/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="resource">1,5:/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -14620,7 +14330,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">1,5</property>
-  <property name="warp_resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="warp_resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">50</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -14651,7 +14361,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="47_playlist15" in="0" out="11268">
   <property name="length">00:03:45:19</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0525_C0002.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0525_C0002.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -15642,7 +15352,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="35_playlist19" in="0" out="43907">
   <property name="length">00:14:38:08</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0407_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -15725,7 +15435,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer id="slowmotion:48:1:1:0" in="0" out="42317">
   <property name="length">42318</property>
   <property name="eof">pause</property>
-  <property name="resource">1:/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="resource">1:/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -15772,7 +15482,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">1</property>
-  <property name="warp_resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="warp_resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">50</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -15877,7 +15587,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="57_playlist19" in="0" out="489">
   <property name="length">00:00:09:40</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat/2018-12-10_Plagiat_RespecteLaPuissancePapale/part1_transition__glitch.avi</property>
+  <property name="resource">/media/bordun/plagiat/Clip02_RespecteLaPuissancePapale/Assets/part1_transition__glitch.avi</property>
   <property name="audio_index">-1</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
@@ -16328,7 +16038,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="producer7" in="0" out="42317">
   <property name="length">00:14:06:18</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0345_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0345_C0000.mov</property>
   <property name="audio_index">-1</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -16365,7 +16075,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="47_playlist20" in="0" out="11268">
   <property name="length">00:03:45:19</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0525_C0002.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0525_C0002.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -16462,7 +16172,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer id="slowmotion:47:0,5:1:0" in="0" out="22537">
   <property name="length">22538</property>
   <property name="eof">pause</property>
-  <property name="resource">0,5:/media/bordun/plagiat2/CAM1_2019-01-05_0525_C0002.mov</property>
+  <property name="resource">0,5:/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0525_C0002.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -16509,7 +16219,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">0,5</property>
-  <property name="warp_resource">/media/bordun/plagiat2/CAM1_2019-01-05_0525_C0002.mov</property>
+  <property name="warp_resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0525_C0002.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">50</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -16554,7 +16264,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="35_playlist20" in="0" out="43907">
   <property name="length">00:14:38:08</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0407_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -16637,7 +16347,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="43_playlist20" in="0" out="10454">
   <property name="length">00:03:29:05</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0557_C0004.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0557_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -17750,7 +17460,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="47_playlist26" in="0" out="11268">
   <property name="length">00:03:45:19</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0525_C0002.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0525_C0002.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -18229,7 +17939,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="35_playlist17" in="0" out="43907">
   <property name="length">00:14:38:08</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0407_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -19080,7 +18790,7 @@ Big Fart / Note that much scum / ASCAP &lt;/content>
  <producer title="Anonymous Submission" id="35_playlist18" in="0" out="43907">
   <property name="length">00:14:38:08</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/plagiat2/CAM1_2019-01-05_0407_C0000.mov</property>
+  <property name="resource">/media/bordun/plagiat2/2019-05-01_Plagiat_RespecteLaPuissancePapale_Lavare/CAM1_2019-01-05_0407_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>

@@ -1,0 +1,24 @@
+<kdenlivetitle duration="250" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="250">
+ <item type="QGraphicsTextItem" z-index="1001">
+  <position x="274" y="947">
+   <transform>1,0,0,0,1,0,0,0,1</transform>
+  </position>
+  <content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="29" font="VCR OSD Mono" letter-spacing="0" font-pixel-size="30" font-italic="0" alignment="1" font-weight="50" box-width="333.984" font-color="255,255,255,255">Oops All Goes Wrong</content>
+ </item>
+ <item type="QGraphicsTextItem" z-index="2">
+  <position x="274" y="998">
+   <transform>1,0,0,0,1,0,0,0,1</transform>
+  </position>
+  <content line-spacing="6" shadow="0;#64000000;3;3;3" font-underline="0" box-height="48" font="VCR OSD Mono" letter-spacing="0" font-pixel-size="22" font-italic="0" alignment="1" font-weight="50" box-width="670.313" font-color="255,255,255,180">Britney Speats &amp; Miley Cistite - Oops I eat it again
+Humphrey Weinstein GrandPa Entertainment</content>
+ </item>
+ <item type="QGraphicsRectItem" z-index="1">
+  <position x="224" y="917">
+   <transform zoom="100">1,0,0,0,1,0,0,0,1</transform>
+  </position>
+  <content brushcolor="0,0,0,150" pencolor="0,0,0,255" penwidth="0" rect="0,0,1487,170"/>
+ </item>
+ <startviewport rect="0,0,1920,1080"/>
+ <endviewport rect="0,0,1920,1080"/>
+ <background color="0,0,0,0"/>
+</kdenlivetitle>
